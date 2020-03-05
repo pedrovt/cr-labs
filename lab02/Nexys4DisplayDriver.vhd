@@ -11,20 +11,21 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Nexys4DisplayDriver is
-  port(clk       : in  std_logic;
-       digitEn   : in  std_logic_vector(7 downto 0);
-       digVal0   : in  std_logic_vector(3 downto 0);
-       digVal1   : in  std_logic_vector(3 downto 0);
-       digVal2   : in  std_logic_vector(3 downto 0);
-       digVal3   : in  std_logic_vector(3 downto 0);
-       digVal4   : in  std_logic_vector(3 downto 0);
-       digVal5   : in  std_logic_vector(3 downto 0);
-       digVal6   : in  std_logic_vector(3 downto 0);
-       digVal7   : in  std_logic_vector(3 downto 0);
-       decPtEn   : in  std_logic_vector(7 downto 0);
-       dispEn_n  : out std_logic_vector(7 downto 0);
-       dispSeg_n : out std_logic_vector(6 downto 0);
-       dispPt_n  : out std_logic);
+    port(   clk         : in  std_logic;
+            enable      : in  std_logic;
+            digitEn     : in  std_logic_vector(7 downto 0);
+            digVal0     : in  std_logic_vector(3 downto 0);
+            digVal1     : in  std_logic_vector(3 downto 0);
+            digVal2     : in  std_logic_vector(3 downto 0);
+            digVal3     : in  std_logic_vector(3 downto 0);
+            digVal4     : in  std_logic_vector(3 downto 0);
+            digVal5     : in  std_logic_vector(3 downto 0);
+            digVal6     : in  std_logic_vector(3 downto 0);
+            digVal7     : in  std_logic_vector(3 downto 0);
+            decPtEn     : in  std_logic_vector(7 downto 0);
+            dispEn_n    : out std_logic_vector(7 downto 0);
+            dispSeg_n   : out std_logic_vector(6 downto 0);
+            dispPt_n    : out std_logic);
 end Nexys4DisplayDriver;
 
 architecture Structural of Nexys4DisplayDriver is
@@ -67,10 +68,11 @@ architecture Structural of Nexys4DisplayDriver is
     signal s_digValDecoded  : std_logic_vector(6 downto 0);
     signal s_nDispPt_n      : std_logic;
     signal s_nDispEn_n      : std_logic_vector(7 downto 0);
+    signal s_enabledClock   : std_logic;
 
 begin
 
-    binCounter  : binaryCounter3Bits    port map (clk,s_counter);
+    binCounter  : binaryCounter3Bits    port map (s_enabledClock,s_counter);
     sevSegDec   : sevenSegDecoder       port map (s_digValMuxed,s_digValDecoded);
     dec3to8     : decoder3to8           port map (s_counter,s_nDispEn_n);
     pointMux    : mux8to1               port map (decPtEn(0),decPtEn(1),decPtEn(2),decPtEn(3),decPtEn(4),decPtEn(5),decPtEn(6),decPtEn(7),s_counter,s_nDispPt_n);
@@ -78,8 +80,9 @@ begin
     muxDigVal   : mux32to4              port map (digVal0,digVal1,digVal2,digVal3,digVal4,digVal5,digVal6,digVal7,s_counter,s_digValMuxed);
     muxDigClean : mux14to7              port map ('1111111',s_digValMuxed,dispSeg_n);
 
-    dispPt_n <= not s_nDispPt_n;
-    dispEn_n <= not s_nDispEn_n;
+    s_enabledClock  <= clk and enable;
+    dispPt_n        <= not s_nDispPt_n;
+    dispEn_n        <= not s_nDispEn_n;
 
 end Structural;
 

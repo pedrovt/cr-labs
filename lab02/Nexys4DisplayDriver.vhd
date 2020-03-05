@@ -63,16 +63,21 @@ architecture Structural of Nexys4DisplayDriver is
                 o       : out std_logic_vector(6 downto 0));
     end component;
 
+    component flipFlopDPET
+        port(   clk, D      : in  std_logic;
+                nSet, nRst  : in  std_logic;
+                Q, nQ       : out std_logic);
+    end component;
+
     signal s_counter        : std_logic_vector(2 downto 0);
     signal s_digValMuxed    : std_logic_vector(3 downto 0);
     signal s_digValDecoded  : std_logic_vector(6 downto 0);
     signal s_nDispPt_n      : std_logic;
     signal s_nDispEn_n      : std_logic_vector(7 downto 0);
-    signal s_enabledClock   : std_logic;
 
 begin
 
-    binCounter  : binaryCounter3Bits    port map (s_enabledClock,s_counter);
+    binCounter  : binaryCounter3Bits    port map (clk,s_counter);
     sevSegDec   : sevenSegDecoder       port map (s_digValMuxed,s_digValDecoded);
     dec3to8     : decoder3to8           port map (s_counter,s_nDispEn_n);
     pointMux    : mux8to1               port map (decPtEn(0),decPtEn(1),decPtEn(2),decPtEn(3),decPtEn(4),decPtEn(5),decPtEn(6),decPtEn(7),s_counter,s_nDispPt_n);
@@ -80,7 +85,6 @@ begin
     muxDigVal   : mux32to4              port map (digVal0,digVal1,digVal2,digVal3,digVal4,digVal5,digVal6,digVal7,s_counter,s_digValMuxed);
     muxDigClean : mux14to7              port map ('1111111',s_digValMuxed,dispSeg_n);
 
-    s_enabledClock  <= clk and enable;
     dispPt_n        <= not s_nDispPt_n;
     dispEn_n        <= not s_nDispEn_n;
 
@@ -96,8 +100,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity binaryCounter3Bits is
-    port(   clk  : in  std_logic;
-            o    : out std_logic_vector(2 downto 0));
+    port(   clk     : in  std_logic;
+            enable  : in  std_logic;
+            o       : out std_logic_vector(2 downto 0));
 end binaryCounter3Bits;
 
 architecture Behavioral of binaryCounter3Bits is
@@ -109,7 +114,9 @@ begin
     process(clk)
     begin
         if(clk'Event and clk='1') then
-            count <= count+'1';
+            if(enable='1') then
+                count <= count+'1';
+            end if;
         end if;
     end process;
 

@@ -1,0 +1,7 @@
+Running: xsim.dir/BinUDCntEnRst4Tb_behav/xsimk.exe -simmode gui -wdb BinUDCntEnRst4Tb_behav.wdb -simrunnum 0 -socket 8864
+Design successfully loaded
+Design Loading Memory Usage: 5764 KB (Peak: 5764 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6392 KB (Peak: 6392 KB)
+Simulation CPU Usage: 15 ms

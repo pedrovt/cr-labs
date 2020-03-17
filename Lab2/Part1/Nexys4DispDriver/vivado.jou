@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar  8 16:32:27 2020
+# Process ID: 3864
+# Current directory: C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Part1/Nexys4DispDriver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29248 C:\Users\Pedro\Documents\UA\CR\Labs\Lab2\Part1\Nexys4DispDriver\Nexys4DispDriver.xpr
+# Log file: C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Part1/Nexys4DispDriver/vivado.log
+# Journal file: C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Part1/Nexys4DispDriver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Part1/Nexys4DispDriver/Nexys4DispDriver.xpr
+update_compile_order -fileset sources_1

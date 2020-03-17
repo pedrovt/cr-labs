@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Feb 12 22:44:08 2020
+# Process ID: 2708
+# Current directory: C:/Users/Pedro/Documents/UA/CR/Labs/Lab1/tutorial/tutorial.runs/impl_1
+# Command line: vivado.exe -log tutorial.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tutorial.tcl -notrace
+# Log file: C:/Users/Pedro/Documents/UA/CR/Labs/Lab1/tutorial/tutorial.runs/impl_1/tutorial.vdi
+# Journal file: C:/Users/Pedro/Documents/UA/CR/Labs/Lab1/tutorial/tutorial.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tutorial.tcl -notrace

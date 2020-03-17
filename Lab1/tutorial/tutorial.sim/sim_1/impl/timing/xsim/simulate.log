@@ -1,0 +1,18 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+LED output MATCHED at 1. Expected: 00000001 Actual: 00000001
+LED output mis-matched at 2. Expected: 00001011 Actual: 00000111
+LED output MATCHED at 3. Expected: 00000001 Actual: 00000001
+LED output MATCHED at 4. Expected: 00000001 Actual: 00000001
+LED output MATCHED at 5. Expected: 00000001 Actual: 00000001
+LED output mis-matched at 6. Expected: 00001011 Actual: 00000111
+LED output mis-matched at 7. Expected: 00000101 Actual: 00001101
+LED output mis-matched at 8. Expected: 00000101 Actual: 00001101
+LED output MATCHED at 9. Expected: 00010001 Actual: 00010001
+LED output mis-matched at 10. Expected: 00011011 Actual: 00010111
+LED output MATCHED at 11. Expected: 00010001 Actual: 00010001
+LED output MATCHED at 12. Expected: 00010001 Actual: 00010001
+LED output MATCHED at 13. Expected: 00010001 Actual: 00010001
+LED output mis-matched at 14. Expected: 00011011 Actual: 00010111
+LED output mis-matched at 15. Expected: 00010101 Actual: 00011101
+LED output mis-matched at 16. Expected: 00010101 Actual: 00011101

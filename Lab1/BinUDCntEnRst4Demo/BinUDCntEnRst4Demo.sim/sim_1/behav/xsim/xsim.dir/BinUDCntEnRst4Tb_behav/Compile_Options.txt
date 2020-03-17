@@ -1,0 +1,1 @@
+-wto "2b0a3bd644ab4c1abb15d5b1d5943356" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "BinUDCntEnRst4Tb_behav" "xil_defaultlib.BinUDCntEnRst4Tb" -log "elaborate.log" 

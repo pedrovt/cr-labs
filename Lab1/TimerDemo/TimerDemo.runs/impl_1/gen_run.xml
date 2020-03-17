@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1582194483">
+  <File Type="BITSTR-BMM" Name="TimerDemo_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TimerDemo_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TimerDemo_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="TimerDemo_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TimerDemo.tcl"/>
+  <File Type="OPT-TIMING" Name="TimerDemo_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TimerDemo_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="TimerDemo_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TimerDemo_reports.tcl"/>
+  <File Type="OPT-DRC" Name="TimerDemo_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TimerDemo.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TimerDemo_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TimerDemo_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TimerDemo_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TimerDemo_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TimerDemo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TimerDemo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TimerDemo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TimerDemo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TimerDemo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TimerDemo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TimerDemo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="TimerDemo_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TimerDemo_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="TimerDemo.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TimerDemo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TimerDemo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TimerDemo_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="TimerDemo.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="TimerDemo_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TimerDemo_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TimerDemo_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TimerDemo_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TimerDemo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TimerDemo_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="TimerDemo_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="TimerDemo.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TimerDemo_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TimerDemo_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TimerDemo_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="TimerDemo_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="TimerDemo_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TimerDemo_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TimerDemo_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TimerDemo_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TimerDemo_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TimerDemo_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TimerDemo_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TimerDemo_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TimerDemo_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TimerDemo_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TimerDemo_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TimerDemo_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TimerDemo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TimerDemo_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TimerDemo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TimerDemo_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TimerDemo_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="TimerDemo.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TimerDemo_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="TimerDemo.rbt"/>
+  <File Type="BITSTR-NKY" Name="TimerDemo.nky"/>
+  <File Type="PDI-FILE" Name="TimerDemo.pdi"/>
+  <File Type="RCFI_FILE" Name="TimerDemo.rcfi"/>
+  <File Type="CFI_FILE" Name="TimerDemo.cfi"/>
+  <File Type="RNPI_FILE" Name="TimerDemo.rnpi"/>
+  <File Type="NPI_FILE" Name="TimerDemo.npi"/>
+  <File Type="RBD_FILE" Name="TimerDemo.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TimerDemo.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="TimerDemo.sysdef"/>
+  <File Type="BG-BGN" Name="TimerDemo.bgn"/>
+  <File Type="BG-DRC" Name="TimerDemo.drc"/>
+  <File Type="RDI-RDI" Name="TimerDemo.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Timer/TimerOffDelay.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Timer/TimerOffDelay.vhd"/>
+        <Attr Name="ImportTime" Val="1582024999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Timer/TimerDemo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/Timer/TimerDemo.vhd"/>
+        <Attr Name="ImportTime" Val="1582024756"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TimerDemo"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Resources/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Resources/Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378301182"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

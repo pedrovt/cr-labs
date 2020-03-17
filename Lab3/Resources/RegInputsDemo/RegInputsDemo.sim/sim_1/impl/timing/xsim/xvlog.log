@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim/RegInpusTop_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegInpusTop
+INFO: [VRFC 10-311] analyzing module RegInputsDemo
+INFO: [VRFC 10-311] analyzing module glbl

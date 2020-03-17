@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 26 14:59:28 2018
+# Process ID: 10244
+# Current directory: C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim/xsim.dir/RegInpusTop_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim/webtalk.log
+# Journal file: C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.sim/sim_1/impl/timing/xsim/xsim.dir/RegInpusTop_time_impl/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Feb 28 23:50:36 2018
+# Process ID: 2604
+# Current directory: C:/Users/asroliveira/CloudStation/CR/2018/CombMultDiv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10548 C:\Users\asroliveira\CloudStation\CR\2018\CombMultDiv\CombMultDiv.xpr
+# Log file: C:/Users/asroliveira/CloudStation/CR/2018/CombMultDiv/vivado.log
+# Journal file: C:/Users/asroliveira/CloudStation/CR/2018/CombMultDiv\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/asroliveira/CloudStation/CR/2018/CombMultDiv/CombMultDiv.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+close_project
+open_project C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.xpr
+update_compile_order -fileset sources_1
+reset_run synth_2
+set_property name synth_1 [get_runs synth_2]
+set_property name impl_1 [get_runs impl_2]

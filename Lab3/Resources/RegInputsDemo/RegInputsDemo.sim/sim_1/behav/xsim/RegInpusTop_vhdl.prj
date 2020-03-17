@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RegInputsDemo.srcs/sources_1/new/RegInputsDemo.vhd" \
+"../../../../RegInputsDemo.srcs/sources_1/new/RegInpusTop.vhd" \
+
+# Do not sort compile order
+nosort

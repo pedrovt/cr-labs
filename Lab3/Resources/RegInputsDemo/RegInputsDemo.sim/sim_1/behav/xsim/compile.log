@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.srcs/sources_1/new/RegInputsDemo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegInputsDemo
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/asroliveira/CloudStation/CR/2018/RegInputsDemo/RegInputsDemo.srcs/sources_1/new/RegInpusTop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegInpusTop

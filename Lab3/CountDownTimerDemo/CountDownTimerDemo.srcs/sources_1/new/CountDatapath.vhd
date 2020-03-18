@@ -24,6 +24,7 @@ use IEEE.STD_LOGIC_1164.all;
 entity CountDatapath is
     port (   clk            : in  std_logic;
              clkEnable      : in  std_logic;
+             reset          : in  std_logic;
              runFlag        : in  std_logic;
              secLSSetInc    : in  std_logic;
              secLSSetDec    : in  std_logic;

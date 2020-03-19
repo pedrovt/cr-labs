@@ -33,7 +33,7 @@ begin
 					-- decrement
 					if (setDecrem = '1' and setIncrem = '0') then
 						-- wrap value 
-						if (s_value = 0) 
+						if (s_value = 0) then
 							s_value <= MAX_VAL;
 						else
 							s_value <= s_value - 1;
@@ -43,7 +43,7 @@ begin
 					-- increment
 					elsif (setIncrem = '1' and setDecrem = '0') then
 						--  wrap value
-						if (s_value = MAX_VAL) 
+						if (s_value = MAX_VAL) then
 							s_value <= 0;
 						else
 							s_value <= s_value + 1;
@@ -53,15 +53,14 @@ begin
 					-- Default sitation
 					elsif (clkEnable = '1' and cntEnable = '1') then
 						-- wrap value 
-						if (s_value = 0) 
+						if (s_value = 0) then
 							s_value <= MAX_VAL;
 						else
 							s_value <= s_value - 1;
 						end if;
 					end if;
-
-
 				end if;
+			end if;
 	end process;
 
 	valOut  <= std_logic_vector(to_unsigned(s_value, 4));

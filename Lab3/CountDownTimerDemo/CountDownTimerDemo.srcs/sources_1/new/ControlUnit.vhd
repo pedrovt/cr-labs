@@ -43,7 +43,7 @@ entity ControlUnit is
         );
 end ControlUnit; 
 
-
+-- [PEDRO] TODO Improve code based on printscreen
 architecture Behavioral of ControlUnit is
 
     type TState is (STOPPED, RUNNING, CHANGE_SEC_LS, CHANGE_SEC_MS, CHANGE_MIN_LS, CHANGE_MIN_MS);

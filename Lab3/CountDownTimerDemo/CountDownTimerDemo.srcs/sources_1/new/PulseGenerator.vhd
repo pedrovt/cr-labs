@@ -32,15 +32,7 @@ entity PulseGenerator is
          );
 end PulseGenerator; 
 
-
-architecture Behavioral of PulseGenerator is
-begin
-
-
-end Behavioral;
-
 -- usar frequencia de refresh de ~1525 (100 Mhz / 2^16) Hz
--- do prof lab2
 architecture Behavioral of PulseGenerator is
 
 	signal s_counter    : natural;
@@ -54,10 +46,11 @@ begin
 			if (s_counter rem 65536 = 0) then
 				dispRefEn <= '1';
 			else
-				dispRefEn <= '0'
-
+				dispRefEn <= '0';
+            end if;
+            
 			if (s_counter >= 100000000) then
-				pulseDisplay <= '0';
+				dispRefEn    <= '0';       -- [Pedro] changed from pulseDisplay
 				pulse1Hz     <= '0';
 		        blink1Hz     <= '0';
 				s_counter    <= 0;

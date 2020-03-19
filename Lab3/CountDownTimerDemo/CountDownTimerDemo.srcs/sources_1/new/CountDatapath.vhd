@@ -43,6 +43,7 @@ entity CountDatapath is
 end CountDatapath; 
 
 
+-- [PEDRO] TODO Based on the class discussions and counters
 architecture Behavioral of CountDatapath is
 begin
 end Behavioral;

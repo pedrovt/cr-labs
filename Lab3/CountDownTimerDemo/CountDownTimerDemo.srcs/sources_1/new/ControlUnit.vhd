@@ -70,7 +70,7 @@ begin
         -- STOPPED clock : no increment or decrement. Clock can be started or be adjusted 
         when STOPPED =>
             runFlag    <= '0';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0000";       -- no digit being changed
             
             secLSSetInc <= '0';
             secLSSetDec <= '0';
@@ -92,7 +92,7 @@ begin
         -- RUNNING clock : no increment or decrement. no adjustments allowed
         when RUNNING =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0000";       -- no digit being changed
             
             secLSSetInc <= '0';
             secLSSetDec <= '0';
@@ -114,7 +114,7 @@ begin
         -- CHANGE_SEC_LS clock : increment or decrement based on upDownEn
         when CHANGE_SEC_LS =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0001";       -- digit ---X
             
             -- enabled increment
             if (upDownEn = '1') then
@@ -155,7 +155,7 @@ begin
         -- CHANGE_SEC_MS clock : increment or decrement based on upDownEn
          when CHANGE_SEC_MS =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0010";       -- digit --X-
             
             -- enabled increment
             if (upDownEn = '1') then
@@ -196,7 +196,7 @@ begin
           -- CHANGE_MIN_LS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_LS =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0100";       -- digit -X--
             
             -- enabled increment
             if (upDownEn = '1') then
@@ -237,7 +237,7 @@ begin
           -- CHANGE_MIN_MS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_MS =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- TODO
+            setFlags   <= "0000";       -- digit X---
             
             -- enabled increment
             if (upDownEn = '1') then

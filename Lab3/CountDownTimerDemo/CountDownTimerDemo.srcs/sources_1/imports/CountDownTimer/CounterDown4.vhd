@@ -26,19 +26,42 @@ begin
 		if (rising_edge(clk)) then
 			if (reset = '1') then
 				s_value <= MAX_VAL;
-            else
-				if (reset = '1') then
-					-- increment
-					s_value <= s_value + 1;
-				elsif (setDecrem = '1') then
+            else	
+					-- ######################
+					-- Setting situations
+					
 					-- decrement
-					s_value <= s_value - 1;
-				else
-					-- counter down (default)
-					s_value <= s_value - 1;
-			    end if;
-			end if;
-		end if;
+					if (setDecrem = '1' and setIncrem = '0') then
+						-- wrap value 
+						if (s_value = 0) 
+							s_value <= MAX_VAL;
+						else
+							s_value <= s_value - 1;
+						end if;
+
+					
+					-- increment
+					elsif (setIncrem = '1' and setDecrem = '0') then
+						--  wrap value
+						if (s_value = MAX_VAL) 
+							s_value <= 0;
+						else
+							s_value <= s_value + 1;
+						end if;
+
+					-- ######################
+					-- Default sitation
+					elsif (clkEnable = '1' and cntEnable = '1') then
+						-- wrap value 
+						if (s_value = 0) 
+							s_value <= MAX_VAL;
+						else
+							s_value <= s_value - 1;
+						end if;
+					end if;
+
+
+				end if;
 	end process;
 
 	valOut  <= std_logic_vector(to_unsigned(s_value, 4));

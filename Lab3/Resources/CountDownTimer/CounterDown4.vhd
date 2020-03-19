@@ -27,26 +27,33 @@ begin
 			if (reset = '1') then
 				s_value <= MAX_VAL;
             elsif
-				if (setIncrem = '1') then;
-					-- increment
-					s_value <= s_value + 1;
-				elsif (setDecrem = '1') then
-					-- decrement
-					s_value <= s_value - 1;
-				else
-					-- counter down (default)
-					s_value <= s_value - 1;
-					
+				if (clkEnable = '1') then
 
-			
-			
-			
-			
-			
-			end if;
-		end if;
+					-- dccrement
+					if (cntEnable = '1' or setDecrem = '1' and setIncrem = '0') then
+						-- todo wrap value 
+						if (s_value = MAX_VAL) 
+							s_value <= 0;
+
+						s_value <= s_value - 1;
+
+						
+					end if;
+
+					-- increment
+					elsif (setIncrem = '1' and setDecrem = '0') then;
+						-- todo wrap value
+						if (s_value = MAX_VAL) 
+							s_value <= 0;
+				
+						-- increment
+						s_value <= s_value + 1;
+						
+						end if;
+				end if;
 	end process;
 
+	
 	valOut  <= std_logic_vector(to_unsigned(s_value, 4));
 
 	termCnt <= '1' when (s_value = 0) else '0';

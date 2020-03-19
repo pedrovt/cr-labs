@@ -1,0 +1,15 @@
+@startuml
+scale 350 width
+[*] --> STOPPED : reset
+STOPPED --> RUNNING : btnStart = 1
+RUNNING --> STOPPED : btnStart = 1 or reset = 1 or zeroFlag = 1
+
+STOPPED --> CHANGE_SEC_LS : btnSet = 1
+CHANGE_SEC_LS --> CHANGE_SEC_MS : btnSet = 1
+CHANGE_SEC_MS --> CHANGE_MIN_LS : btnSet = 1
+CHANGE_MIN_LS --> CHANGE_MIN_MS : btnSet = 1
+CHANGE_MIN_MS --> STOPPED : btnSet = 1
+
+
+
+@enduml

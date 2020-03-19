@@ -45,6 +45,241 @@ end ControlUnit;
 
 
 architecture Behavioral of ControlUnit is
+
+    type TState is (STOPPED, RUNNING, CHANGE_SEC_LS, CHANGE_SEC_MS, CHANGE_MIN_LS, CHANGE_MIN_MS);
+    signal s_currentState, s_nextState : TState;
+    
 begin
+    
+    sync_proc:  process(clk)
+    begin
+        if ((clk = '1') AND (clk'EVENT)) then
+            if (reset = '1') then
+                s_currentState <= STOPPED;
+            else
+                s_currentState <= s_nextState;
+            end if;
+        end if;
+    end process;
+    
+    comb_proc: process(s_currentState, btnDown, btnSet, btnStart, btnUp, clk, reset, upDownEn, zeroFlag)
+    begin
+        case (s_currentState) is 
+        
+        -- #########################################
+        -- STOPPED clock : no increment or decrement. Clock can be started or be adjusted 
+        when STOPPED =>
+            runFlag    <= '0';
+            setFlags   <= "0000";       -- TODO
+            
+            secLSSetInc <= '0';
+            secLSSetDec <= '0';
+            secMSSetInc <= '0';
+            secMSSetDec <= '0';
+            minLSSetInc <= '0';
+            minLSSetDec <= '0';
+            minMSSetInc <= '0';
+            minMSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnStart = '1') then
+                s_nextState <= RUNNING;
+            else
+                s_nextState <= STOPPED;
+            end if;
+        
+        -- #########################################
+        -- RUNNING clock : no increment or decrement. no adjustments allowed
+        when RUNNING =>
+            runFlag    <= '1';
+            setFlags   <= "0000";       -- TODO
+            
+            secLSSetInc <= '0';
+            secLSSetDec <= '0';
+            secMSSetInc <= '0';
+            secMSSetDec <= '0';
+            minLSSetInc <= '0';
+            minLSSetDec <= '0';
+            minMSSetInc <= '0';
+            minMSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnSet = '1') then
+                s_nextState <= CHANGE_SEC_LS;
+            else
+                s_nextState <= RUNNING;
+            end if;
+            
+        -- #########################################
+        -- CHANGE_SEC_LS clock : increment or decrement based on upDownEn
+        when CHANGE_SEC_LS =>
+            runFlag    <= '1';
+            setFlags   <= "0000";       -- TODO
+            
+            -- enabled increment
+            if (upDownEn = '1') then
+            
+                -- increment
+                if (btnUp = '1') then
+                    secLSSetInc <= '1';
+                    secLSSetDec <= '0';
+                    
+                -- decrement 
+                elsif (btnDown = '1') then
+                    secLSSetInc <= '0';
+                    secLSSetDec <= '1';
+                
+                -- do nothing
+                else 
+                    secLSSetInc <= '0';
+                    secLSSetDec <= '0';
+                end if;
+            end if;
+            
+            -- keep other increments/decrements at 0
+            secMSSetInc <= '0';
+            secMSSetDec <= '0';
+            minLSSetInc <= '0';
+            minLSSetDec <= '0';
+            minMSSetInc <= '0';
+            minMSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnSet = '1') then
+                s_nextState <= CHANGE_SEC_MS;
+            else
+                s_nextState <= CHANGE_SEC_LS;
+            end if;
+         
+        -- #########################################
+        -- CHANGE_SEC_MS clock : increment or decrement based on upDownEn
+         when CHANGE_SEC_MS =>
+            runFlag    <= '1';
+            setFlags   <= "0000";       -- TODO
+            
+            -- enabled increment
+            if (upDownEn = '1') then
+            
+                -- increment
+                if (btnUp = '1') then
+                    secMSSetInc <= '1';
+                    secMSSetDec <= '0';
+                    
+                -- decrement 
+                elsif (btnDown = '1') then
+                    secMSSetInc <= '0';
+                    secMSSetDec <= '1';
+                
+                -- do nothing
+                else 
+                    secLSSetInc <= '0';
+                    secLSSetDec <= '0';
+                end if;
+            end if;
+            
+            -- keep other increments/decrements at 0
+            secLSSetInc <= '0';
+            secLSSetDec <= '0';
+            minLSSetInc <= '0';
+            minLSSetDec <= '0';
+            minMSSetInc <= '0';
+            minMSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnSet = '1') then
+                s_nextState <= CHANGE_MIN_LS;
+            else
+                s_nextState <= CHANGE_SEC_MS;
+            end if;
+          
+          -- #########################################
+          -- CHANGE_MIN_LS clock : increment or decrement based on upDownEn
+          when CHANGE_MIN_LS =>
+            runFlag    <= '1';
+            setFlags   <= "0000";       -- TODO
+            
+            -- enabled increment
+            if (upDownEn = '1') then
+            
+                -- increment
+                if (btnUp = '1') then
+                    minLSSetInc <= '1';
+                    minLSSetDec <= '0';
+                    
+                -- decrement 
+                elsif (btnDown = '1') then
+                    minLSSetInc <= '0';
+                    minLSSetDec <= '1';
+                
+                -- do nothing
+                else 
+                    minLSSetInc <= '0';
+                    minLSSetDec <= '0';
+                end if;
+            end if;
+            
+            -- keep other increments/decrements at 0
+            secLSSetInc <= '0';
+            secLSSetDec <= '0';
+            secMSSetInc <= '0';
+            secMSSetDec <= '0';
+            minMSSetInc <= '0';
+            minMSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnSet = '1') then
+                s_nextState <= CHANGE_MIN_MS;
+            else
+                s_nextState <= CHANGE_MIN_LS;
+            end if;
+          
+          -- #########################################
+          -- CHANGE_MIN_MS clock : increment or decrement based on upDownEn
+          when CHANGE_MIN_MS =>
+            runFlag    <= '1';
+            setFlags   <= "0000";       -- TODO
+            
+            -- enabled increment
+            if (upDownEn = '1') then
+            
+                -- increment
+                if (btnUp = '1') then
+                    minMSSetInc <= '1';
+                    minMSSetDec <= '0';
+                    
+                -- decrement 
+                elsif (btnDown = '1') then
+                    minMSSetInc <= '0';
+                    minMSSetDec <= '1';
+                
+                -- do nothing
+                else 
+                    minMSSetInc <= '0';
+                    minMSSetDec <= '0';
+                end if;
+            end if;
+            
+            -- keep other increments/decrements at 0
+            secLSSetInc <= '0';
+            secLSSetDec <= '0';
+            secMSSetInc <= '0';
+            secMSSetDec <= '0';
+            minLSSetInc <= '0';
+            minLSSetDec <= '0'; 
+            
+            -- Update state
+            if (btnSet = '1') then
+                s_nextState <= STOPPED;
+            else
+                s_nextState <= CHANGE_MIN_MS;
+            end if;
+         
+         -- #########################################
+         -- Fallback situation 
+         when others =>
+            s_nextState <= STOPPED;
+         end case;
+                
+    end process;
 end Behavioral;
 

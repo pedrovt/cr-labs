@@ -44,14 +44,18 @@ end Behavioral;
 architecture Behavioral of PulseGenerator is
 
 	signal s_counter    : natural;
-	signal s_pulse800Hz : std_logic;
-	signal s_pulse1Hz   : std_logic;
-	signal s_blink1Hz   : std_logic;
 
 begin
 	process(clk100MHz)
 	begin
 		if (rising_edge(clk100MHz)) then
+
+			-- Display Reference Enable
+			if (s_counter rem 65536 = 0) then
+				dispRefEn <= '1';
+			else
+				dispRefEn <= '0'
+
 			if (s_counter >= 100000000) then
 				pulseDisplay <= '0';
 				pulse1Hz     <= '0';

@@ -70,7 +70,7 @@ begin
         -- STOPPED clock : no increment or decrement. Clock can be started or be adjusted 
         when STOPPED =>
             runFlag    <= '0';
-            s_SetFlags   <= "0000";       -- no digit being changed
+            s_SetFlags <= "0000";       -- no digit being changed
             
             -- Update state
             if (btnStart = '1') then
@@ -83,7 +83,7 @@ begin
         -- RUNNING clock : no increment or decrement. no adjustments allowed
         when RUNNING =>
             runFlag    <= '1';
-            s_SetFlags   <= "0000";       -- no digit being changed
+            s_SetFlags <= "0000";       -- no digit being changed
             
             -- Update state
             if (btnSet = '1') then
@@ -96,7 +96,7 @@ begin
         -- CHANGE_SEC_LS clock : increment or decrement based on upDownEn
         when CHANGE_SEC_LS =>
             runFlag    <= '1';
-            s_SetFlags   <= "0001";       -- digit ---X
+            s_SetFlags <= "0001";       -- digit ---X
              
             -- Update state
             if (btnSet = '1') then
@@ -109,7 +109,7 @@ begin
         -- CHANGE_SEC_MS clock : increment or decrement based on upDownEn
          when CHANGE_SEC_MS =>
             runFlag    <= '1';
-            s_SetFlags   <= "0010";       -- digit --X-
+            s_SetFlags <= "0010";       -- digit --X-
                
             -- Update state
             if (btnSet = '1') then
@@ -122,7 +122,7 @@ begin
           -- CHANGE_MIN_LS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_LS =>
             runFlag    <= '1';
-            s_SetFlags   <= "0100";       -- digit -X--
+            s_SetFlags <= "0100";       -- digit -X--
             
             -- Update state
             if (btnSet = '1') then

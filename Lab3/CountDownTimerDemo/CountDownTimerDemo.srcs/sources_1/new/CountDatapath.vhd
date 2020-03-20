@@ -45,8 +45,8 @@ end CountDatapath;
 
 architecture Behavioral of CountDatapath is
     
-    signal s_SEC_LS_FINISHED, s_SEC_MS_FINISHED, s_MIN_LS_FINISHED    : std_logic;
-    signal s_SEC_MS_cntEnable, s_MIN_LS_cntEnable, s_MIN_MS_cntEnable : std_logic;
+    signal s_SEC_LS_FINISHED, s_SEC_MS_FINISHED, s_MIN_LS_FINISHED                       : std_logic;
+    signal s_SEC_MS_cntEnable, s_MIN_LS_cntEnable, s_MIN_MS_cntEnable, s_MIN_MS_FINISHED : std_logic;
     
 begin   
 
@@ -66,7 +66,7 @@ begin
                                  termCnt    => s_SEC_LS_FINISHED);
       
       SEC_MS_COUNTER : entity work.CounterDown4(Behavioral)
-                        generic map(MAX_VAL => 9)
+                        generic map(MAX_VAL => 5)
                         port map(reset      => reset,
                                  clk        => clk,
                                  clkEnable  => clkEnable,
@@ -77,7 +77,7 @@ begin
                                  termCnt    => s_SEC_MS_FINISHED);
                                  
       MIN_LS_COUNTER : entity work.CounterDown4(Behavioral)
-                        generic map(MAX_VAL => 5)
+                        generic map(MAX_VAL => 9)
                         port map(reset      => reset,
                                  clk        => clk,
                                  clkEnable  => clkEnable,
@@ -96,7 +96,8 @@ begin
                                  setIncrem  => minMSSetInc,
                                  setDecrem  => minMSSetDec,
                                  valOut     => minMSCntVal,    
-                                 termCnt    => zeroFlag);
+                                 termCnt    => s_MIN_MS_FINISHED);
                                 
+       zeroFlag <= s_SEC_LS_FINISHED AND s_SEC_MS_FINISHED AND s_MIN_LS_FINISHED AND s_MIN_MS_FINISHED;
                                  
 end Behavioral;

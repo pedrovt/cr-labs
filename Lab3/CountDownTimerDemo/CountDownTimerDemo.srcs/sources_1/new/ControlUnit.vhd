@@ -48,6 +48,7 @@ architecture Behavioral of ControlUnit is
 
     type TState is (STOPPED, RUNNING, CHANGE_SEC_LS, CHANGE_SEC_MS, CHANGE_MIN_LS, CHANGE_MIN_MS);
     signal s_currentState, s_nextState : TState;
+    signal s_setFlags : std_logic_vector(3 downto 0);
     
 begin
     
@@ -160,17 +161,17 @@ begin
     -- Ignores both keys being pressed ( btnUp != btnDown is verified )
     setFlags <= s_setFlags;
      
-    secLSSetInc <= s_setFlags(0) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
-    secLSSetDec <= s_setFlags(0) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+    secLSSetInc <= s_setFlags(0) and upDownEn  and btnUp and not btnDown;
+    secLSSetDec <= s_setFlags(0) and upDownEn  and not btnUp and btnDown;
 
-    secMSSetInc <= s_setFlags(1) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
-    secMSSetDec <= s_setFlags(1) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+    secMSSetInc <= s_setFlags(1) and upDownEn  and btnUp and not btnDown;
+    secMSSetDec <= s_setFlags(1) and upDownEn  and not btnUp and btnDown;
 
-    minLSSetInc <= s_setFlags(2) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
-    minLSSetDec <= s_setFlags(2) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+    minLSSetInc <= s_setFlags(2) and upDownEn  and btnUp and not btnDown;
+    minLSSetDec <= s_setFlags(2) and upDownEn  and not btnUp and btnDown;
 
-    minMSSetInc <= s_setFlags(3) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
-    minMSSetDec <= s_setFlags(3) and upDownEn = '1' and btnUp = '0' and btnDown = '1'; 
+    minMSSetInc <= s_setFlags(3) and upDownEn  and btnUp and not btnDown;
+    minMSSetDec <= s_setFlags(3) and upDownEn  and not btnUp and btnDown; 
 
 end Behavioral;
 

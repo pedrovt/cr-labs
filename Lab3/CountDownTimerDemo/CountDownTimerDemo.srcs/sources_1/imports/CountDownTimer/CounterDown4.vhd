@@ -28,7 +28,7 @@ begin
 				s_value <= MAX_VAL;
             else	
 					-- ######################
-					-- Setting situations
+					-- Setting situations (more priority)
 					
 					-- decrement
 					if (setDecrem = '1' and setIncrem = '0') then

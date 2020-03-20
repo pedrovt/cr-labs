@@ -72,15 +72,6 @@ begin
             runFlag    <= '0';
             setFlags   <= "0000";       -- no digit being changed
             
-            secLSSetInc <= '0';
-            secLSSetDec <= '0';
-            secMSSetInc <= '0';
-            secMSSetDec <= '0';
-            minLSSetInc <= '0';
-            minLSSetDec <= '0';
-            minMSSetInc <= '0';
-            minMSSetDec <= '0'; 
-            
             -- Update state
             if (btnStart = '1') then
                 s_nextState <= RUNNING;
@@ -94,15 +85,6 @@ begin
             runFlag    <= '1';
             setFlags   <= "0000";       -- no digit being changed
             
-            secLSSetInc <= '0';
-            secLSSetDec <= '0';
-            secMSSetInc <= '0';
-            secMSSetDec <= '0';
-            minLSSetInc <= '0';
-            minLSSetDec <= '0';
-            minMSSetInc <= '0';
-            minMSSetDec <= '0'; 
-            
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_SEC_LS;
@@ -115,35 +97,7 @@ begin
         when CHANGE_SEC_LS =>
             runFlag    <= '1';
             setFlags   <= "0001";       -- digit ---X
-            
-            -- enabled increment
-            if (upDownEn = '1') then
-            
-                -- increment
-                if (btnUp = '1') then
-                    secLSSetInc <= '1';
-                    secLSSetDec <= '0';
-                    
-                -- decrement 
-                elsif (btnDown = '1') then
-                    secLSSetInc <= '0';
-                    secLSSetDec <= '1';
-                
-                -- do nothing
-                else 
-                    secLSSetInc <= '0';
-                    secLSSetDec <= '0';
-                end if;
-            end if;
-            
-            -- keep other increments/decrements at 0
-            secMSSetInc <= '0';
-            secMSSetDec <= '0';
-            minLSSetInc <= '0';
-            minLSSetDec <= '0';
-            minMSSetInc <= '0';
-            minMSSetDec <= '0'; 
-            
+             
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_SEC_MS;
@@ -156,35 +110,7 @@ begin
          when CHANGE_SEC_MS =>
             runFlag    <= '1';
             setFlags   <= "0010";       -- digit --X-
-            
-            -- enabled increment
-            if (upDownEn = '1') then
-            
-                -- increment
-                if (btnUp = '1') then
-                    secMSSetInc <= '1';
-                    secMSSetDec <= '0';
-                    
-                -- decrement 
-                elsif (btnDown = '1') then
-                    secMSSetInc <= '0';
-                    secMSSetDec <= '1';
-                
-                -- do nothing
-                else 
-                    secLSSetInc <= '0';
-                    secLSSetDec <= '0';
-                end if;
-            end if;
-            
-            -- keep other increments/decrements at 0
-            secLSSetInc <= '0';
-            secLSSetDec <= '0';
-            minLSSetInc <= '0';
-            minLSSetDec <= '0';
-            minMSSetInc <= '0';
-            minMSSetDec <= '0'; 
-            
+               
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_MIN_LS;
@@ -198,34 +124,6 @@ begin
             runFlag    <= '1';
             setFlags   <= "0100";       -- digit -X--
             
-            -- enabled increment
-            if (upDownEn = '1') then
-            
-                -- increment
-                if (btnUp = '1') then
-                    minLSSetInc <= '1';
-                    minLSSetDec <= '0';
-                    
-                -- decrement 
-                elsif (btnDown = '1') then
-                    minLSSetInc <= '0';
-                    minLSSetDec <= '1';
-                
-                -- do nothing
-                else 
-                    minLSSetInc <= '0';
-                    minLSSetDec <= '0';
-                end if;
-            end if;
-            
-            -- keep other increments/decrements at 0
-            secLSSetInc <= '0';
-            secLSSetDec <= '0';
-            secMSSetInc <= '0';
-            secMSSetDec <= '0';
-            minMSSetInc <= '0';
-            minMSSetDec <= '0'; 
-            
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_MIN_MS;
@@ -238,35 +136,7 @@ begin
           when CHANGE_MIN_MS =>
             runFlag    <= '1';
             setFlags   <= "0000";       -- digit X---
-            
-            -- enabled increment
-            if (upDownEn = '1') then
-            
-                -- increment
-                if (btnUp = '1') then
-                    minMSSetInc <= '1';
-                    minMSSetDec <= '0';
-                    
-                -- decrement 
-                elsif (btnDown = '1') then
-                    minMSSetInc <= '0';
-                    minMSSetDec <= '1';
-                
-                -- do nothing
-                else 
-                    minMSSetInc <= '0';
-                    minMSSetDec <= '0';
-                end if;
-            end if;
-            
-            -- keep other increments/decrements at 0
-            secLSSetInc <= '0';
-            secLSSetDec <= '0';
-            secMSSetInc <= '0';
-            secMSSetDec <= '0';
-            minLSSetInc <= '0';
-            minLSSetDec <= '0'; 
-            
+                 
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= STOPPED;
@@ -281,5 +151,26 @@ begin
          end case;
                 
     end process;
+
+    -- #########################################
+    -- Change Seconds/Minutes Increment/Decrements
+    -- Thanks to prof. Arnaldo for this suggestion to make
+    -- the code easier to maintain
+
+    -- Ignores both keys being pressed ( btnUp != btnDown is verified )
+    setFlags <= s_setFlags;
+     
+    secLSSetInc <= s_setFlags(0) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
+    secLSSetDec <= s_setFlags(0) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+
+    secMSSetInc <= s_setFlags(1) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
+    secMSSetDec <= s_setFlags(1) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+
+    minLSSetInc <= s_setFlags(2) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
+    minLSSetDec <= s_setFlags(2) and upDownEn = '1' and btnUp = '0' and btnDown = '1';
+
+    minMSSetInc <= s_setFlags(3) and upDownEn = '1' and btnUp = '1' and btnDown = '0';
+    minMSSetDec <= s_setFlags(3) and upDownEn = '1' and btnUp = '0' and btnDown = '1'; 
+
 end Behavioral;
 

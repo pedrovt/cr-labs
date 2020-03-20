@@ -17,10 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache C:/Users/Pedro/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-17648-ASUS-PC/incrSyn
-set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -34,6 +30,7 @@ set_property ip_output_repo c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTime
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTimerDemo/CountDownTimerDemo.srcs/sources_1/new/ControlUnit.vhd
+  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTimerDemo/CountDownTimerDemo.srcs/sources_1/imports/CountDownTimer/CounterDown4.vhd
   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTimerDemo/CountDownTimerDemo.srcs/sources_1/new/CountDatapath.vhd
   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTimerDemo/CountDownTimerDemo.srcs/sources_1/new/ResetModule.vhd
   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab3/CountDownTimerDemo/CountDownTimerDemo.srcs/sources_1/new/PulseGenerator.vhd

@@ -43,7 +43,6 @@ entity ControlUnit is
         );
 end ControlUnit; 
 
--- [PEDRO] TODO Improve code based on printscreen
 architecture Behavioral of ControlUnit is
 
     type TState is (STOPPED, RUNNING, CHANGE_SEC_LS, CHANGE_SEC_MS, CHANGE_MIN_LS, CHANGE_MIN_MS);
@@ -71,7 +70,7 @@ begin
         -- STOPPED clock : no increment or decrement. Clock can be started or be adjusted 
         when STOPPED =>
             runFlag    <= '0';
-            setFlags   <= "0000";       -- no digit being changed
+            s_SetFlags   <= "0000";       -- no digit being changed
             
             -- Update state
             if (btnStart = '1') then
@@ -84,7 +83,7 @@ begin
         -- RUNNING clock : no increment or decrement. no adjustments allowed
         when RUNNING =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- no digit being changed
+            s_SetFlags   <= "0000";       -- no digit being changed
             
             -- Update state
             if (btnSet = '1') then
@@ -97,7 +96,7 @@ begin
         -- CHANGE_SEC_LS clock : increment or decrement based on upDownEn
         when CHANGE_SEC_LS =>
             runFlag    <= '1';
-            setFlags   <= "0001";       -- digit ---X
+            s_SetFlags   <= "0001";       -- digit ---X
              
             -- Update state
             if (btnSet = '1') then
@@ -110,7 +109,7 @@ begin
         -- CHANGE_SEC_MS clock : increment or decrement based on upDownEn
          when CHANGE_SEC_MS =>
             runFlag    <= '1';
-            setFlags   <= "0010";       -- digit --X-
+            s_SetFlags   <= "0010";       -- digit --X-
                
             -- Update state
             if (btnSet = '1') then
@@ -123,7 +122,7 @@ begin
           -- CHANGE_MIN_LS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_LS =>
             runFlag    <= '1';
-            setFlags   <= "0100";       -- digit -X--
+            s_SetFlags   <= "0100";       -- digit -X--
             
             -- Update state
             if (btnSet = '1') then
@@ -136,7 +135,7 @@ begin
           -- CHANGE_MIN_MS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_MS =>
             runFlag    <= '1';
-            setFlags   <= "0000";       -- digit X---
+            s_SetFlags   <= "0000";       -- digit X---
                  
             -- Update state
             if (btnSet = '1') then
@@ -148,6 +147,9 @@ begin
          -- #########################################
          -- Fallback situation 
          when others =>
+            runFlag     <= '0';
+            s_SetFlags  <= "0000";       -- no digit being changed
+            
             s_nextState <= STOPPED;
          end case;
                 

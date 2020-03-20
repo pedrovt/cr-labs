@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu Mar 19 00:52:43 2020
+| Date         : Fri Mar 20 20:48:06 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file CountDownTimer_utilization_synth.rpt -pb CountDownTimer_utilization_synth.pb
 | Design       : CountDownTimer
@@ -30,12 +30,12 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |   88 |     0 |     63400 |  0.14 |
-|   LUT as Logic          |   88 |     0 |     63400 |  0.14 |
+| Slice LUTs*             |  274 |     0 |     63400 |  0.43 |
+|   LUT as Logic          |  274 |     0 |     63400 |  0.43 |
 |   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
-| Slice Registers         |   68 |     0 |    126800 |  0.05 |
-|   Register as Flip Flop |   59 |     0 |    126800 |  0.05 |
-|   Register as Latch     |    9 |     0 |    126800 | <0.01 |
+| Slice Registers         |  122 |     0 |    126800 |  0.10 |
+|   Register as Flip Flop |  122 |     0 |    126800 |  0.10 |
+|   Register as Latch     |    0 |     0 |    126800 |  0.00 |
 | F7 Muxes                |    0 |     0 |     31700 |  0.00 |
 | F8 Muxes                |    0 |     0 |     15850 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -55,9 +55,9 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
-| 9     |          Yes |           - |        Reset |
-| 0     |          Yes |         Set |            - |
-| 59    |          Yes |       Reset |            - |
+| 5     |          Yes |           - |        Reset |
+| 9     |          Yes |         Set |            - |
+| 108   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -146,17 +146,18 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |   59 |        Flop & Latch |
-| LUT1     |   50 |                 LUT |
-| LUT2     |   21 |                 LUT |
+| FDRE     |  108 |        Flop & Latch |
+| LUT1     |   73 |                 LUT |
+| LUT6     |   59 |                 LUT |
+| LUT3     |   59 |                 LUT |
+| LUT2     |   57 |                 LUT |
+| CARRY4   |   49 |          CarryLogic |
+| LUT5     |   43 |                 LUT |
+| LUT4     |   23 |                 LUT |
 | OBUF     |   17 |                  IO |
-| LUT4     |   17 |                 LUT |
-| CARRY4   |   12 |          CarryLogic |
-| LDCE     |    9 |        Flop & Latch |
-| LUT5     |    8 |                 LUT |
-| LUT6     |    6 |                 LUT |
+| FDSE     |    9 |        Flop & Latch |
 | IBUF     |    6 |                  IO |
-| LUT3     |    3 |                 LUT |
+| FDCE     |    5 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 
@@ -164,14 +165,9 @@ Table of Contents
 8. Black Boxes
 --------------
 
-+---------------------+------+
-|       Ref Name      | Used |
-+---------------------+------+
-| ResetModule         |    1 |
-| PulseGenerator      |    1 |
-| Nexys4DisplayDriver |    1 |
-| CountDatapath       |    1 |
-+---------------------+------+
++----------+------+
+| Ref Name | Used |
++----------+------+
 
 
 9. Instantiated Netlists

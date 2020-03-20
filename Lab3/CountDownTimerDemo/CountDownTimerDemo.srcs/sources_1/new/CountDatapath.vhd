@@ -43,7 +43,60 @@ entity CountDatapath is
 end CountDatapath; 
 
 
--- [PEDRO] TODO Based on the class discussions and counters
 architecture Behavioral of CountDatapath is
-begin
+    
+    signal s_SEC_LS_FINISHED, s_SEC_MS_FINISHED, s_MIN_LS_FINISHED    : std_logic;
+    signal s_SEC_MS_cntEnable, s_MIN_LS_cntEnable, s_MIN_MS_cntEnable : std_logic;
+    
+begin   
+
+      s_SEC_MS_cntEnable <= runFlag and s_SEC_LS_FINISHED;
+      s_MIN_LS_cntEnable <= runFlag and s_SEC_MS_FINISHED;
+      s_MIN_MS_cntEnable <= runFlag and s_MIN_LS_FINISHED;
+    
+      SEC_LS_COUNTER : entity work.CounterDown4(Behavioral)
+                        generic map(MAX_VAL => 9)
+                        port map(reset      => reset,
+                                 clk        => clk,
+                                 clkEnable  => clkEnable,
+                                 cntEnable  => runFlag,
+                                 setIncrem  => secLSSetInc,
+                                 setDecrem  => secLSSetDec,
+                                 valOut     => secLSCntVal,    
+                                 termCnt    => s_SEC_LS_FINISHED);
+      
+      SEC_MS_COUNTER : entity work.CounterDown4(Behavioral)
+                        generic map(MAX_VAL => 9)
+                        port map(reset      => reset,
+                                 clk        => clk,
+                                 clkEnable  => clkEnable,
+                                 cntEnable  => s_SEC_MS_cntEnable,
+                                 setIncrem  => secMSSetInc,
+                                 setDecrem  => secMSSetDec,
+                                 valOut     => secMSCntVal,    
+                                 termCnt    => s_SEC_MS_FINISHED);
+                                 
+      MIN_LS_COUNTER : entity work.CounterDown4(Behavioral)
+                        generic map(MAX_VAL => 5)
+                        port map(reset      => reset,
+                                 clk        => clk,
+                                 clkEnable  => clkEnable,
+                                 cntEnable  => s_MIN_LS_cntEnable,
+                                 setIncrem  => minLSSetInc,
+                                 setDecrem  => minLSSetDec,
+                                 valOut     => minLSCntVal,    
+                                 termCnt    => s_MIN_LS_FINISHED);
+                                 
+      MIN_MS_COUNTER : entity work.CounterDown4(Behavioral)
+                        generic map(MAX_VAL => 5)
+                        port map(reset      => reset,
+                                 clk        => clk,
+                                 clkEnable  => clkEnable,
+                                 cntEnable  => s_MIN_MS_cntEnable,
+                                 setIncrem  => minMSSetInc,
+                                 setDecrem  => minMSSetDec,
+                                 valOut     => minMSCntVal,    
+                                 termCnt    => zeroFlag);
+                                
+                                 
 end Behavioral;

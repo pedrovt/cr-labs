@@ -66,6 +66,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/CountDownTimer/CounterDown4.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Resources/CountDownTimer/CounterDown4.vhd"/>
+          <Attr Name="ImportTime" Val="1583854554"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/CountDatapath.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -100,15 +108,6 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Resources/CountDownTimer/CountDownTimer.vhd"/>
           <Attr Name="ImportTime" Val="1583839616"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/CountDownTimer/CounterDown4.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Resources/CountDownTimer/CounterDown4.vhd"/>
-          <Attr Name="ImportTime" Val="1583854554"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>

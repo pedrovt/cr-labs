@@ -122,9 +122,8 @@ begin
                              minMSCntVal    => s_minMSCntVal,
                              zeroFlag       => s_zeroFlag);
               
-    rtl_or              : s_digitEn0_i  <= (s_blink2Hz & s_blink2Hz & s_blink2Hz & s_blink2Hz) AND s_setFlags;
-    rtl_or_extended     : s_digitEn     <= "00" & s_digitEn0_i & "00";        -- Enabled digits: - - 5 4 3 2 - - | Available digits: 7 6 5 4 3 2 1 0
-    s_decPtEn_extended  : s_decPtEn     <= (others => s_blink1Hz);            -- extend s_blink1Hz to 8 bits (8 decimal points)
+    s_digitEn <= "00" & (not s_setFlags(3) or s_blink2Hz) & (not s_setFlags(2) or s_blink2Hz) & (not s_setFlags(1) or s_blink2Hz) & (not s_setFlags(0) or s_blink2Hz) & "00";
+    s_decPtEn <= "000" & s_blink1Hz & "0000";   -- enabled points: - - - 4 3 2 1 ---
 
     display_driver : entity work.Nexys4DisplayDriver(Structural)
                         port map(clk        => clk,

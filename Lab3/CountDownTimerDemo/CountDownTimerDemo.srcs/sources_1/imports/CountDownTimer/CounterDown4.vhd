@@ -1,3 +1,23 @@
+----------------------------------------------------------------------------------
+-- Company: University of Aveiro
+-- Engineer: Paulo Vasconcelos Pedro Teixeira
+-- 
+-- Create Date: 16.03.2020 16:05:20
+-- Design Name: 
+-- Module Name: CounterDown4
+-- Project Name: CountDownTimerDemo
+-- Target Devices: XC7A100TCSG324-1
+-- Tool Versions: 1
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision: 1
+-- Revision 1 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use IEEE.NUMERIC_STD.all;

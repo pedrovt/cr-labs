@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sun Mar 22 01:34:13 2020
+| Date         : Sun Mar 22 14:16:42 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : report_methodology -file CountDownTimer_methodology_drc_routed.rpt -pb CountDownTimer_methodology_drc_routed.pb -rpx CountDownTimer_methodology_drc_routed.rpx
 | Design       : CountDownTimer
@@ -23,16 +23,32 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 27
+             Violations found: 26
 +-----------+----------+-------------------------------+------------+
 | Rule      | Severity | Description                   | Violations |
 +-----------+----------+-------------------------------+------------+
-| TIMING-18 | Warning  | Missing input or output delay | 26         |
+| TIMING-16 | Warning  | Large setup violation         | 3          |
+| TIMING-18 | Warning  | Missing input or output delay | 22         |
 | TIMING-20 | Warning  | Non-clocked latch             | 1          |
 +-----------+----------+-------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.428 ns between pulse_generator/s_counter_reg[8]/C (clocked by sys_clk_pin) and pulse_generator/blink2Hz_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.630 ns between pulse_generator/s_counter_reg[9]/C (clocked by sys_clk_pin) and pulse_generator/blink1Hz_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.797 ns between pulse_generator/s_counter_reg[3]/C (clocked by sys_clk_pin) and pulse_generator/pulse2Hz_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
 TIMING-18#1 Warning
 Missing input or output delay  
 An input delay is missing on btnC relative to clock(s) sys_clk_pin
@@ -110,55 +126,35 @@ Related violations: <none>
 
 TIMING-18#16 Warning
 Missing input or output delay  
-An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+An output delay is missing on seg[0] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#17 Warning
 Missing input or output delay  
-An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+An output delay is missing on seg[1] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#18 Warning
 Missing input or output delay  
-An output delay is missing on led[3] relative to clock(s) sys_clk_pin
+An output delay is missing on seg[2] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#19 Warning
 Missing input or output delay  
-An output delay is missing on led[4] relative to clock(s) sys_clk_pin
+An output delay is missing on seg[3] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#20 Warning
 Missing input or output delay  
-An output delay is missing on seg[0] relative to clock(s) sys_clk_pin
+An output delay is missing on seg[4] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#21 Warning
 Missing input or output delay  
-An output delay is missing on seg[1] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#22 Warning
-Missing input or output delay  
-An output delay is missing on seg[2] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#23 Warning
-Missing input or output delay  
-An output delay is missing on seg[3] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#24 Warning
-Missing input or output delay  
-An output delay is missing on seg[4] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-18#25 Warning
-Missing input or output delay  
 An output delay is missing on seg[5] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
-TIMING-18#26 Warning
+TIMING-18#22 Warning
 Missing input or output delay  
 An output delay is missing on seg[6] relative to clock(s) sys_clk_pin
 Related violations: <none>

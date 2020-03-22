@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1584840719">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1584886421">
   <File Type="PA-TCL" Name="CountDownTimer.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="CountDownTimer_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="CountDownTimer_reports.tcl"/>

@@ -4,7 +4,7 @@
 -- 
 -- Create Date: 16.03.2020 16:05:20
 -- Design Name: 
--- Module Name: CountDatapath
+-- Module Name: DebounceUnit
 -- Project Name: CountDownTimerDemo
 -- Target Devices: XC7A100TCSG324-1
 -- Tool Versions: 1

@@ -11,7 +11,7 @@ entity CountDownTimer is
          an          : out std_logic_vector(7 downto 0);
          seg         : out std_logic_vector(6 downto 0);
          dp          : out std_logic;
-         led         : out std_logic_vector(4 downto 0));
+         led         : out std_logic_vector(0 downto 0));
 end CountDownTimer;
 
 architecture Structural of CountDownTimer is
@@ -141,13 +141,6 @@ begin
                                  dispEn_n   => an(7 downto 0),
                                  dispSeg_n  => seg(6 downto 0),
                                  dispPt_n   => dp);
-    
-    
-     led(4) <= btnC;
-    led(3) <= btnR;
-    
-    led(1) <= s_btnStart;
-    led(2) <= s_btnSet;
-                                        
+                                  
     led(0) <=  s_zeroFlag;
 end Structural;

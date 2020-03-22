@@ -67,7 +67,6 @@ begin
                                  valOut     => secLSCntVal,    
                                  termCnt    => s_SEC_LS_FINISHED);
                                  
-      
       SEC_MS_COUNTER : entity work.CounterDown4(Behavioral)
                         generic map(MAX_VAL => 5)
                         port map(reset      => reset,
@@ -79,9 +78,6 @@ begin
                                  valOut     => secMSCntVal,    
                                  termCnt    => s_SEC_MS_FINISHED);
       
-      
-        
-                         
       MIN_LS_COUNTER : entity work.CounterDown4(Behavioral)
                         generic map(MAX_VAL => 9)
                         port map(reset      => reset,

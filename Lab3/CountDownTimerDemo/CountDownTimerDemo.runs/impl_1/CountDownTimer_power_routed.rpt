@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Sun Mar 22 00:07:30 2020
+| Date             : Sun Mar 22 01:34:14 2020
 | Host             : ASUS-PC running 64-bit major release  (build 9200)
 | Command          : report_power -file CountDownTimer_power_routed.rpt -pb CountDownTimer_power_summary_routed.pb -rpx CountDownTimer_power_routed.rpx
 | Design           : CountDownTimer
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      352 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      158 |     63400 |            0.25 |
+| Slice Logic    |    <0.001 |      355 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      160 |     63400 |            0.25 |
 |   CARRY4       |    <0.001 |       20 |     15850 |            0.13 |
 |   Register     |    <0.001 |      122 |    126800 |            0.10 |
 |   Others       |     0.000 |       16 |       --- |             --- |
-| Signals        |    <0.001 |      269 |       --- |             --- |
-| I/O            |     0.001 |       27 |       210 |           12.86 |
+| Signals        |    <0.001 |      272 |       --- |             --- |
+| I/O            |    <0.001 |       27 |       210 |           12.86 |
 | Static Power   |     0.097 |          |           |                 |
 | Total          |     0.101 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+

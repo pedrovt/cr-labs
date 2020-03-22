@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Fri Mar 20 21:50:57 2020
+| Date             : Sun Mar 22 00:07:30 2020
 | Host             : ASUS-PC running 64-bit major release  (build 9200)
 | Command          : report_power -file CountDownTimer_power_routed.rpt -pb CountDownTimer_power_summary_routed.pb -rpx CountDownTimer_power_routed.rpx
 | Design           : CountDownTimer
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.119        |
+| Total On-Chip Power (W)  | 0.101        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.022        |
+| Dynamic (W)              | 0.004        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.5         |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |     0.002 |        3 |       --- |             --- |
-| Slice Logic    |     0.002 |      506 |       --- |             --- |
-|   LUT as Logic |     0.001 |      267 |     63400 |            0.42 |
-|   CARRY4       |    <0.001 |       49 |     15850 |            0.31 |
-|   Register     |    <0.001 |      124 |    126800 |            0.10 |
-|   Others       |     0.000 |       19 |       --- |             --- |
-| Signals        |     0.002 |      404 |       --- |             --- |
-| I/O            |     0.017 |       23 |       210 |           10.95 |
+| Clocks         |     0.001 |        3 |       --- |             --- |
+| Slice Logic    |    <0.001 |      352 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      158 |     63400 |            0.25 |
+|   CARRY4       |    <0.001 |       20 |     15850 |            0.13 |
+|   Register     |    <0.001 |      122 |    126800 |            0.10 |
+|   Others       |     0.000 |       16 |       --- |             --- |
+| Signals        |    <0.001 |      269 |       --- |             --- |
+| I/O            |     0.001 |       27 |       210 |           12.86 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.119 |          |           |                 |
+| Total          |     0.101 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.020 |       0.005 |      0.015 |
-| Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |
-| Vcco33    |       3.300 |     0.009 |       0.005 |      0.004 |
+| Vccint    |       1.000 |     0.018 |       0.003 |      0.015 |
+| Vccaux    |       1.800 |     0.018 |       0.000 |      0.018 |
+| Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -137,11 +137,10 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+-------------------+-----------+
-| Name              | Power (W) |
-+-------------------+-----------+
-| CountDownTimer    |     0.022 |
-|   pulse_generator |     0.002 |
-+-------------------+-----------+
++----------------+-----------+
+| Name           | Power (W) |
++----------------+-----------+
+| CountDownTimer |     0.004 |
++----------------+-----------+
 
 

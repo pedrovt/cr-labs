@@ -11,7 +11,7 @@ entity CountDownTimer is
          an          : out std_logic_vector(7 downto 0);
          seg         : out std_logic_vector(6 downto 0);
          dp          : out std_logic;
-         led         : out std_logic_vector(0 downto 0));
+         led         : out std_logic_vector(4 downto 0));
 end CountDownTimer;
 
 architecture Structural of CountDownTimer is
@@ -51,7 +51,7 @@ begin
 
     pulse_generator : entity work.PulseGenerator(Behavioral)
                         port map(clk100MHz  => clk,
-                                 dispRefEn  => s_dispRefEn,
+                                 pulseDisplay  => s_dispRefEn,
                                  pulse2Hz   => s_2HzEn,
                                  pulse1Hz   => s_1HzEn,
                                  blink2Hz   => s_blink2Hz,
@@ -123,9 +123,9 @@ begin
                              zeroFlag       => s_zeroFlag);
               
     s_digitEn <= "00" & (not s_setFlags(3) or s_blink2Hz) & (not s_setFlags(2) or s_blink2Hz) & (not s_setFlags(1) or s_blink2Hz) & (not s_setFlags(0) or s_blink2Hz) & "00";
-    s_decPtEn <= "000" & s_blink1Hz & "0000";   -- enabled points: - - - 4 3 2 1 ---
+    s_decPtEn <= "000" & s_blink1Hz & "0000";   
 
-    display_driver : entity work.Nexys4DisplayDriver(Structural)
+    display_driver : entity work.Nexys4DisplayDriver(Behavioral)
                         port map(clk        => clk,
                                  enable     => s_dispRefEn, 
                                  digitEn    => s_digitEn,     
@@ -141,6 +141,13 @@ begin
                                  dispEn_n   => an(7 downto 0),
                                  dispSeg_n  => seg(6 downto 0),
                                  dispPt_n   => dp);
-                                 
+    
+    
+     led(4) <= btnC;
+    led(3) <= btnR;
+    
+    led(1) <= s_btnStart;
+    led(2) <= s_btnSet;
+                                        
     led(0) <=  s_zeroFlag;
 end Structural;

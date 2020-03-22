@@ -63,18 +63,21 @@ begin
     end process;
     
     comb_proc: process(s_currentState, btnDown, btnSet, btnStart, btnUp, clk, reset, upDownEn, zeroFlag)
-    begin
+    begin     
         case (s_currentState) is 
         
         -- #########################################
         -- STOPPED clock : no increment or decrement. Clock can be started or be adjusted 
         when STOPPED =>
             runFlag    <= '0';
-            s_SetFlags <= "0000";       -- no digit being changed
+            s_setFlags <= "0000"; 
             
             -- Update state
-            if (btnStart = '1') then
+            if (btnStart = '1' and zeroFlag = '0') then
                 s_nextState <= RUNNING;
+            elsif (btnSet = '1') then
+                s_nextState <= CHANGE_SEC_LS;
+                s_SetFlags <= "0001"; 
             else
                 s_nextState <= STOPPED;
             end if;
@@ -82,25 +85,27 @@ begin
         -- #########################################
         -- RUNNING clock : no increment or decrement. no adjustments allowed
         when RUNNING =>
-            runFlag    <= '1';
-            s_SetFlags <= "0000";       -- no digit being changed
+            
+            s_setFlags <= "0000"; 
             
             -- Update state
-            if (btnSet = '1') then
-                s_nextState <= CHANGE_SEC_LS;
+            if (btnStart = '1' or zeroFlag = '1') then
+                s_nextState <= STOPPED;
             else
+                runFlag    <= '1';
                 s_nextState <= RUNNING;
             end if;
             
         -- #########################################
         -- CHANGE_SEC_LS clock : increment or decrement based on upDownEn
         when CHANGE_SEC_LS =>
-            runFlag    <= '1';
-            s_SetFlags <= "0001";       -- digit ---X
+           
+            s_setFlags <= "0001";       -- digit ---X
              
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_SEC_MS;
+                s_setFlags <= "0010";
             else
                 s_nextState <= CHANGE_SEC_LS;
             end if;
@@ -108,12 +113,13 @@ begin
         -- #########################################
         -- CHANGE_SEC_MS clock : increment or decrement based on upDownEn
          when CHANGE_SEC_MS =>
-            runFlag    <= '1';
-            s_SetFlags <= "0010";       -- digit --X-
+          
+            s_setFlags <= "0010";       -- digit --X-
                
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_MIN_LS;
+                s_setFlags <= "0100";
             else
                 s_nextState <= CHANGE_SEC_MS;
             end if;
@@ -121,12 +127,13 @@ begin
           -- #########################################
           -- CHANGE_MIN_LS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_LS =>
-            runFlag    <= '1';
-            s_SetFlags <= "0100";       -- digit -X--
+           
+            s_setFlags <= "0100";       -- digit -X--
             
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= CHANGE_MIN_MS;
+                s_setFlags <= "1000";
             else
                 s_nextState <= CHANGE_MIN_LS;
             end if;
@@ -134,12 +141,13 @@ begin
           -- #########################################
           -- CHANGE_MIN_MS clock : increment or decrement based on upDownEn
           when CHANGE_MIN_MS =>
-            runFlag    <= '1';
-            s_SetFlags   <= "0000";       -- digit X---
-                 
+
+            s_setFlags <= "1000"; 
+            
             -- Update state
             if (btnSet = '1') then
                 s_nextState <= STOPPED;
+                s_setFlags <= "0000";
             else
                 s_nextState <= CHANGE_MIN_MS;
             end if;
@@ -147,9 +155,8 @@ begin
          -- #########################################
          -- Fallback situation 
          when others =>
-            runFlag     <= '0';
-            s_SetFlags  <= "0000";       -- no digit being changed
-            
+         
+            s_setFlags <= "0000"; 
             s_nextState <= STOPPED;
          end case;
                 
@@ -163,17 +170,17 @@ begin
     -- Ignores both keys being pressed ( btnUp != btnDown is verified )
     setFlags <= s_setFlags;
      
-    secLSSetInc <= s_setFlags(0) and upDownEn  and btnUp and not btnDown;
-    secLSSetDec <= s_setFlags(0) and upDownEn  and not btnUp and btnDown;
+    secLSSetInc <= s_setFlags(0) and upDownEn  and btnUp ;
+    secLSSetDec <= s_setFlags(0) and upDownEn  and btnDown;
 
-    secMSSetInc <= s_setFlags(1) and upDownEn  and btnUp and not btnDown;
-    secMSSetDec <= s_setFlags(1) and upDownEn  and not btnUp and btnDown;
+    secMSSetInc <= s_setFlags(1) and upDownEn  and btnUp ;
+    secMSSetDec <= s_setFlags(1) and upDownEn  and btnDown;
 
-    minLSSetInc <= s_setFlags(2) and upDownEn  and btnUp and not btnDown;
-    minLSSetDec <= s_setFlags(2) and upDownEn  and not btnUp and btnDown;
+    minLSSetInc <= s_setFlags(2) and upDownEn  and btnUp ;
+    minLSSetDec <= s_setFlags(2) and upDownEn  and btnDown;
 
-    minMSSetInc <= s_setFlags(3) and upDownEn  and btnUp and not btnDown;
-    minMSSetDec <= s_setFlags(3) and upDownEn  and not btnUp and btnDown; 
+    minMSSetInc <= s_setFlags(3) and upDownEn  and btnUp ;
+    minMSSetDec <= s_setFlags(3) and upDownEn  and btnDown; 
 
 end Behavioral;
 

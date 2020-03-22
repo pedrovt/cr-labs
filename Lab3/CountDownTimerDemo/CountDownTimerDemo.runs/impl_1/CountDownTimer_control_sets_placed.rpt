@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Mar 20 21:50:07 2020
+| Date         : Sun Mar 22 00:06:47 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file CountDownTimer_control_sets_placed.rpt
 | Design       : CountDownTimer
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    13 |
-|    Minimum number of control sets                        |    13 |
+| Total control sets                                       |    11 |
+|    Minimum number of control sets                        |    11 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    38 |
+| Unused register locations in slices containing registers |    30 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,14 +39,14 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    13 |
-| >= 0 to < 4        |     2 |
-| >= 4 to < 6        |     4 |
-| >= 6 to < 8        |     1 |
+| Total control sets |    11 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     0 |
 | >= 8 to < 10       |     2 |
 | >= 10 to < 12      |     0 |
-| >= 12 to < 14      |     0 |
-| >= 14 to < 16      |     1 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
 | >= 16              |     3 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
@@ -58,34 +58,32 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              18 |           13 |
-| No           | No                    | Yes                    |               5 |            2 |
-| No           | Yes                   | No                     |              39 |           23 |
+| No           | No                    | No                     |              14 |            5 |
+| No           | No                    | Yes                    |               5 |            1 |
+| No           | Yes                   | No                     |              47 |           15 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              60 |           24 |
+| Yes          | Yes                   | No                     |              56 |           23 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
-|               Clock Signal              |                    Enable Signal                   |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
-+-----------------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
-|  display_driver/binCounter/ff0/nQ       |                                                    |                                                |                1 |              2 |
-|  display_driver/binCounter/ff1/nQ_reg_0 |                                                    |                                                |                1 |              2 |
-|  clk_IBUF_BUFG                          | control_unit/FSM_onehot_s_currentState_reg[2]_0[0] | reset_module/s_reset                           |                2 |              4 |
-|  clk_IBUF_BUFG                          | control_unit/E[0]                                  | reset_module/s_reset                           |                2 |              4 |
-|  clk_IBUF_BUFG                          | set_but_debouncer/s_btnSet                         | reset_module/s_reset                           |                1 |              4 |
-|  clk_IBUF_BUFG                          |                                                    | reset_module/s_shiftReg[4]_i_1_n_0             |                2 |              5 |
-|  clk_IBUF_BUFG                          |                                                    | reset_module/s_reset                           |                2 |              6 |
-|  clk_IBUF_BUFG                          | set_but_debouncer/s_debounceCnt[23]_i_2__0_n_0     | set_but_debouncer/s_debounceCnt[23]_i_1__0_n_0 |                3 |              8 |
-|  clk_IBUF_BUFG                          | start_but_debouncer/s_debounceCnt[23]_i_2_n_0      | start_but_debouncer/p_1_in0                    |                2 |              8 |
-|  clk_IBUF_BUFG                          |                                                    |                                                |               11 |             14 |
-|  clk_IBUF_BUFG                          | set_but_debouncer/s_debounceCnt[22]_i_2__0_n_0     | set_but_debouncer/s_debounceCnt[22]_i_1__0_n_0 |                7 |             16 |
-|  clk_IBUF_BUFG                          | start_but_debouncer/p_2_in                         | start_but_debouncer/s_debounceCnt[22]_i_1_n_0  |                7 |             16 |
-|  clk_IBUF_BUFG                          |                                                    | pulse_generator/pulse1Hz_i_1_n_0               |               21 |             33 |
-+-----------------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
++-----------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
+|            Clock Signal           |                  Enable Signal                 |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++-----------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  control_unit/runFlag_reg_i_1_n_0 |                                                |                                                |                1 |              1 |
+|  clk_IBUF_BUFG                    | pulse_generator/E[0]                           | reset_module/s_reset                           |                2 |              4 |
+|  clk_IBUF_BUFG                    | pulse_generator/pulse2Hz_reg_0[0]              | reset_module/s_reset                           |                1 |              4 |
+|  clk_IBUF_BUFG                    |                                                | reset_module/s_shiftReg[4]_i_1_n_0             |                1 |              5 |
+|  clk_IBUF_BUFG                    | set_but_debouncer/s_debounceCnt[23]_i_2__0_n_0 | set_but_debouncer/s_debounceCnt[23]_i_1__0_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG                    | start_but_debouncer/s_debounceCnt[23]_i_2_n_0  | start_but_debouncer/p_1_in0                    |                3 |              8 |
+|  clk_IBUF_BUFG                    |                                                | reset_module/s_reset                           |                4 |             12 |
+|  clk_IBUF_BUFG                    |                                                |                                                |                4 |             13 |
+|  clk_IBUF_BUFG                    | set_but_debouncer/s_debounceCnt[22]_i_2__0_n_0 | set_but_debouncer/s_debounceCnt[22]_i_1__0_n_0 |                7 |             16 |
+|  clk_IBUF_BUFG                    | start_but_debouncer/p_2_in                     | start_but_debouncer/s_debounceCnt[22]_i_1_n_0  |                7 |             16 |
+|  clk_IBUF_BUFG                    |                                                | pulse_generator/clear                          |               11 |             35 |
++-----------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
 
 

@@ -1,0 +1,6 @@
+15:41:15 **** Build of configuration Debug for project TimerSoftwareApp_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+15:41:15 Build Finished (took 274ms)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="TimerSoftwareApp-partial_bit"/>
+	<item value="Local" key="TimerSoftwareApp-target"/>
+	<item value="false" key="TimerSoftwareApp-skip_rev_check"/>
+	<item value="Auto Detect" key="TimerSoftwareApp-device"/>
+	<item value="_ide/bitstream/mb_design_wrapper.mmi" key="TimerSoftwareApp-bmmFile"/>
+	<item value="TimerSoftwareApp" key="programfpga.sdxproject"/>
+	<item value="bootloop" key="TimerSoftwareApp-microblaze_0-initElf"/>
+	<item value="_ide/bitstream/mb_design_wrapper.bit" key="TimerSoftwareApp-bitFile"/>
+</section>

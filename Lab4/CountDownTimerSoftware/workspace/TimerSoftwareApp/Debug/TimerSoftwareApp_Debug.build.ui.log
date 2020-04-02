@@ -1,14 +1,9 @@
-2020-03-24T15:41:10.952776700255-15:41:10 **** Build of configuration Debug for project TimerSoftwareApp ****
+2020-03-26T11:20:36.30049700255-11:20:36 **** Incremental Build of configuration Debug for project TimerSoftwareApp ****
 000-make all 
 000-'Building file: ../src/helloworld.c'
 000-'Invoking: MicroBlaze gcc compiler'
 000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 000-'Finished building: ../src/helloworld.c'
-000-' '
-000-'Building file: ../src/platform.c'
-000-'Invoking: MicroBlaze gcc compiler'
-000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
 000-' '
 000-'Building target: TimerSoftwareApp.elf'
 000-'Invoking: MicroBlaze gcc linker'
@@ -18,9 +13,9 @@
 000-'Invoking: MicroBlaze Print Size'
 000-mb-size TimerSoftwareApp.elf  |tee "TimerSoftwareApp.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000-   3116	    320	   3108	   6544	   1990	TimerSoftwareApp.elf
+000-   3240	    324	   3108	   6672	   1a10	TimerSoftwareApp.elf
 000-'Finished building: TimerSoftwareApp.elf.size'
 000-' '
 00255-
-15:41:14 Build Finished (took 3s.826ms)
+11:20:38 Build Finished (took 2s.624ms)
 

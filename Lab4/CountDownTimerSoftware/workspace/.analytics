@@ -2,3 +2,24 @@ timestamp=[2020-03-24 15:34:46], mode=WORKBENCH_START, duration=0:00:06.593, dur
 timestamp=[2020-03-24 15:34:47], mode=WORKBENCH_UI_INIT, duration=0:00:01.133, duration_ms=1133, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
 timestamp=[2020-03-24 15:39:24], mode=APP_CREATION, duration=0:00:14.237, duration_ms=14237, data={name=TimerSoftwareApp, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_design_wrapper, application_type=application}
 timestamp=[2020-03-24 15:41:10], mode=PLATFORM_GENERATION, duration=0:00:15.887, duration_ms=15887, data={name=mb_design_wrapper}
+timestamp=[2020-03-25 19:45:18], mode=WORKBENCH_START, duration=0:00:31.023, duration_ms=31023, data={}
+timestamp=[2020-03-25 19:45:21], mode=WORKBENCH_UI_INIT, duration=0:00:02.968, duration_ms=2968, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-03-25 19:52:25], mode=WORKBENCH_START, duration=0:00:17.913, duration_ms=17913, data={}
+timestamp=[2020-03-25 19:52:27], mode=WORKBENCH_UI_INIT, duration=0:00:01.960, duration_ms=1960, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-03-25 19:53:16], mode=PLATFORM_GENERATION, duration=0:00:32.296, duration_ms=32296, data={name=mb_design_wrapper}
+timestamp=[2020-03-26 09:36:55], mode=WORKBENCH_START, duration=0:00:14.358, duration_ms=14358, data={}
+timestamp=[2020-03-26 09:36:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.302, duration_ms=1302, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-03-26 10:07:01], mode=PLATFORM_GENERATION, duration=0:00:27.343, duration_ms=27343, data={name=mb_design_wrapper}
+timestamp=[2020-03-26 10:54:59], mode=WORKBENCH_START, duration=0:00:12.762, duration_ms=12762, data={}
+timestamp=[2020-03-26 10:55:01], mode=WORKBENCH_UI_INIT, duration=0:00:01.360, duration_ms=1360, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-03-26 10:58:46], mode=WORKBENCH_START, duration=0:00:13.234, duration_ms=13234, data={}
+timestamp=[2020-03-26 10:58:47], mode=WORKBENCH_UI_INIT, duration=0:00:01.389, duration_ms=1389, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-03-26 11:00:03], mode=PLATFORM_GENERATION, duration=0:00:23.692, duration_ms=23692, data={name=mb_design_wrapper}
+timestamp=[2020-03-31 13:40:09], mode=WORKBENCH_START, duration=0:00:19.449, duration_ms=19449, data={}
+timestamp=[2020-03-31 13:40:12], mode=WORKBENCH_UI_INIT, duration=0:00:03.072, duration_ms=3072, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-04-01 19:26:56], mode=WORKBENCH_START, duration=0:00:18.878, duration_ms=18878, data={}
+timestamp=[2020-04-01 19:26:58], mode=WORKBENCH_UI_INIT, duration=0:00:01.816, duration_ms=1816, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper}
+timestamp=[2020-04-01 19:30:15], mode=APP_CREATION, duration=0:00:15.147, duration_ms=15147, data={name=TimerApp, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_design_wrapper_1, application_type=application}
+timestamp=[2020-04-01 22:50:34], mode=PLATFORM_GENERATION, duration=0:00:17.700, duration_ms=17700, data={name=mb_design_wrapper_1}
+timestamp=[2020-04-02 00:46:06], mode=WORKBENCH_START, duration=0:00:28.423, duration_ms=28423, data={}
+timestamp=[2020-04-02 00:46:08], mode=WORKBENCH_UI_INIT, duration=0:00:01.489, duration_ms=1489, data={editors_count=3, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,TimerApp,TimerApp_system,TimerSoftwareApp,TimerSoftwareApp_system,mb_design_wrapper,mb_design_wrapper_1}

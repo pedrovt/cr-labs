@@ -48,13 +48,141 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "sleep.h"
+#include "xgpio_l.h"
+#include "xtmrctr_l.h"
 
+unsigned char Bin2Hex(unsigned char value)
+{
+	static char bin2HexLUT[] = {0xC0, 0xF9 /* TBC*/};
+
+	return bin2HexLUT[value];
+}
+
+int DetectRisingEdge(unsigned int oldValue, unsigned int newValue, unsigned char bitIndex)
+{
+	unsigned int mask = 1 << bitIndex;
+
+	return ((~oldValue & mask) & (newValue & mask)) == mask;
+}
 
 int main()
 {
     init_platform();
 
     print("Hello World\n\r");
+
+//	Tri-state configuration
+//	Inputs
+    XGpio_WriteReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_TRI_OFFSET,  0xFFFFFFFF);		// 1 = input. only 16 bits are relevant...
+    XGpio_WriteReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR,  XGPIO_TRI_OFFSET,  0xFFFFFFFF);
+
+//	Outputs
+    XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR,     XGPIO_TRI_OFFSET,  0xFFFF0000);		// 0 = output. only 16 lsbits are used
+    XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR,  XGPIO_TRI_OFFSET,  0xFFFFFF00);		// 8 bits
+    XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR,  XGPIO_TRI2_OFFSET, 0xFFFFFF00);		// 8 bits (7 + point)
+
+// --------------------------------------------------------------------------------------
+//  Output fixed patterns
+   /* XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR,    XGPIO_DATA_OFFSET, 0x5555);
+    XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET, 0x00);
+    XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, 0x00); */
+
+//	Switches - LEDs loopback
+    unsigned int switchesVal;
+
+    while(1)
+    {
+    	switchesVal = XGpio_ReadReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_DATA_OFFSET);
+
+    	XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, switchesVal);
+    }
+
+    // to change only some leds / switches, use masks
+    // OFFSET shouldn't be needed to be changed
+
+//	Displays refresh demo
+/*    while(1)
+    {
+    	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  0xFE);				// 1111 1110 -> an do digito mais à direita activo (active-low)
+    	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, Bin2Hex(0));
+
+    	usleep(1000);
+
+    	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  0xFD);
+    	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, Bin2Hex(1));			// 111111001  (from right to left)
+
+    	usleep(1000);
+    }
+*/
+/*
+    //	Buttons readback demo
+    unsigned int newValue;
+
+    while(1)
+    {
+    	newValue = XGpio_ReadReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR, XGPIO_DATA_OFFSET);
+
+    	xil_printf("\r\n%02x", newValue);		// can be seen as mask (1 bit active per button)
+    }
+*/
+//	Buttons rising-edge detection
+/*    unsigned int oldValue = 0xFF;
+    unsigned int newValue;
+
+	while(1)
+	{
+		newValue = XGpio_ReadReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR, XGPIO_DATA_OFFSET);
+
+		print("\r\n");
+		for (int i = 4; i >= 0; i--)
+		{
+			if (DetectRisingEdge(oldValue, newValue, i))
+			{
+				print("|");
+			}
+			else
+			{
+				print(".");
+			}
+		}
+
+		oldValue = newValue;
+		usleep(100000);
+	}
+*/
+//	Timer event detection using polling
+//	Timer Demonstration
+
+    // 3 registers: control (what's doing), counting, limits of couting (0->limit, limit->0, ...)
+
+ 	// Disable timer
+ 	XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, 0x0);
+
+	// Set timer load value
+    XTmrCtr_SetLoadReg(XPAR_AXI_TIMER_0_BASEADDR, 0, 500000000);					// 5 milhões, clock de 100MHz, eventos a cada 5s
+    XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, XTC_CSR_LOAD_MASK);	// load previous value
+
+	// Enable timer, down counting with auto reload
+    XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, XTC_CSR_ENABLE_TMR_MASK | XTC_CSR_AUTO_RELOAD_MASK | XTC_CSR_DOWN_COUNT_MASK);
+
+    // XTC_CSR_AUTO_RELOAD_MASK : the event continues to be generated
+
+  	while (1)
+  	{
+  		// Print current count register
+  		// xil_printf("\r\n%09d", XTmrCtr_GetTimerCounterReg(XPAR_AXI_TIMER_0_BASEADDR, 0));
+
+		// Detection using polling of timer event
+  		unsigned int tmrCtrlStatReg = XTmrCtr_GetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0);
+
+  		if (tmrCtrlStatReg & XTC_CSR_INT_OCCURED_MASK)
+  		{
+  			print("*****");
+
+			XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, tmrCtrlStatReg | XTC_CSR_INT_OCCURED_MASK);		// we need to cleanup (force to 1) after detecting
+		}
+   	}
 
     cleanup_platform();
     return 0;

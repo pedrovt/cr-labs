@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="TimerSoftwareApp" location="C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp" platform="C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm" platformUID="xilinx:nexys4::0.0(custom)" systemProject="TimerSoftwareApp_system" sysConfig="mb_design_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="5ec40ac85c6f446b83b84563f9ff4a24">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1928003558">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.855255453" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

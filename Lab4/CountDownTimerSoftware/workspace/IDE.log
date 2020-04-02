@@ -86,3 +86,548 @@ con
 
 15:52:34 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
 16:00:22 INFO  : Disconnected from the channel tcfchan#3.
+19:45:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+19:45:13 INFO  : XSCT server has started successfully.
+19:45:13 INFO  : Successfully done setting XSCT server connection channel  
+19:45:13 INFO  : plnx-install-location is set to ''
+19:45:13 INFO  : Successfully done setting workspace for the tool. 
+19:45:26 INFO  : Registering command handlers for Vitis TCF services
+19:45:33 INFO  : Successfully done query RDI_DATADIR 
+19:52:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+19:52:27 INFO  : XSCT server has started successfully.
+19:52:27 INFO  : plnx-install-location is set to ''
+19:52:27 INFO  : Successfully done setting XSCT server connection channel  
+19:52:27 INFO  : Successfully done setting workspace for the tool. 
+19:52:30 INFO  : Registering command handlers for Vitis TCF services
+19:52:30 INFO  : Successfully done query RDI_DATADIR 
+19:53:16 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+09:36:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+09:36:52 INFO  : XSCT server has started successfully.
+09:36:52 INFO  : plnx-install-location is set to ''
+09:36:52 INFO  : Successfully done setting XSCT server connection channel  
+09:36:52 INFO  : Successfully done setting workspace for the tool. 
+09:36:57 INFO  : Registering command handlers for Vitis TCF services
+09:37:01 INFO  : Successfully done query RDI_DATADIR 
+09:37:29 INFO  : Bit file 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit' is generated.
+09:37:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:37:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:37:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+09:38:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:38:03 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:38:03 INFO  : 'jtag frequency' command is executed.
+09:38:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:38:06 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+09:38:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:38:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:38:06 INFO  : System reset is completed.
+09:38:09 INFO  : 'after 3000' command is executed.
+09:38:09 INFO  : Context for processor 'microblaze_0' is selected.
+09:38:09 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+09:38:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+09:38:09 INFO  : Memory regions updated for context MicroBlaze #0
+09:38:09 INFO  : Memory regions updated for context MicroBlaze #0
+09:38:09 INFO  : Context for processor 'microblaze_0' is selected.
+09:38:09 INFO  : 'con' command is executed.
+09:38:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:38:09 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+10:07:01 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+10:07:20 INFO  : Disconnected from the channel tcfchan#1.
+10:07:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:07:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:07:31 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:08:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:08:07 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:08:07 INFO  : 'jtag frequency' command is executed.
+10:08:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:08:09 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+10:08:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:08:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:10 INFO  : System reset is completed.
+10:08:13 INFO  : 'after 3000' command is executed.
+10:08:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:13 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+10:08:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+10:08:13 INFO  : Memory regions updated for context MicroBlaze #0
+10:08:13 INFO  : Memory regions updated for context MicroBlaze #0
+10:08:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:13 INFO  : 'con' command is executed.
+10:08:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:08:13 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+10:08:48 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+10:09:04 INFO  : Disconnected from the channel tcfchan#3.
+10:09:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:09:05 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:09:05 INFO  : 'jtag frequency' command is executed.
+10:09:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:09:07 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+10:09:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:09:08 INFO  : Context for processor 'microblaze_0' is selected.
+10:09:08 INFO  : System reset is completed.
+10:09:11 INFO  : 'after 3000' command is executed.
+10:09:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:09:11 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+10:09:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+10:09:11 INFO  : Memory regions updated for context MicroBlaze #0
+10:09:11 INFO  : Memory regions updated for context MicroBlaze #0
+10:09:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:09:11 INFO  : 'con' command is executed.
+10:09:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:09:11 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+10:46:22 INFO  : Bit file 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit' is generated.
+10:46:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:46:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:46:25 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+10:51:58 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+10:52:26 INFO  : Disconnected from the channel tcfchan#4.
+10:52:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:52:27 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:52:27 INFO  : 'jtag frequency' command is executed.
+10:52:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:52:29 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+10:52:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:52:29 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:29 INFO  : System reset is completed.
+10:52:32 INFO  : 'after 3000' command is executed.
+10:52:32 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:32 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+10:52:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+10:52:33 INFO  : Memory regions updated for context MicroBlaze #0
+10:52:33 INFO  : Memory regions updated for context MicroBlaze #0
+10:52:33 INFO  : Context for processor 'microblaze_0' is selected.
+10:52:33 INFO  : 'con' command is executed.
+10:52:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:52:33 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+10:54:36 INFO  : Disconnected from the channel tcfchan#5.
+10:54:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+10:55:01 INFO  : XSCT server has started successfully.
+10:55:01 INFO  : plnx-install-location is set to ''
+10:55:01 INFO  : Successfully done setting XSCT server connection channel  
+10:55:01 INFO  : Successfully done setting workspace for the tool. 
+10:55:02 INFO  : Registering command handlers for Vitis TCF services
+10:55:03 INFO  : Successfully done query RDI_DATADIR 
+10:58:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+10:58:48 INFO  : XSCT server has started successfully.
+10:58:48 INFO  : Successfully done setting XSCT server connection channel  
+10:58:48 INFO  : plnx-install-location is set to ''
+10:58:48 INFO  : Successfully done setting workspace for the tool. 
+10:58:49 INFO  : Registering command handlers for Vitis TCF services
+10:58:49 INFO  : Successfully done query RDI_DATADIR 
+11:00:03 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:00:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:00:16 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:00:16 INFO  : 'jtag frequency' command is executed.
+11:00:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:00:19 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:00:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:00:19 INFO  : Context for processor 'microblaze_0' is selected.
+11:00:19 INFO  : System reset is completed.
+11:00:22 INFO  : 'after 3000' command is executed.
+11:00:22 INFO  : Context for processor 'microblaze_0' is selected.
+11:00:22 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:00:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:00:22 INFO  : Memory regions updated for context MicroBlaze #0
+11:00:22 INFO  : Memory regions updated for context MicroBlaze #0
+11:00:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:00:23 INFO  : 'con' command is executed.
+11:00:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:00:23 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:04:36 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:04:41 INFO  : Disconnected from the channel tcfchan#2.
+11:04:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:04:42 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:04:42 INFO  : 'jtag frequency' command is executed.
+11:04:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:04:45 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:04:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:04:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:45 INFO  : System reset is completed.
+11:04:48 INFO  : 'after 3000' command is executed.
+11:04:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:48 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:04:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:04:48 INFO  : Memory regions updated for context MicroBlaze #0
+11:04:48 INFO  : Memory regions updated for context MicroBlaze #0
+11:04:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:48 INFO  : 'con' command is executed.
+11:04:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:04:48 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:09:38 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:09:44 INFO  : Disconnected from the channel tcfchan#3.
+11:09:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:45 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:09:45 INFO  : 'jtag frequency' command is executed.
+11:09:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:09:48 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:09:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:09:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:48 INFO  : System reset is completed.
+11:09:51 INFO  : 'after 3000' command is executed.
+11:09:51 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:51 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:09:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:09:51 INFO  : Memory regions updated for context MicroBlaze #0
+11:09:51 INFO  : Memory regions updated for context MicroBlaze #0
+11:09:51 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:52 INFO  : 'con' command is executed.
+11:09:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:09:52 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:12:21 INFO  : Disconnected from the channel tcfchan#4.
+11:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:12:23 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:12:23 INFO  : 'jtag frequency' command is executed.
+11:12:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:12:25 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:12:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:12:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:12:25 INFO  : System reset is completed.
+11:12:28 INFO  : 'after 3000' command is executed.
+11:12:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:12:28 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:12:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:12:28 INFO  : Memory regions updated for context MicroBlaze #0
+11:12:28 INFO  : Memory regions updated for context MicroBlaze #0
+11:12:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:12:30 INFO  : 'con' command is executed.
+11:12:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:12:30 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:12:51 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:13:09 INFO  : Disconnected from the channel tcfchan#5.
+11:13:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:13:10 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:13:10 INFO  : 'jtag frequency' command is executed.
+11:13:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:13:12 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:13:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:13:13 INFO  : Context for processor 'microblaze_0' is selected.
+11:13:13 INFO  : System reset is completed.
+11:13:16 INFO  : 'after 3000' command is executed.
+11:13:16 INFO  : Context for processor 'microblaze_0' is selected.
+11:13:16 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:13:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:13:16 INFO  : Memory regions updated for context MicroBlaze #0
+11:13:16 INFO  : Memory regions updated for context MicroBlaze #0
+11:13:16 INFO  : Context for processor 'microblaze_0' is selected.
+11:13:16 INFO  : 'con' command is executed.
+11:13:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:13:16 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:18:47 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:18:56 INFO  : Disconnected from the channel tcfchan#6.
+11:18:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:18:57 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:18:57 INFO  : 'jtag frequency' command is executed.
+11:18:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:18:59 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:18:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:18:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:18:59 INFO  : System reset is completed.
+11:19:02 INFO  : 'after 3000' command is executed.
+11:19:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:03 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:19:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:19:03 INFO  : Memory regions updated for context MicroBlaze #0
+11:19:03 INFO  : Memory regions updated for context MicroBlaze #0
+11:19:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:19:03 INFO  : 'con' command is executed.
+11:19:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:19:03 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:20:20 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:20:36 INFO  : Checking for BSP changes to sync application flags for project 'TimerSoftwareApp'...
+11:21:32 INFO  : Disconnected from the channel tcfchan#7.
+11:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:21:33 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:21:33 INFO  : 'jtag frequency' command is executed.
+11:21:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:21:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit"
+11:21:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:21:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:36 INFO  : System reset is completed.
+11:21:39 INFO  : 'after 3000' command is executed.
+11:21:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:39 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf' is downloaded to processor 'microblaze_0'.
+11:21:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/_ide/bitstream/download.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/TimerSoftwareApp/Debug/TimerSoftwareApp.elf
+----------------End of Script----------------
+
+11:21:39 INFO  : Memory regions updated for context MicroBlaze #0
+11:21:39 INFO  : Memory regions updated for context MicroBlaze #0
+11:21:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:21:40 INFO  : 'con' command is executed.
+11:21:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:21:40 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timersoftwareapp-default.tcl'
+11:45:58 INFO  : Disconnected from the channel tcfchan#8.
+13:40:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+13:40:11 INFO  : XSCT server has started successfully.
+13:40:11 INFO  : plnx-install-location is set to ''
+13:40:11 INFO  : Successfully done setting XSCT server connection channel  
+13:40:11 INFO  : Successfully done setting workspace for the tool. 
+13:40:14 INFO  : Registering command handlers for Vitis TCF services
+13:40:18 INFO  : Successfully done query RDI_DATADIR 
+19:26:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\temp_xsdb_launch_script.tcl
+19:26:59 INFO  : XSCT server has started successfully.
+19:26:59 INFO  : plnx-install-location is set to ''
+19:26:59 INFO  : Successfully done setting XSCT server connection channel  
+19:26:59 INFO  : Successfully done setting workspace for the tool. 
+19:27:00 INFO  : Registering command handlers for Vitis TCF services
+19:27:04 INFO  : Successfully done query RDI_DATADIR 
+22:50:34 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+22:52:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:52:58 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:52:58 INFO  : 'jtag frequency' command is executed.
+22:52:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:53:00 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/_ide/bitstream/mb_design_wrapper.bit"
+22:53:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:53:00 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:00 INFO  : System reset is completed.
+22:53:04 INFO  : 'after 3000' command is executed.
+22:53:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:04 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/Debug/TimerApp.elf' is downloaded to processor 'microblaze_0'.
+22:53:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/_ide/bitstream/mb_design_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/Debug/TimerApp.elf
+----------------End of Script----------------
+
+22:53:04 INFO  : Memory regions updated for context MicroBlaze #0
+22:53:04 INFO  : Memory regions updated for context MicroBlaze #0
+22:53:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:04 INFO  : 'con' command is executed.
+22:53:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:53:04 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timerapp-default.tcl'
+09:03:14 INFO  : Disconnected from the channel tcfchan#2.
+09:03:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:03:15 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:03:15 INFO  : 'jtag frequency' command is executed.
+09:03:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:03:17 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/_ide/bitstream/mb_design_wrapper.bit"
+09:03:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:03:17 INFO  : Context for processor 'microblaze_0' is selected.
+09:03:17 INFO  : System reset is completed.
+09:03:20 INFO  : 'after 3000' command is executed.
+09:03:20 INFO  : Context for processor 'microblaze_0' is selected.
+09:03:20 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/Debug/TimerApp.elf' is downloaded to processor 'microblaze_0'.
+09:03:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/_ide/bitstream/mb_design_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/TimerApp/Debug/TimerApp.elf
+----------------End of Script----------------
+
+09:03:21 INFO  : Memory regions updated for context MicroBlaze #0
+09:03:21 INFO  : Memory regions updated for context MicroBlaze #0
+09:03:21 INFO  : Context for processor 'microblaze_0' is selected.
+09:03:21 INFO  : 'con' command is executed.
+09:03:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:03:21 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab4\CountDownTimerSoftware\workspace\.sdk\launch_scripts\single_application_debug\debugger_timerapp-default.tcl'
+12:34:14 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:35:03 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:36:14 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:37:19 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:37:40 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:38:37 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:39:53 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:40:32 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:41:16 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:44:49 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:44:59 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:45:43 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:46:20 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:46:31 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:46:54 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:47:35 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:47:53 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:48:01 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:48:50 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+12:49:13 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+14:44:30 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+14:50:16 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...
+14:50:44 INFO  : Checking for BSP changes to sync application flags for project 'TimerApp'...

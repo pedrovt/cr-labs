@@ -1,134 +1,57 @@
-15:40:54 **** Build of project mb_design_wrapper ****
-buildplatform.bat 57553 mb_design_wrapper  
-XSDB Server Channel: tcfchan#1
-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+Nothing to build in platform 'mb_design_wrapper_1'
 
-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
-
-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
-
-make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
--Wextra"
-
-"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
-
-make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
- -Wextra"
-
-"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
-
-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
--Wall -Wextra"
-
-"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
-
-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
-LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
-l -Wextra"
-
-"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
-
-make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
-all -Wextra"
-
-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
-
-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
-xtra"
-
-"Compiling bram"
-
-mb-ar: creating ../../../lib/libxil.a
-"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
-
-make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
-xtra"
-
-"Compiling cpu"
-
-"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
-
-make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
-xtra"
-
-"Compiling gpio"
-
-"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
-
-make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
-FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
-extra"
-
-"Compiling intc"
-
-"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
-
-make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
-ll -Wextra"
-
-"Compiling standalone";
-
-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
-
-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
-_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
-Wextra"
-
-"Compiling tmrctr"
-
-"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
-
-make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
- -Wextra"
-
-"Compiling uartlite"
-
-'Finished building libraries'
-
-15:41:10 **** Build of configuration Debug for project TimerSoftwareApp ****
+14:50:44 **** Incremental Build of configuration Debug for project TimerApp ****
 make all 
-'Building file: ../src/helloworld.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building target: TimerSoftwareApp.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper/export/mb_design_wrapper/sw/mb_design_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TimerSoftwareApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: TimerSoftwareApp.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size TimerSoftwareApp.elf  |tee "TimerSoftwareApp.elf.size"
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/sw/mb_design_wrapper_1/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'UpdateStateMachine':
+../src/helloworld.c:210:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0000";
+               ^
+../src/helloworld.c:218:16: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+     *pSetFlags = "0001";
+                ^
+../src/helloworld.c:225:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0000";
+               ^
+../src/helloworld.c:239:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0001";       // digit ---X
+               ^
+../src/helloworld.c:244:16: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+     *pSetFlags = "0010";
+                ^
+../src/helloworld.c:254:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0010";       // digit --X-
+               ^
+../src/helloworld.c:259:16: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+     *pSetFlags = "0100";
+                ^
+../src/helloworld.c:268:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0100";       // digit -X--
+               ^
+../src/helloworld.c:273:16: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+     *pSetFlags = "1000";
+                ^
+../src/helloworld.c:282:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "1000";
+               ^
+../src/helloworld.c:287:16: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+     *pSetFlags = "0000";
+                ^
+../src/helloworld.c:296:15: warning: assignment to 'unsigned char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    *pSetFlags = "0000";
+               ^
+Finished building: ../src/helloworld.c
+ 
+Building target: TimerApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Documents/UA/CR/Labs/Lab4/CountDownTimerSoftware/workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/sw/mb_design_wrapper_1/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "TimerApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TimerApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size TimerApp.elf  |tee "TimerApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   3116	    320	   3108	   6544	   1990	TimerSoftwareApp.elf
-'Finished building: TimerSoftwareApp.elf.size'
-' '
-15:41:15 **** Build of configuration Debug for project TimerSoftwareApp_system ****
-make all 
-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+   5860	    364	   3120	   9344	   2480	TimerApp.elf
+Finished building: TimerApp.elf.size
+ 

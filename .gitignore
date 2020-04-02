@@ -2,3 +2,6 @@
 *.hw
 *.ip_user_files
 *.runs
+*.prj
+
+Vitis-Workspace/

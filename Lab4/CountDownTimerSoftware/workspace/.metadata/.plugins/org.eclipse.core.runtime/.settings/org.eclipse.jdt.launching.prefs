@@ -1,2 +1,0 @@
-eclipse.preferences.version=1
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1585220302699">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1585220302699" name\="jre9.0.4" path\="C\:\\Xilinx\\Vitis\\2019.2\\tps\\win64\\jre9.0.4"/>\r\n    </vmType>\r\n</vmSettings>\r\n

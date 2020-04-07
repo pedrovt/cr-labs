@@ -172,7 +172,7 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 
 	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  ~(1 << digitRefreshIdx));
 
-	unsigned int digitValue = ((~decPtEnables >> digitRefreshIdx) && 0x01) << 7;		//FIXME
+	unsigned int digitValue = ((decPtEnables >> digitRefreshIdx) && 0x01) << 7;		//FIXME
 	if ((digitEnables >> digitRefreshIdx) & 0x01) {
 		//digitValue = ((digitPtEnables >> digitRefreshIdx) && 0x01) & (Bin2Hex(digitValues[digitRefreshIdx]));
 		digitValue += Bin2Hex(digitValues[digitRefreshIdx]);
@@ -466,7 +466,7 @@ int main()
 						// Put here operations that must be performed at 2Hz rate
 						// Switch point 1Hz blink status
 						blink1HzStat = !blink1HzStat;
-						decPtEnables = (blink1HzStat ? 0x10 : 0x00);
+						decPtEnables = (blink1HzStat ? 0xEF : 0xFF);
 
 						// Digit set increment/decrement
 						SetCountDownTimer(fsmState, &buttonStatus, &timerValue);

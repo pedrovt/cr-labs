@@ -166,12 +166,12 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 
 	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  ~(1 << digitRefreshIdx));
 
-	unsigned int digitValue = ((decPtEnables >> digitRefreshIdx) && 0x01) << 7;		
+	unsigned int digitValue = ( !((decPtEnables >> digitRefreshIdx) & 0x01)) << 7;
 	if ((digitEnables >> digitRefreshIdx) & 0x01) {
 		digitValue += Bin2Hex(digitValues[digitRefreshIdx]);
 	}
 	else {
-		digitValue += 0xFF;
+		digitValue += 0x7F;
 	}
 	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, digitValue);
 	

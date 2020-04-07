@@ -198,7 +198,16 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 {
 	static unsigned int digitRefreshIdx = 0; // static variable - is preserved across calls
 
-	// Insert your code here...
+	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA_OFFSET,  ~(1 << digitRefreshIdx));
+
+	unsigned int digitValue = ( !((decPtEnables >> digitRefreshIdx) & 0x01)) << 7;
+	if ((digitEnables >> digitRefreshIdx) & 0x01) {
+		digitValue += Bin2Hex(digitValues[digitRefreshIdx]);
+	}
+	else {
+		digitValue += 0x7F;
+	}
+	XGpio_WriteReg(XPAR_AXI_GPIO_DISPLAY_BASEADDR, XGPIO_DATA2_OFFSET, digitValue);
 
 
 	digitRefreshIdx++;
@@ -209,7 +218,7 @@ void ReadButtons(TButtonStatus* pButtonStatus)
 {
 	unsigned int buttonsPattern;
 
-	buttonsPattern = // Insert your code here...
+	buttonsPattern = XGpio_ReadReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR, XGPIO_DATA_OFFSET);
 
 	pButtonStatus->upPressed    = buttonsPattern & BUTTON_UP_MASK;
 	pButtonStatus->downPressed  = buttonsPattern & BUTTON_DOWN_MASK;
@@ -221,19 +230,187 @@ void ReadButtons(TButtonStatus* pButtonStatus)
 void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus,
 						bool zeroFlag, unsigned char* pSetFlags)
 {
-	// Insert your code here...
+	// Possible states: Stopped Started, SetLSSec, SetMSSec, SetLSMin, SetMSMin
+	// Use DetectAndClearRisingEdge function
+	// Zeroflag when timer = 0
+
+	/* Debug only */
+	/*
+	switch(*pFSMState) {
+	   case Stopped: xil_printf("State: Stopped\n"); break;
+	   case Started: xil_printf("State: Started\n"); break;
+	   case SetLSSec: xil_printf("State: SetLSSec\n"); break;
+	   case SetMSSec: xil_printf("State: SetMSSec\n"); break;
+	   case SetLSMin: xil_printf("State: SetLSMin\n"); break;
+	   case SetMSMin: xil_printf("State: SetMSMin\n"); break;
+	   default: xil_printf("Error");
+	}
+	*/
+
+	switch (*pFSMState) {
+		case Stopped:
+			*pSetFlags = 0x0;			// digit ---- 0000
+
+			// Update state
+
+			if (DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->startPressed) && zeroFlag == 0)
+				*pFSMState = Started;
+			else if (DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+				*pFSMState = SetLSSec;
+			}
+			else {
+				*pFSMState = Stopped;
+			}
+			break;
+
+		case Started:
+			*pSetFlags = 0x0;			// digit ---- 0000
+
+			// Update state
+			if (DetectAndClearRisingEdge(&(pButtonStatus->startPrevious), pButtonStatus->startPressed) || zeroFlag == 1) {
+				*pFSMState = Stopped;
+			}
+			else {
+				*pFSMState = Started;
+			}
+			break;
+
+		// #########################################
+		// SetLSSec clock : increment or decrement based on upDownEn
+		case SetLSSec:
+			*pSetFlags = 0x1;       	// digit ---X 0001
+
+			// Update state
+			if (DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+				*pFSMState = SetMSSec;
+			}
+			else {
+				*pFSMState = SetLSSec;
+			}
+			break;
+
+
+		// #########################################
+		// SetMSSec clock : increment or decrement based on upDownEn
+		case SetMSSec:
+			*pSetFlags = 0x2;       	// digit --X- 0010
+
+			// Update state
+			if (DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+				*pFSMState = SetLSMin;
+			}
+			else {
+				*pFSMState = SetMSSec;
+			}
+			break;
+
+		// #########################################
+		// SetLSMin clock : increment or decrement based on upDownEn
+		case SetLSMin:
+			*pSetFlags = 0x4;       	// digit -X-- 0100
+
+			// Update state
+			if (DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+				*pFSMState = SetMSMin;
+			}
+			else {
+				*pFSMState = SetLSMin;
+			}
+			break;
+
+		// #########################################
+		// SetMSMin clock : increment or decrement based on upDownEn
+		case SetMSMin:
+			*pSetFlags = 0x8;		 	// digit X--- 1000
+
+			// Update state
+			if (DetectAndClearRisingEdge(&(pButtonStatus->setPrevious), pButtonStatus->setPressed)) {
+				*pFSMState = Stopped;
+			}
+			else {
+				*pFSMState = SetMSMin;
+			}
+			break;
+
+		// #########################################
+		// Fallback situation
+		default:
+			*pSetFlags = 0x0; 			// digit ---- 0000
+			*pFSMState = Stopped;
+			break;
+	}
 
 }
 
 void SetCountDownTimer(TFSMState fsmState, const TButtonStatus* pButtonStatus, TTimerValue* pTimerValue)
 {
-	// Insert your code here...
+	// Se estiver no estado certo ir ao Up ou Down e reagir de acordo
+	// Not rising edge, level triggered
+	switch(fsmState) {
+	   case SetLSSec:
+		   //xil_printf("State: SetLSSec\n");
+		   if (pButtonStatus -> upPressed) {			// up has priority
+			   ModularInc(&pTimerValue -> secLSValue, 10);
+		   }
+		   else if (pButtonStatus -> downPressed) {
+			   ModularDec(&pTimerValue -> secLSValue, 10);
+		   }
+		   // else nothing happens
+	   	   break;
+	   case SetMSSec:
+		   //xil_printf("State: SetMSSec\n");
+		   if (pButtonStatus -> upPressed) {			// up has priority
+			   ModularInc(&pTimerValue -> secMSValue, 6);
+		   }
+		   else if (pButtonStatus -> downPressed) {
+			   ModularDec(&pTimerValue -> secMSValue, 6);
+		   }
+		   // else nothing happens
+	   	   break;
+	   case SetLSMin:
+		   //xil_printf("State: SetLSMin\n");
+		   if (pButtonStatus -> upPressed) {			// up has priority
+			   ModularInc(&pTimerValue -> minLSValue, 10);
+		   }
+		   else if (pButtonStatus -> downPressed) {
+			   ModularDec(&pTimerValue -> minLSValue, 10);
+		   }
+		   // else nothing happens
+	   	   break;
+	   case SetMSMin:
+		   //xil_printf("State: SetMSMin\n");
+		   if (pButtonStatus -> upPressed) {			// up has priority
+			   ModularInc(&pTimerValue -> minMSValue, 6);
+		   }
+		   else if (pButtonStatus -> downPressed) {
+			   ModularDec(&pTimerValue -> minMSValue, 6);
+		   }
+		   // else nothing happens
+	   default:			// includes Stopped and Started States
+		   break;
+	}
 
 }
 
 void DecCountDownTimer(TFSMState fsmState, TTimerValue* pTimerValue)
 {
-	// Insert your code here...
+	// Must consider ripple effect on digits (use return value of each ModuleDecrement)
+	if (fsmState == Started) {													// Only during running
+		bool continueToCount = ModularDec(&pTimerValue -> secLSValue, 10);		// Second Least Significative
+		if (continueToCount) {
+			continueToCount = ModularDec(&pTimerValue -> secMSValue, 6);		// Second Most  Significative
+			if (continueToCount) {
+				continueToCount = ModularDec(&pTimerValue -> minLSValue, 10);	// Minute Least Significative
+				if (continueToCount) {
+					ModularDec(&pTimerValue -> minMSValue, 6); 					// Minute Most  Significative
+					// Last zero is detected by the Main
+				}
+				else return;
+			}
+			else return;
+		}
+		else return;
+	}
 
 }
 
@@ -289,20 +466,29 @@ void TimerIntCallbackHandler(void* callbackParam)
 	// Put here operations that must be performed at 800Hz rate
 	// Refresh displays
     // Insert your code here...
-
+    RefreshDisplays(digitEnables, digitValues, decPtEnables);
 
 	if (hwTmrEventCount % 100 == 0) // 8Hz
 	{
 		// Put here operations that must be performed at 8Hz rate
 		// Update state machine
 		// Insert your code here...
-
+		UpdateStateMachine(&fsmState, &buttonStatus, zeroFlag, &setFlags);
+		if ((setFlags == 0x0) || (blink2HzStat))
+		{
+			digitEnables = 0x3C; // All digits active
+		}
+		else
+		{
+			digitEnables = (~(setFlags << 2)) & 0x3C; // Setting digit inactive
+		}
 
 		if (hwTmrEventCount % 200 == 0) // 4Hz
 		{
 			// Put here operations that must be performed at 4Hz rate
 			// Switch digit set 2Hz blink status
 			// Insert your code here...
+			blink2HzStat = !blink2HzStat;
 
 
 			if (hwTmrEventCount % 400 == 0) // 2Hz
@@ -310,18 +496,29 @@ void TimerIntCallbackHandler(void* callbackParam)
 				// Put here operations that must be performed at 2Hz rate
 				// Switch point 1Hz blink status
 				// Insert your code here...
-
+				blink1HzStat = !blink1HzStat;
+				decPtEnables = (blink1HzStat ? 0x10 : 0x00);
 
 				// Digit set increment/decrement
 				// Insert your code here...
-
+				SetCountDownTimer(fsmState, &buttonStatus, &timerValue);
+				TimerValue2DigitValues(&timerValue, digitValues);
 
 				if (hwTmrEventCount == 800) // 1Hz
 				{
 					// Put here operations that must be performed at 1Hz rate
 					// Count down timer normal operation
 					// Insert your code here...
+					DecCountDownTimer(fsmState, &timerValue);
+					zeroFlag = IsTimerValueZero(&timerValue);
 
+					/* enable LED0 when counting is done */
+					if (zeroFlag) {
+						XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, 0x1);
+					}
+					else {
+						XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, 0x0);
+					}
 
 					// JUST FOR DEMONSTRATION PURPOSES
 					timerValue.secLSValue++;
@@ -345,7 +542,7 @@ void ButtonsIntCallbackHandler(void* callbackParam)
 {
 	// Read push buttons
 	// Insert your code here...
-
+	ReadButtons(&buttonStatus);
 
 	// Clear GPIO interrupt request flag
 	XGpio_WriteReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR, XGPIO_ISR_OFFSET, XGPIO_IR_CH1_MASK);

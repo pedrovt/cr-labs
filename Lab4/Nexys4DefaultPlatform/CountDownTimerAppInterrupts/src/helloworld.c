@@ -521,7 +521,7 @@ void TimerIntCallbackHandler(void* callbackParam)
 					}
 
 					// JUST FOR DEMONSTRATION PURPOSES
-					timerValue.secLSValue++;
+					// timerValue.secLSValue++;
 
 					// Reset hwTmrEventCount every second
 					hwTmrEventCount = 1;
@@ -646,13 +646,16 @@ int main()
 
 	xil_printf("\n\rSystem running.\n\r");
 
+	// Reset counters?
+	// TODO
+
 	while (1)
 	{
 		// Put here operations that are performed whenever possible
 
 		// JUST FOR DEMONSTRATION PURPOSES
-		xil_printf("\r%d", timerValue.secLSValue);
-		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, timerValue.secLSValue);
+		// xil_printf("\r%d", timerValue.secLSValue);
+		// XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, timerValue.secLSValue);
 	}
 
     cleanup_platform();

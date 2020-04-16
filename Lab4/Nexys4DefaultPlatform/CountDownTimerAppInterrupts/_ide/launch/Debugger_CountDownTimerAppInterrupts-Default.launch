@@ -13,7 +13,7 @@
     <stringAttribute key="com.xilinx.sdk.tcf.debug.uidebug.type" value="STANDALONE_DEBUG"/>
     <booleanAttribute key="com.xilinx.sdk.tcf.debug.uienable.crosstrigger" value="false"/>
     <stringAttribute key="com.xilinx.sdk.tcf.debug.uifpga.device" value="Auto Detect"/>
-    <stringAttribute key="com.xilinx.sdk.tcf.debug.uihw.bit.file" value="_ide/bitstream/mb_design_wrapper.bit"/>
+    <stringAttribute key="com.xilinx.sdk.tcf.debug.uihw.bit.file" value="_ide/bitstream/mb_design_wrapper_partII.bit"/>
     <stringAttribute key="com.xilinx.sdk.tcf.debug.uihw.init.tcl" value=""/>
     <booleanAttribute key="com.xilinx.sdk.tcf.debug.uipl.powerup" value="false"/>
     <stringAttribute key="com.xilinx.sdk.tcf.debug.uiproc.appl.map" value="{&quot;microblaze_0&quot;:{&quot;xilinx.tcf.application&quot;:&quot;Debug/CountDownTimerAppInterrupts.elf&quot;,&quot;xilinx.tcf.datafiles&quot;:&quot;&quot;,&quot;xilinx.tcf.no_download&quot;:false,&quot;xilinx.tcf.profile_enabled&quot;:false,&quot;xilinx.tcf.profile_frequency&quot;:&quot;10000&quot;,&quot;xilinx.tcf.profile_non_int_frequency&quot;:&quot;100000000&quot;,&quot;xilinx.tcf.profile_non_int_high_addr&quot;:&quot;&quot;,&quot;xilinx.tcf.profile_non_int_low_addr&quot;:&quot;&quot;,&quot;xilinx.tcf.profile_non_int_use_count_instr&quot;:false,&quot;xilinx.tcf.profile_non_int_use_cumulate&quot;:false,&quot;xilinx.tcf.profile_non_intrusive_support&quot;:false,&quot;xilinx.tcf.profile_store_address&quot;:&quot;0x0&quot;,&quot;xilinx.tcf.profile_use_intrusive&quot;:false,&quot;xilinx.tcf.project&quot;:&quot;CountDownTimerAppInterrupts&quot;,&quot;xilinx.tcf.relocate&quot;:false,&quot;xilinx.tcf.relocate_addr&quot;:&quot;&quot;,&quot;xilinx.tcf.reset&quot;:true,&quot;xilinx.tcf.stop_at_entry&quot;:false}}"/>

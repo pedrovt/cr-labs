@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Fri Mar 27 00:35:48 2020
--- Host        : ASRO-NUC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top mb_design_fit_timer_0_0 -prefix
---               mb_design_fit_timer_0_0_ mb_design_fit_timer_0_0_sim_netlist.vhdl
+-- Date        : Tue Apr 14 15:26:01 2020
+-- Host        : ASUS-PC running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim
+--               C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab4/Nexys4DefaultPlatform/Nexys4DefaultPlatform.srcs/sources_1/bd/mb_design/ip/mb_design_fit_timer_0_0/mb_design_fit_timer_0_0_sim_netlist.vhdl
 -- Design      : mb_design_fit_timer_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -32,6 +32,8 @@ entity mb_design_fit_timer_0_0_Divide_part is
     loop_Bit_3 : in STD_LOGIC;
     loop_Bit_4 : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of mb_design_fit_timer_0_0_Divide_part : entity is "Divide_part";
 end mb_design_fit_timer_0_0_Divide_part;
 
 architecture STRUCTURE of mb_design_fit_timer_0_0_Divide_part is
@@ -61,8 +63,8 @@ begin
     )
         port map (
       A0 => '1',
-      A1 => '1',
-      A2 => '1',
+      A1 => '0',
+      A2 => '0',
       A3 => '1',
       CE => '1',
       CLK => Clk,
@@ -245,7 +247,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \mb_design_fit_timer_0_0_Divide_part__parameterized1\ is
+entity \mb_design_fit_timer_0_0_Divide_part__parameterized0_0\ is
   port (
     loop_Bit : out STD_LOGIC;
     Clk_En_I_3 : out STD_LOGIC;
@@ -258,10 +260,10 @@ entity \mb_design_fit_timer_0_0_Divide_part__parameterized1\ is
     Clk_En_I_4 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \mb_design_fit_timer_0_0_Divide_part__parameterized1\ : entity is "Divide_part";
-end \mb_design_fit_timer_0_0_Divide_part__parameterized1\;
+  attribute ORIG_REF_NAME of \mb_design_fit_timer_0_0_Divide_part__parameterized0_0\ : entity is "Divide_part";
+end \mb_design_fit_timer_0_0_Divide_part__parameterized0_0\;
 
-architecture STRUCTURE of \mb_design_fit_timer_0_0_Divide_part__parameterized1\ is
+architecture STRUCTURE of \mb_design_fit_timer_0_0_Divide_part__parameterized0_0\ is
   signal \^clk_en_i_3\ : STD_LOGIC;
   signal \^loop_bit\ : STD_LOGIC;
   signal \not_First.Clk_En_Out_i_i_1__0_n_0\ : STD_LOGIC;
@@ -281,10 +283,10 @@ begin
       IS_CLK_INVERTED => '0'
     )
         port map (
-      A0 => '0',
+      A0 => '1',
       A1 => '0',
-      A2 => '1',
-      A3 => '0',
+      A2 => '0',
+      A3 => '1',
       CE => CE_0,
       CLK => Clk,
       D => \not_First.Out1_reg_0\,
@@ -334,7 +336,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \mb_design_fit_timer_0_0_Divide_part__parameterized1_0\ is
+entity \mb_design_fit_timer_0_0_Divide_part__parameterized1\ is
   port (
     loop_Bit : out STD_LOGIC;
     Clk_En_I_2 : out STD_LOGIC;
@@ -347,10 +349,10 @@ entity \mb_design_fit_timer_0_0_Divide_part__parameterized1_0\ is
     Clk_En_I_3 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \mb_design_fit_timer_0_0_Divide_part__parameterized1_0\ : entity is "Divide_part";
-end \mb_design_fit_timer_0_0_Divide_part__parameterized1_0\;
+  attribute ORIG_REF_NAME of \mb_design_fit_timer_0_0_Divide_part__parameterized1\ : entity is "Divide_part";
+end \mb_design_fit_timer_0_0_Divide_part__parameterized1\;
 
-architecture STRUCTURE of \mb_design_fit_timer_0_0_Divide_part__parameterized1_0\ is
+architecture STRUCTURE of \mb_design_fit_timer_0_0_Divide_part__parameterized1\ is
   signal \^clk_en_i_2\ : STD_LOGIC;
   signal \^loop_bit\ : STD_LOGIC;
   signal \not_First.Clk_En_Out_i_i_1__1_n_0\ : STD_LOGIC;
@@ -602,7 +604,9 @@ entity mb_design_fit_timer_0_0_FIT_timer is
   attribute C_INACCURACY : integer;
   attribute C_INACCURACY of mb_design_fit_timer_0_0_FIT_timer : entity is 0;
   attribute C_NO_CLOCKS : integer;
-  attribute C_NO_CLOCKS of mb_design_fit_timer_0_0_FIT_timer : entity is 100000;
+  attribute C_NO_CLOCKS of mb_design_fit_timer_0_0_FIT_timer : entity is 125000;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of mb_design_fit_timer_0_0_FIT_timer : entity is "FIT_timer";
 end mb_design_fit_timer_0_0_FIT_timer;
 
 architecture STRUCTURE of mb_design_fit_timer_0_0_FIT_timer is
@@ -658,7 +662,7 @@ begin
       loop_Bit_1 => loop_Bit,
       \not_First.Out1_reg_0\ => \Using_SRL16s.SRL16s[1].Divide_I_n_3\
     );
-\Using_SRL16s.SRL16s[3].Divide_I\: entity work.\mb_design_fit_timer_0_0_Divide_part__parameterized1\
+\Using_SRL16s.SRL16s[3].Divide_I\: entity work.\mb_design_fit_timer_0_0_Divide_part__parameterized0_0\
      port map (
       CE => CE_2,
       CE_0 => CE_0,
@@ -670,7 +674,7 @@ begin
       loop_Bit => loop_Bit_3,
       \not_First.Out1_reg_0\ => \Using_SRL16s.SRL16s[1].Divide_I_n_4\
     );
-\Using_SRL16s.SRL16s[4].Divide_I\: entity work.\mb_design_fit_timer_0_0_Divide_part__parameterized1_0\
+\Using_SRL16s.SRL16s[4].Divide_I\: entity work.\mb_design_fit_timer_0_0_Divide_part__parameterized1\
      port map (
       CE => CE_4,
       CE_0 => CE_2,
@@ -733,7 +737,7 @@ architecture STRUCTURE of mb_design_fit_timer_0_0 is
   attribute C_INACCURACY : integer;
   attribute C_INACCURACY of U0 : label is 0;
   attribute C_NO_CLOCKS : integer;
-  attribute C_NO_CLOCKS of U0 : label is 100000;
+  attribute C_NO_CLOCKS of U0 : label is 125000;
   attribute x_interface_info : string;
   attribute x_interface_info of Clk : signal is "xilinx.com:signal:clock:1.0 CLK.Clk CLK";
   attribute x_interface_parameter : string;

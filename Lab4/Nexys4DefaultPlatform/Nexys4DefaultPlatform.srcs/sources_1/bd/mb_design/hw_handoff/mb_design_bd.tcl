@@ -321,7 +321,7 @@ proc create_root_design { parentCell } {
   # Create instance: fit_timer_0, and set properties
   set fit_timer_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:fit_timer:2.0 fit_timer_0 ]
   set_property -dict [ list \
-   CONFIG.C_NO_CLOCKS {100000} \
+   CONFIG.C_NO_CLOCKS {125000} \
  ] $fit_timer_0
 
   # Create instance: mdm_1, and set properties

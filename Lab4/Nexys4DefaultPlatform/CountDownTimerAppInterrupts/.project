@@ -3,7 +3,7 @@
 	<name>CountDownTimerAppInterrupts</name>
 	<comment>Created by Vitis v2019.2</comment>
 	<projects>
-		<project>mb_design_wrapper_lab4_partII</project>
+		<project>mb_design_wrapper_partII</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

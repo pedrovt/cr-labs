@@ -57,7 +57,7 @@
 
 /******************* Macros for conditional compilation **********************/
 
-#define __USE_AXI_HW_TIMER__ 	// define if AXI timer is used for timebase
+//#define __USE_AXI_HW_TIMER__ 	// define if AXI timer is used for timebase
 								// do not define if FIT timer is used instead
 
 /************************** Constant Definitions *****************************/
@@ -592,6 +592,13 @@ int SetupInterrupts(u32 intcBaseAddress)
 	return XST_SUCCESS;
 }
 
+void init_state() {
+	// Reset counters
+	timerValue.minMSValue = 5;
+	timerValue.minLSValue = 9;
+	timerValue.secMSValue = 5;
+	timerValue.secLSValue = 9;
+}
 /******************************* Main function *******************************/
 
 int main()
@@ -599,6 +606,7 @@ int main()
 	int status;
 
 	init_platform();
+	init_state();
 
 	xil_printf("\n\n\rCount down timer - interrupt based version.\n\rConfiguring...");
 
@@ -646,16 +654,13 @@ int main()
 
 	xil_printf("\n\rSystem running.\n\r");
 
-	// Reset counters?
-	// TODO
-
 	while (1)
 	{
 		// Put here operations that are performed whenever possible
 
 		// JUST FOR DEMONSTRATION PURPOSES
-		// xil_printf("\r%d", timerValue.secLSValue);
-		// XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, timerValue.secLSValue);
+		xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue, timerValue.secMSValue, timerValue.secLSValue);
+		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, zeroFlag);
 	}
 
     cleanup_platform();

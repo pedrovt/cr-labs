@@ -1,0 +1,42 @@
+19:07:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Documents\UA\CR\Labs\Lab5\CustomPeriphDemo\CustomPeriphDemoWorkspace\temp_xsdb_launch_script.tcl
+19:07:12 INFO  : XSCT server has started successfully.
+19:07:13 INFO  : plnx-install-location is set to ''
+19:07:13 INFO  : Successfully done setting XSCT server connection channel  
+19:07:13 INFO  : Successfully done query RDI_DATADIR 
+19:07:13 INFO  : Successfully done setting workspace for the tool. 
+19:07:13 INFO  : Registering command handlers for Vitis TCF services
+19:13:35 INFO  : Checking for BSP changes to sync application flags for project 'CustomPeriphDemoSw'...
+19:31:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:31:09 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+19:31:09 INFO  : 'jtag frequency' command is executed.
+19:31:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+19:31:11 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemoSw/_ide/bitstream/CustomPeriphDemo.bit"
+19:31:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:31:11 INFO  : Context for processor 'microblaze_0' is selected.
+19:31:11 INFO  : System reset is completed.
+19:31:14 INFO  : 'after 3000' command is executed.
+19:31:14 INFO  : Context for processor 'microblaze_0' is selected.
+19:31:14 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemoSw/Debug/CustomPeriphDemoSw.elf' is downloaded to processor 'microblaze_0'.
+19:31:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemoSw/_ide/bitstream/CustomPeriphDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemoSw/Debug/CustomPeriphDemoSw.elf
+----------------End of Script----------------
+
+19:31:15 INFO  : Memory regions updated for context MicroBlaze #0
+19:31:15 INFO  : Memory regions updated for context MicroBlaze #0
+19:31:15 INFO  : Context for processor 'microblaze_0' is selected.
+19:31:15 INFO  : 'con' command is executed.
+19:31:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:31:15 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab5\CustomPeriphDemo\CustomPeriphDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customperiphdemosw-default.tcl'
+22:32:35 INFO  : Disconnected from the channel tcfchan#2.

@@ -1,0 +1,26 @@
+19:13:35 **** Build of configuration Debug for project CustomPeriphDemoSw ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/export/CustomPeriphDemo/sw/CustomPeriphDemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/export/CustomPeriphDemo/sw/CustomPeriphDemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CustomPeriphDemoSw.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/export/CustomPeriphDemo/sw/CustomPeriphDemo/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CustomPeriphDemoSw.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CustomPeriphDemoSw.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size CustomPeriphDemoSw.elf  |tee "CustomPeriphDemoSw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7672	    708	   3108	  11488	   2ce0	CustomPeriphDemoSw.elf
+Finished building: CustomPeriphDemoSw.elf.size
+ 
+
+19:13:37 Build Finished (took 1s.676ms)
+

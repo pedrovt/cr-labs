@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER CustomCopIpCore
+	OPTION supported_peripherals = (CustomCopIpCore);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = CustomCopIpCore;
+END DRIVER

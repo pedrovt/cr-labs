@@ -1,0 +1,1020 @@
+TRACE::2020-04-21.19:11:02::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:02::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:02::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-04-21.19:11:05::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:05::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-04-21.19:11:05::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo"
+		}]
+}
+TRACE::2020-04-21.19:11:05::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-04-21.19:11:05::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-04-21.19:11:05::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo"
+		}]
+}
+TRACE::2020-04-21.19:11:05::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo"
+		}]
+}
+TRACE::2020-04-21.19:11:05::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:05::SCWDomain::checking for install qemu data   : 
+TRACE::2020-04-21.19:11:05::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-04-21.19:11:06::SCWMssOS::No sw design opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::mss does not exists at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::Creating sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::Writing mss at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-04-21.19:11:06::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-04-21.19:11:06::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-04-21.19:11:06::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-04-21.19:11:06::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-04-21.19:11:06::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:06::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:06::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-04-21.19:11:06::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:06::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-04-21.19:11:06::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-04-21.19:11:11::SCWPlatform::Started generating the artifacts platform CustomPeriphDemo
+TRACE::2020-04-21.19:11:11::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-04-21.19:11:11::SCWPlatform::Started generating the artifacts for system configuration CustomPeriphDemo
+LOG::2020-04-21.19:11:11::SCWSystem::Checking the domain standalone_domain
+LOG::2020-04-21.19:11:11::SCWSystem::Not a boot domain 
+LOG::2020-04-21.19:11:11::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-04-21.19:11:11::SCWDomain::Generating domain artifcats
+TRACE::2020-04-21.19:11:11::SCWMssOS::Generating standalone artifcats
+TRACE::2020-04-21.19:11:11::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-04-21.19:11:11::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:11::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:11::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:11::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:11::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:11::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:11::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:11::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:11::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2020-04-21.19:11:11::SCWMssOS::Could not open the swdb for C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-04-21.19:11:11::SCWMssOS::Could not open the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-04-21.19:11:11::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-04-21.19:11:11::SCWMssOS::No sw design opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-04-21.19:11:11::SCWMssOS::updating the scw layer about changes
+TRACE::2020-04-21.19:11:11::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-04-21.19:11:11::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:11::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-04-21.19:11:11::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-04-21.19:11:11::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-04-21.19:11:11::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-04-21.19:11:11::SCWMssOS::Copying to export directory.
+TRACE::2020-04-21.19:11:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-04-21.19:11:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-04-21.19:11:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-04-21.19:11:11::SCWSystem::Completed Processing the sysconfig CustomPeriphDemo
+LOG::2020-04-21.19:11:11::SCWPlatform::Completed generating the artifacts for system configuration CustomPeriphDemo
+TRACE::2020-04-21.19:11:11::SCWPlatform::Started preparing the platform 
+TRACE::2020-04-21.19:11:11::SCWSystem::Writing the bif file for system config CustomPeriphDemo
+TRACE::2020-04-21.19:11:11::SCWSystem::dir created 
+TRACE::2020-04-21.19:11:11::SCWSystem::Writing the bif 
+TRACE::2020-04-21.19:11:11::SCWPlatform::Started writing the spfm file 
+TRACE::2020-04-21.19:11:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-04-21.19:11:12::SCWPlatform::Completed generating the platform
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"af398f6fdbd3f5e50e5897573df95bfe",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-04-21.19:11:12::SCWPlatform::updated the xpfm file.
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"af398f6fdbd3f5e50e5897573df95bfe",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"af398f6fdbd3f5e50e5897573df95bfe",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-04-21.19:11:13::SCWPlatform::Started generating the artifacts platform CustomPeriphDemo
+TRACE::2020-04-21.19:11:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-04-21.19:11:13::SCWPlatform::Started generating the artifacts for system configuration CustomPeriphDemo
+LOG::2020-04-21.19:11:13::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-04-21.19:11:13::SCWDomain::Generating domain artifcats
+TRACE::2020-04-21.19:11:13::SCWMssOS::Generating standalone artifcats
+TRACE::2020-04-21.19:11:13::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-04-21.19:11:13::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-04-21.19:11:13::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-04-21.19:11:13::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-04-21.19:11:13::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-04-21.19:11:13::SCWMssOS::Copying to export directory.
+TRACE::2020-04-21.19:11:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-04-21.19:11:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-04-21.19:11:13::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-04-21.19:11:13::SCWSystem::Completed Processing the sysconfig CustomPeriphDemo
+LOG::2020-04-21.19:11:13::SCWPlatform::Completed generating the artifacts for system configuration CustomPeriphDemo
+TRACE::2020-04-21.19:11:13::SCWPlatform::Started preparing the platform 
+TRACE::2020-04-21.19:11:13::SCWSystem::Writing the bif file for system config CustomPeriphDemo
+TRACE::2020-04-21.19:11:13::SCWSystem::dir created 
+TRACE::2020-04-21.19:11:13::SCWSystem::Writing the bif 
+TRACE::2020-04-21.19:11:13::SCWPlatform::Started writing the spfm file 
+TRACE::2020-04-21.19:11:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-04-21.19:11:13::SCWPlatform::Completed generating the platform
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:11:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:11:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:11:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:11:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:11:13::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"af398f6fdbd3f5e50e5897573df95bfe",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-04-21.19:11:13::SCWPlatform::updated the xpfm file.
+LOG::2020-04-21.19:13:21::SCWPlatform::Started generating the artifacts platform CustomPeriphDemo
+TRACE::2020-04-21.19:13:21::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-04-21.19:13:21::SCWPlatform::Started generating the artifacts for system configuration CustomPeriphDemo
+LOG::2020-04-21.19:13:21::SCWSystem::Checking the domain standalone_domain
+LOG::2020-04-21.19:13:21::SCWSystem::Not a boot domain 
+LOG::2020-04-21.19:13:21::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-04-21.19:13:21::SCWDomain::Generating domain artifcats
+TRACE::2020-04-21.19:13:21::SCWMssOS::Generating standalone artifcats
+TRACE::2020-04-21.19:13:21::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-04-21.19:13:21::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:21::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:21::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:21::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:13:21::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:21::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:13:21::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:13:21::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:13:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:13:21::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:21::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:13:21::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:21::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-04-21.19:13:21::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:21::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-04-21.19:13:21::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-04-21.19:13:21::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-04-21.19:13:21::SCWMssOS::doing bsp build ... 
+TRACE::2020-04-21.19:13:21::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-04-21.19:13:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-04-21.19:13:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-04-21.19:13:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-04-21.19:13:22::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-04-21.19:13:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-04-21.19:13:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-04-21.19:13:22::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src"
+
+TRACE::2020-04-21.19:13:22::SCWMssOS::make -C microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+TRACE::2020-04-21.19:13:22::SCWMssOS::b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER
+TRACE::2020-04-21.19:13:22::SCWMssOS::_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-04-21.19:13:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-04-21.19:13:23::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-04-21.19:13:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+TRACE::2020-04-21.19:13:23::SCWMssOS::unction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-21.19:13:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-04-21.19:13:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-
+TRACE::2020-04-21.19:13:23::SCWMssOS::g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-04-21.19:13:24::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -f
+TRACE::2020-04-21.19:13:24::SCWMssOS::function-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-04-21.19:13:24::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g 
+TRACE::2020-04-21.19:13:24::SCWMssOS::-ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-04-21.19:13:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-04-21.19:13:24::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:24::SCWMssOS::"Compiling bram"
+
+TRACE::2020-04-21.19:13:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-04-21.19:13:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-04-21.19:13:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-04-21.19:13:25::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:25::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src"
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::make -C microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2020-04-21.19:13:26::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FL
+TRACE::2020-04-21.19:13:26::SCWMssOS::AGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::"Compiling CustomPeriphIPCore..."
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-04-21.19:13:26::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-04-21.19:13:26::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:26::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-04-21.19:13:27::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-04-21.19:13:27::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-04-21.19:13:27::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunc
+TRACE::2020-04-21.19:13:27::SCWMssOS::tion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:27::SCWMssOS::"Compiling intc"
+
+TRACE::2020-04-21.19:13:28::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-21.19:13:28::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-04-21.19:13:28::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -
+TRACE::2020-04-21.19:13:28::SCWMssOS::ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:28::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-04-21.19:13:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-04-21.19:13:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-04-21.19:13:32::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffun
+TRACE::2020-04-21.19:13:32::SCWMssOS::ction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:32::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-04-21.19:13:33::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-04-21.19:13:33::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-04-21.19:13:33::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+TRACE::2020-04-21.19:13:33::SCWMssOS::unction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-04-21.19:13:33::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-04-21.19:13:34::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-04-21.19:13:34::SCWMssOS::Copying to export directory.
+TRACE::2020-04-21.19:13:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-04-21.19:13:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-04-21.19:13:34::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-04-21.19:13:34::SCWSystem::Completed Processing the sysconfig CustomPeriphDemo
+LOG::2020-04-21.19:13:34::SCWPlatform::Completed generating the artifacts for system configuration CustomPeriphDemo
+TRACE::2020-04-21.19:13:34::SCWPlatform::Started preparing the platform 
+TRACE::2020-04-21.19:13:34::SCWSystem::Writing the bif file for system config CustomPeriphDemo
+TRACE::2020-04-21.19:13:34::SCWSystem::dir created 
+TRACE::2020-04-21.19:13:34::SCWSystem::Writing the bif 
+TRACE::2020-04-21.19:13:34::SCWPlatform::Started writing the spfm file 
+TRACE::2020-04-21.19:13:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-04-21.19:13:34::SCWPlatform::Completed generating the platform
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:13:34::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:13:34::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:13:34::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:13:34::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:34::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:13:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:13:34::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:13:35::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:35::SCWWriter::formatted JSON is {
+	"platformName":	"CustomPeriphDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomPeriphDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomPeriphDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomPeriphDemo",
+	"systems":	[{
+			"systemName":	"CustomPeriphDemo",
+			"systemDesc":	"CustomPeriphDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomPeriphDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"af398f6fdbd3f5e50e5897573df95bfe",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-04-21.19:13:35::SCWPlatform::updated the xpfm file.
+TRACE::2020-04-21.19:13:35::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:35::SCWPlatform::DSA given C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:35::SCWPlatform::DSA absoulate path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:35::SCWPlatform::DSA directory C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw
+TRACE::2020-04-21.19:13:35::SCWPlatform:: Platform Path C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/hw/CustomPeriphDemo.xsa
+TRACE::2020-04-21.19:13:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-04-21.19:13:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-04-21.19:13:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-04-21.19:13:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-21.19:13:35::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-21.19:13:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-04-21.19:13:35::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemoWorkspace/CustomPeriphDemo/microblaze_0/standalone_domain/bsp/system.mss

@@ -1,0 +1,4 @@
+timestamp=[2020-04-21 19:07:07], mode=WORKBENCH_START, duration=0:00:06.160, duration_ms=6160, data={}
+timestamp=[2020-04-21 19:07:08], mode=WORKBENCH_UI_INIT, duration=0:00:01.091, duration_ms=1091, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-04-21 19:11:17], mode=APP_CREATION, duration=0:00:15.109, duration_ms=15109, data={name=CustomPeriphDemoSw, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=CustomPeriphDemo, application_type=application}
+timestamp=[2020-04-21 19:13:35], mode=PLATFORM_GENERATION, duration=0:00:15.995, duration_ms=15995, data={name=CustomPeriphDemo}

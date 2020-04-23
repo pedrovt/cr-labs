@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 21 22:47:10 2020
+# Process ID: 18520
+# Current directory: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15156 C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CustomPeriphDemo\CustomPeriphDemo.xpr
+# Log file: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/vivado.log
+# Journal file: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/ip_repo/CustomPeriphIPCore_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 770.344 ; gain = 112.219
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.srcs/sources_1/bd/mb_design/mb_design.bd}
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - microblaze_0
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_buttons
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_switches
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_leds
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_display
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding component instance block -- xilinx.com:ip:fit_timer:2.0 - fit_timer_0
+Adding component instance block -- xilinx.com:user:CustomPeriphIPCore:1.0 - CustomPeriphIPCore_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Successfully read diagram <mb_design> from BD file <C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.srcs/sources_1/bd/mb_design/mb_design.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 924.293 ; gain = 40.574
+ipx::edit_ip_in_project -upgrade true -name CustomPeriphIPCore_v1_0_project -directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CustomPeriphDemo/CustomPeriphDemo.tmp/CustomPeriphIPCore_v1_0_project c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/ip_repo/CustomPeriphIPCore_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/pedro/dropbox/ua/cr/labs/lab5/customperiphdemo/customperiphdemo.tmp/customperiphipcore_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 931.828 ; gain = 7.535
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/ip_repo/CustomPeriphIPCore_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 962.797 ; gain = 38.504
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 21 22:50:13 2020...

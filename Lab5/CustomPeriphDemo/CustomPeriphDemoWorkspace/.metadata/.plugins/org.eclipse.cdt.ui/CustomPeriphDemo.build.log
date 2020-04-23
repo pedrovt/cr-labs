@@ -1,0 +1,132 @@
+19:13:19 **** Build of project CustomPeriphDemo ****
+buildplatform.bat 64088 CustomPeriphDemo  
+XSDB Server Channel: tcfchan#1
+Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+nction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+nction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=m
+b-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER
+_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+nction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+unction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-
+g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -f
+function-sections -fdata-sections -Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g 
+-ffunction-sections -fdata-sections -Wall -Wextra"
+
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+ion-sections -fdata-sections -Wall -Wextra"
+
+"Compiling bram"
+
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+ion-sections -fdata-sections -Wall -Wextra"
+
+"Compiling cpu"
+
+"Running Make libs in microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src"
+
+make -C microblaze_0/libsrc/CustomPeriphIPCore_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FL
+AGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+"Compiling CustomPeriphIPCore..."
+
+CustomPeriphIPCore_selftest.c: In function 'CUSTOMPERIPHIPCORE_Reg_SelfTest':
+CustomPeriphIPCore_selftest.c:52:67: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( CUSTOMPERIPHIPCORE_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                   ^~
+CustomPeriphIPCore_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+ion-sections -fdata-sections -Wall -Wextra"
+
+"Compiling gpio"
+
+"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunc
+tion-sections -fdata-sections -Wall -Wextra"
+
+"Compiling intc"
+
+"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -
+ffunction-sections -fdata-sections -Wall -Wextra"
+
+"Compiling standalone";
+
+microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffun
+ction-sections -fdata-sections -Wall -Wextra"
+
+"Compiling tmrctr"
+
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+unction-sections -fdata-sections -Wall -Wextra"
+
+"Compiling uartlite"
+
+'Finished building libraries'
+
+
+19:13:35 Build Finished (took 15s.900ms)
+

@@ -1,0 +1,21 @@
+15:08:18 **** Incremental Build of configuration Debug for project CustomCopDemoSw ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomCopDemo/Workspace/CustomCopDemo/export/CustomCopDemo/sw/CustomCopDemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: CustomCopDemoSw.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CustomCopDemo/Workspace/CustomCopDemo/export/CustomCopDemo/sw/CustomCopDemo/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CustomCopDemoSw.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CustomCopDemoSw.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size CustomCopDemoSw.elf  |tee "CustomCopDemoSw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7816	    708	   3108	  11632	   2d70	CustomCopDemoSw.elf
+Finished building: CustomCopDemoSw.elf.size
+ 
+
+15:08:19 Build Finished (took 843ms)
+

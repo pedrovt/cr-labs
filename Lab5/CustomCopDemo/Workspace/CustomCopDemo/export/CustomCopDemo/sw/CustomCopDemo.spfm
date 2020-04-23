@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="CustomCopDemo"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+CustomCopDemo
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="CustomCopDemo">
+        <sdx:configuration sdx:name="CustomCopDemo"
+                           sdx:displayName="CustomCopDemo"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>CustomCopDemo</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="CustomCopDemo/boot/CustomCopDemo.bif"
+                            sdx:readme="CustomCopDemo/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="CustomCopDemo/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="CustomCopDemo/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="CustomCopDemo/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

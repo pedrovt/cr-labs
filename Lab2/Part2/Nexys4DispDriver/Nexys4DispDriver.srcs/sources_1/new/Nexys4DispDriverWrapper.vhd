@@ -42,6 +42,7 @@ begin
                
    display_driver : entity work.Nexys4DisplayDriver(Behavioral)
         port map(clk       => s_clk800,
+                 enable    => '1',
                  digitEn   => sw(7 downto 0), 
                  digVal0   => "0000",
                  digVal1   => "1000", 

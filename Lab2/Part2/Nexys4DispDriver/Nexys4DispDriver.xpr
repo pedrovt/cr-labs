@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Nexys4DispDriver/Nexys4DispDriver.xpr">
+<Project Version="7" Minor="44" Path="C:/Users/Pedro/Documents/UA/CR/Labs/Lab2/Part2/Nexys4DispDriver/Nexys4DispDriver.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d0712a27e65c43959aed3935dd5442d3"/>
@@ -88,7 +88,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/Resources/Nexys4_Master.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../Resources/Nexys4_Master.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Resources/Nexys4_Master.xdc"/>
           <Attr Name="ImportTime" Val="1378301182"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

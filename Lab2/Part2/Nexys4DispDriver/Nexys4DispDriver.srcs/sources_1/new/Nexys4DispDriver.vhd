@@ -1,24 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: JPCatarino
--- 
--- Create Date: 26.02.2020 16:05:20
--- Design Name: 
--- Module Name: Nexys4Disp - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -33,6 +12,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Nexys4DisplayDriver is
   port(clk       : in  std_logic;
+       enable    : in std_logic;
        digitEn   : in  std_logic_vector(7 downto 0);
        digVal0   : in  std_logic_vector(3 downto 0);
        digVal1   : in  std_logic_vector(3 downto 0);
@@ -57,9 +37,9 @@ architecture Behavioral of Nexys4DisplayDriver is
 begin
 
     -- 3bit Counter
-    ctr3b:  process(clk)
+    ctr3b:  process(clk, enable)
             begin
-                if (rising_edge(clk)) then
+                if (rising_edge(clk) and enable = '1') then
                     s_counter <= s_counter + 1;
                 end if;
             end process;

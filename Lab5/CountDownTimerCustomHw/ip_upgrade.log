@@ -1,6 +1,69 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 21:53:45 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_Nexys4DisplayDriver_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_design_Nexys4DisplayDriver_0_0 (xilinx.com:user:Nexys4DisplayDriver:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Apr 24 15:53:03 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_Nexys4DisplayDriver_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_design_Nexys4DisplayDriver_0_0 (xilinx.com:user:Nexys4DisplayDriver:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_design_Nexys4DisplayDriver_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'an'
+
+-Upgrade has removed port 'dp'
+
+-Upgrade has removed port 'seg'
+
+-Upgrade has added port 'dispEn_n'
+
+-Upgrade has added port 'dispPt_n'
+
+-Upgrade has added port 'dispSeg_n'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 | Date         : Wed Apr 22 22:41:42 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

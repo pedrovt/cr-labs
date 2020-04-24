@@ -16,9 +16,9 @@ entity Nexys4DisplayDriver_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-        an              : out std_logic_vector(7 downto 0);
-        seg             : out std_logic_vector(6 downto 0);
-        dp              : out std_logic;
+        dispEn_n              : out std_logic_vector(7 downto 0);
+        dispSeg_n             : out std_logic_vector(6 downto 0);
+        dispPt_n              : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -93,9 +93,9 @@ Nexys4DisplayDriver_v1_0_S00_AXI_inst : Nexys4DisplayDriver_v1_0_S00_AXI
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)
 	port map (
-        dispEn_n    => an,
-        dispSeg_n   => seg,
-        dispPt_n    => dp,
+        dispEn_n    => dispEn_n,
+        dispSeg_n   => dispSeg_n,
+        dispPt_n    => dispPt_n,
 		S_AXI_ACLK	=> s00_axi_aclk,
 		S_AXI_ARESETN	=> s00_axi_aresetn,
 		S_AXI_AWADDR	=> s00_axi_awaddr,

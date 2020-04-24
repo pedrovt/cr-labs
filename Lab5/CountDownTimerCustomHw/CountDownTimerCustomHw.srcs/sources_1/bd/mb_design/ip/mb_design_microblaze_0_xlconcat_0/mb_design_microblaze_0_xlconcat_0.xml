@@ -73,7 +73,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0b78742d</spirit:value>
+            <spirit:value>9:6f610ff9</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -89,11 +89,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 27 00:31:19 UTC 2020</spirit:value>
+            <spirit:value>Fri Apr 24 14:56:31 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:0b78742d</spirit:value>
+            <spirit:value>9:6f610ff9</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

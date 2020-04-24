@@ -121,11 +121,26 @@ architecture arch_imp of Nexys4DisplayDriver_v1_0_S00_AXI is
 	signal aw_en	: std_logic;
 	
 	-- Add user declarations here
-    signal s_enableDigit : STD_LOGIC;
-    signal s_currentV    : STD_LOGIC_VECTOR(3 downto 0);
-    signal s_counter     : unsigned(2 downto 0) := "000";
-    signal s_DispSeg     : STD_LOGIC_VECTOR(6 downto 0);
-
+    signal s_clkEnbCnt                 : unsigned(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal s_clkEnable                 : std_logic;
+    
+    component Nexys4DisplayDriver is
+      port(clk       : in  std_logic;
+           enable    : in std_logic;
+           digitEn   : in  std_logic_vector(7 downto 0);
+           digVal0   : in  std_logic_vector(3 downto 0);
+           digVal1   : in  std_logic_vector(3 downto 0);
+           digVal2   : in  std_logic_vector(3 downto 0);
+           digVal3   : in  std_logic_vector(3 downto 0);
+           digVal4   : in  std_logic_vector(3 downto 0);
+           digVal5   : in  std_logic_vector(3 downto 0);
+           digVal6   : in  std_logic_vector(3 downto 0);
+           digVal7   : in  std_logic_vector(3 downto 0);
+           decPtEn   : in  std_logic_vector(7 downto 0);
+           dispEn_n  : out std_logic_vector(7 downto 0);
+           dispSeg_n : out std_logic_vector(6 downto 0);
+           dispPt_n  : out std_logic);
+     end component Nexys4DisplayDriver;
 
 begin
 	-- I/O Connections assignments
@@ -392,111 +407,46 @@ begin
 	  end if;
 	end process;
 
-
+    
+	
 	-- Add user logic here
-
-    -- 3bit Counter
-    counter3Bit: process(S_AXI_ACLK)
+    -- ############################################################
+    clk_divider: process(S_AXI_ACLK)
     begin
-        if (rising_edge(S_AXI_ACLK) and slv_reg0(16) = '1') then
-            s_counter <= s_counter + 1;
+        if (rising_edge(S_AXI_ACLK)) then
+            if (S_AXI_ARESETN = '0') then
+                s_clkEnbCnt <= (others => '0');
+                s_clkEnable <= '0';
+                
+            elsif (s_clkEnbCnt = x"0001E847") then
+                s_clkEnbCnt <= (others => '0');
+                s_clkEnable <= '1';
+                
+            else
+                s_clkEnbCnt <= s_clkEnbCnt + 1;
+                s_clkEnable <= '0';
+            end if; 
         end if;
     end process;
-
-    -- Decoder 3 to 8 for clock
-    decoder3_8:  process(s_counter)
-    begin
-        case s_counter is
-            when "000" => dispEn_n <= "11111110";
-            when "001" => dispEn_n <= "11111101";
-            when "010" => dispEn_n <= "11111011";
-            when "011" => dispEn_n <= "11110111";
-            when "100" => dispEn_n <= "11101111";
-            when "101" => dispEn_n <= "11011111";
-            when "110" => dispEn_n <= "10111111";
-            when "111" => dispEn_n <= "01111111";
-        end case;
-    end process;
-
-    dvMux: process(s_counter, slv_reg1)
-    begin
-        case s_counter is
-            when "000" => s_currentV <= slv_reg1(3  downto  0);
-            when "001" => s_currentV <= slv_reg1(7  downto  4);
-            when "010" => s_currentV <= slv_reg1(11 downto  8);
-            when "011" => s_currentV <= slv_reg1(15 downto 12);
-            when "100" => s_currentV <= slv_reg1(19 downto 16);
-            when "101" => s_currentV <= slv_reg1(23 downto 20);
-            when "110" => s_currentV <= slv_reg1(27 downto 24);
-            when "111" => s_currentV <= slv_reg1(31 downto 28);
-        end case;
-    end process;
-
-
-    -- Mux 8:1 for Enable Selection
-    dgMux:  process(slv_reg0, s_counter)
-            begin
-                case s_counter is
-                    when "000" => s_enableDigit <= slv_reg0(0);
-                    when "001" => s_enableDigit <= slv_reg0(1);
-                    when "010" => s_enableDigit <= slv_reg0(2);
-                    when "011" => s_enableDigit <= slv_reg0(3);
-                    when "100" => s_enableDigit <= slv_reg0(4);
-                    when "101" => s_enableDigit <= slv_reg0(5);
-                    when "110" => s_enableDigit <= slv_reg0(6);
-                    when "111" => s_enableDigit <= slv_reg0(7);
-                end case;
-            end process;
-
-    -- Mux 8:1 for point selection
-    ptMux:  process(slv_reg0, s_counter)
-            begin
-                case s_counter is
-                    when "000" => dispPt_n <= not slv_reg0(8);
-                    when "001" => dispPt_n <= not slv_reg0(9);
-                    when "010" => dispPt_n <= not slv_reg0(10);
-                    when "011" => dispPt_n <= not slv_reg0(11);
-                    when "100" => dispPt_n <= not slv_reg0(12);
-                    when "101" => dispPt_n <= not slv_reg0(13);
-                    when "110" => dispPt_n <= not slv_reg0(14);
-                    when "111" => dispPt_n <= not slv_reg0(15);
-                end case;
-            end process;
-
-    -- Binary Segment Decoder 
-    segDec: process(s_currentV)
-            begin
-                case s_currentV is 
-                    when "0000" => s_DispSeg <= "1000000";     -- 0 
-                    when "0001" => s_DispSeg <= "1111001";     -- 1
-                    when "0010" => s_DispSeg <= "0100100";     -- 2
-                    when "0011" => s_DispSeg <= "0110000";     -- 3
-                    when "0100" => s_DispSeg <= "0011001";     -- 4
-                    when "0101" => s_DispSeg <= "0010010";     -- 5
-                    when "0110" => s_DispSeg <= "0000010";     -- 6
-                    when "0111" => s_DispSeg <= "1111000";     -- 7
-                    when "1000" => s_DispSeg <= "0000000";     -- 8
-                    when "1001" => s_DispSeg <= "0010000";     -- 9
-                    when "1010" => s_DispSeg <= "0001000";     -- A
-                    when "1011" => s_DispSeg <= "0000011";     -- B
-                    when "1100" => s_DispSeg <= "1000110";     -- C
-                    when "1101" => s_DispSeg <= "0100001";     -- D
-                    when "1110" => s_DispSeg <= "0000110";     -- E
-                    when "1111" => s_DispSeg <= "0001110";     -- F
-                    when others => s_DispSeg <= "1111111";     -- NOTHING
-                end case;
-            end process;
+ 
+ display_driver : Nexys4DisplayDriver
+        port map(clk       => S_AXI_ACLK,
+                 enable    => s_clkEnable,
+                 digitEn   => slv_reg0(7  downto  0),
+                 decPtEn   => slv_reg0(15 downto  8), 
+                 digVal0   => slv_reg1(3  downto  0),
+                 digVal1   => slv_reg1(7  downto  4), 
+                 digVal2   => slv_reg1(11 downto  8),
+                 digVal3   => slv_reg1(15 downto 12),
+                 digVal4   => slv_reg1(19 downto 16),
+                 digVal5   => slv_reg1(23 downto 20),
+                 digVal6   => slv_reg1(27 downto 24),
+                 digVal7   => slv_reg1(31 downto 28),
+                 dispEn_n  => dispEn_n,
+                 dispSeg_n => dispSeg_n,
+                 dispPt_n  => dispPt_n);
     
-    -- MUX 2:1 for segment
-    sgMux: process(s_DispSeg, s_enableDigit)
-           begin
-              if (s_enableDigit = '1') then
-                dispSeg_n <= s_DispSeg;
-              else
-                dispSeg_n <= "1111111";
-              end if;
-           end process;
+    -- ############################################################
+    -- User logic ends
 
--- User logic ends
-
-end arch_imp;
+    end arch_imp;

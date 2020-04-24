@@ -164,8 +164,8 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 {
 	static unsigned int digitRefreshIdx = 0; // static variable - is preserved across calls
 
-	unsigned int decPtEnValue = ((decPtEnables >> digitRefreshIdx) && 0x1) << digitRefreshIdx;
-	unsigned int digEnValue   = ((digitEnables >> digitRefreshIdx) && 0x1) << digitRefreshIdx;
+	unsigned int decPtEnValue = ((decPtEnables >> digitRefreshIdx) & 0x1) << digitRefreshIdx;
+	unsigned int digEnValue   = ((digitEnables >> digitRefreshIdx) & 0x1) << digitRefreshIdx;
 
 	/* For testing purposes */
 	//XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVER_0_S00_AXI_BASEADDR + 0, XGPIO_DATA_OFFSET, (0x02));
@@ -176,9 +176,6 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 
 	digitRefreshIdx++;
 	digitRefreshIdx &= 0x07;
-
-
-
 }
 
 void ReadButtons(TButtonStatus* pButtonStatus)

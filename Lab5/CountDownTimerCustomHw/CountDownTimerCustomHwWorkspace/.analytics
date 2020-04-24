@@ -7,3 +7,5 @@ timestamp=[2020-04-24 22:02:41], mode=WORKBENCH_UI_INIT, duration=0:00:01.244, d
 timestamp=[2020-04-24 22:03:10], mode=PLATFORM_GENERATION, duration=0:00:22.400, duration_ms=22400, data={name=CountDownTimerCustomHw}
 timestamp=[2020-04-24 22:03:40], mode=PLATFORM_GENERATION, duration=0:00:03.526, duration_ms=3526, data={name=CountDownTimerCustomHw}
 timestamp=[2020-04-24 22:04:30], mode=PLATFORM_GENERATION, duration=0:00:03.084, duration_ms=3084, data={name=CountDownTimerCustomHw}
+timestamp=[2020-04-24 23:04:27], mode=WORKBENCH_START, duration=0:00:14.858, duration_ms=14858, data={}
+timestamp=[2020-04-24 23:04:28], mode=WORKBENCH_UI_INIT, duration=0:00:01.248, duration_ms=1248, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerCustomHw,CountDownTimerCustomHwPollingApp,CountDownTimerCustomHwPollingApp_system,RemoteSystemsTempFiles}

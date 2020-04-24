@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="CountDownTimerCustomHw"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+CountDownTimerCustomHw
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="CountDownTimerCustomHw">
+        <sdx:configuration sdx:name="CountDownTimerCustomHw"
+                           sdx:displayName="CountDownTimerCustomHw"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>CountDownTimerCustomHw</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="CountDownTimerCustomHw/boot/CountDownTimerCustomHw.bif"
+                            sdx:readme="CountDownTimerCustomHw/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="CountDownTimerCustomHw/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="CountDownTimerCustomHw/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="CountDownTimerCustomHw/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

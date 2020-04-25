@@ -1,4 +1,4 @@
-23:31:13 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPollingApp ****
+22:33:00 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPollingApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -13,9 +13,9 @@ Finished building target: CountDownTimerCustomHwPollingApp.elf
 Invoking: MicroBlaze Print Size
 mb-size CountDownTimerCustomHwPollingApp.elf  |tee "CountDownTimerCustomHwPollingApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  10672	    712	   3112	  14496	   38a0	CountDownTimerCustomHwPollingApp.elf
+  10676	    712	   3108	  14496	   38a0	CountDownTimerCustomHwPollingApp.elf
 Finished building: CountDownTimerCustomHwPollingApp.elf.size
  
 
-23:31:14 Build Finished (took 930ms)
+22:33:01 Build Finished (took 885ms)
 

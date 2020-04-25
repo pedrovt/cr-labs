@@ -1,20 +1,20 @@
 Nothing to build in platform 'CountDownTimerCustomHw'
 
-22:33:00 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPollingApp ****
+22:43:22 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwInterruptsApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHw/export/CountDownTimerCustomHw/sw/CountDownTimerCustomHw/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHw/export/CountDownTimerCustomHw/sw/CountDownTimerCustomHw/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 Finished building: ../src/helloworld.c
  
-Building target: CountDownTimerCustomHwPollingApp.elf
+Building target: CountDownTimerCustomHwInterruptsApp.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHw/export/CountDownTimerCustomHw/sw/CountDownTimerCustomHw/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CountDownTimerCustomHwPollingApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: CountDownTimerCustomHwPollingApp.elf
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHw/export/CountDownTimerCustomHw/sw/CountDownTimerCustomHw/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CountDownTimerCustomHwInterruptsApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CountDownTimerCustomHwInterruptsApp.elf
  
 Invoking: MicroBlaze Print Size
-mb-size CountDownTimerCustomHwPollingApp.elf  |tee "CountDownTimerCustomHwPollingApp.elf.size"
+mb-size CountDownTimerCustomHwInterruptsApp.elf  |tee "CountDownTimerCustomHwInterruptsApp.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  10676	    712	   3108	  14496	   38a0	CountDownTimerCustomHwPollingApp.elf
-Finished building: CountDownTimerCustomHwPollingApp.elf.size
+  11836	    764	   3168	  15768	   3d98	CountDownTimerCustomHwInterruptsApp.elf
+Finished building: CountDownTimerCustomHwInterruptsApp.elf.size
  

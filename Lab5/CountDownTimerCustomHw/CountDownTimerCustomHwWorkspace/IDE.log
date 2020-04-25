@@ -2028,3 +2028,74 @@ con
 ----------------End of Script----------------
 
 22:33:11 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab5\CountDownTimerCustomHw\CountDownTimerCustomHwWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpollingapp-default.tcl'
+22:42:34 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwInterruptsApp'...
+22:42:38 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwInterruptsApp'...
+22:42:46 INFO  : Disconnected from the channel tcfchan#3.
+22:42:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:42:48 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:42:48 INFO  : 'jtag frequency' command is executed.
+22:42:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:42:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/_ide/bitstream/CountDownTimerCustomHw.bit"
+22:42:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:42:50 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:50 INFO  : System reset is completed.
+22:42:53 INFO  : 'after 3000' command is executed.
+22:42:53 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:53 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/Debug/CountDownTimerCustomHwInterruptsApp.elf' is downloaded to processor 'microblaze_0'.
+22:42:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/_ide/bitstream/CountDownTimerCustomHw.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/Debug/CountDownTimerCustomHwInterruptsApp.elf
+----------------End of Script----------------
+
+22:42:53 INFO  : Memory regions updated for context MicroBlaze #0
+22:42:53 INFO  : Memory regions updated for context MicroBlaze #0
+22:42:54 INFO  : Context for processor 'microblaze_0' is selected.
+22:42:54 INFO  : 'con' command is executed.
+22:42:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:42:54 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab5\CountDownTimerCustomHw\CountDownTimerCustomHwWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwinterruptsapp-default.tcl'
+22:43:22 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwInterruptsApp'...
+22:43:26 INFO  : Disconnected from the channel tcfchan#4.
+22:43:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:43:27 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:43:27 INFO  : 'jtag frequency' command is executed.
+22:43:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:43:30 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/_ide/bitstream/CountDownTimerCustomHw.bit"
+22:43:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:43:30 INFO  : Context for processor 'microblaze_0' is selected.
+22:43:30 INFO  : System reset is completed.
+22:43:33 INFO  : 'after 3000' command is executed.
+22:43:33 INFO  : Context for processor 'microblaze_0' is selected.
+22:43:33 INFO  : The application 'C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/Debug/CountDownTimerCustomHwInterruptsApp.elf' is downloaded to processor 'microblaze_0'.
+22:43:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/_ide/bitstream/CountDownTimerCustomHw.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Documents/UA/CR/Labs/Lab5/CountDownTimerCustomHw/CountDownTimerCustomHwWorkspace/CountDownTimerCustomHwInterruptsApp/Debug/CountDownTimerCustomHwInterruptsApp.elf
+----------------End of Script----------------
+
+22:43:33 INFO  : Memory regions updated for context MicroBlaze #0
+22:43:33 INFO  : Memory regions updated for context MicroBlaze #0
+22:43:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:43:34 INFO  : 'con' command is executed.
+22:43:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:43:34 INFO  : Launch script is exported to file 'C:\Users\Pedro\Documents\UA\CR\Labs\Lab5\CountDownTimerCustomHw\CountDownTimerCustomHwWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwinterruptsapp-default.tcl'

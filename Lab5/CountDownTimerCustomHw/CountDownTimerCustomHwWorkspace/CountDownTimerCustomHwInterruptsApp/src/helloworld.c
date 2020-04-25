@@ -57,7 +57,7 @@
 
 /******************* Macros for conditional compilation **********************/
 
-#define __USE_AXI_HW_TIMER__ 	// define if AXI timer is used for timebase
+//#define __USE_AXI_HW_TIMER__ 	// define if AXI timer is used for timebase
 								// do not define if FIT timer is used instead
 
 /************************** Constant Definitions *****************************/
@@ -456,56 +456,52 @@ void TimerIntCallbackHandler(void* callbackParam)
     static bool          blink1HzStat   = FALSE;
     static bool          blink2HzStat   = FALSE;
 
-
-	// Put here operations that must be performed at 800Hz rate
-	// Refresh displays
-    RefreshDisplays(digitEnables, digitValues, decPtEnables);
-
-	if (hwTmrEventCount % 100 == 0) // 8Hz
+	// Put here operations that must be performed at 8Hz rate
+	// Update state machine
+	UpdateStateMachine(&fsmState, &buttonStatus, zeroFlag, &setFlags);
+	if ((setFlags == 0x0) || (blink2HzStat))
 	{
-		// Put here operations that must be performed at 8Hz rate
-		// Update state machine
-		UpdateStateMachine(&fsmState, &buttonStatus, zeroFlag, &setFlags);
-		if ((setFlags == 0x0) || (blink2HzStat))
-		{
-			digitEnables = 0x3C; // All digits active
-		}
-		else
-		{
-			digitEnables = (~(setFlags << 2)) & 0x3C; // Setting digit inactive
-		}
+		digitEnables = 0x3C; // All digits active
+	}
+	else
+	{
+		digitEnables = (~(setFlags << 2)) & 0x3C; // Setting digit inactive
+	}
 
-		if (hwTmrEventCount % 200 == 0) // 4Hz
-		{
-			// Put here operations that must be performed at 4Hz rate
-			// Switch digit set 2Hz blink status
-			blink2HzStat = !blink2HzStat;
+	if (hwTmrEventCount % 2 == 0) // 4Hz
+	{
+		// Put here operations that must be performed at 4Hz rate
+		// Switch digit set 2Hz blink status
+		blink2HzStat = !blink2HzStat;
 
 
-			if (hwTmrEventCount % 400 == 0) // 2Hz
+		if (hwTmrEventCount % 4 == 0) // 2Hz
+		{
+			// Put here operations that must be performed at 2Hz rate
+			// Switch point 1Hz blink status
+			blink1HzStat = !blink1HzStat;
+			decPtEnables = (blink1HzStat ? 0x10 : 0x00);
+
+			// Digit set increment/decrement
+			SetCountDownTimer(fsmState, &buttonStatus, &timerValue);
+			TimerValue2DigitValues(&timerValue, digitValues);
+
+			if (hwTmrEventCount == 8) // 1Hz
 			{
-				// Put here operations that must be performed at 2Hz rate
-				// Switch point 1Hz blink status
-				blink1HzStat = !blink1HzStat;
-				decPtEnables = (blink1HzStat ? 0x10 : 0x00);
+				// Put here operations that must be performed at 1Hz rate
+				// Count down timer normal operation
+				DecCountDownTimer(fsmState, &timerValue);
+				zeroFlag = IsTimerValueZero(&timerValue);
 
-				// Digit set increment/decrement
-				SetCountDownTimer(fsmState, &buttonStatus, &timerValue);
-				TimerValue2DigitValues(&timerValue, digitValues);
-
-				if (hwTmrEventCount == 800) // 1Hz
-				{
-					// Put here operations that must be performed at 1Hz rate
-					// Count down timer normal operation
-					DecCountDownTimer(fsmState, &timerValue);
-					zeroFlag = IsTimerValueZero(&timerValue);
-
-					// Reset hwTmrEventCount every second
-					hwTmrEventCount = 1;
-				}
+				// Reset hwTmrEventCount every second
+				hwTmrEventCount = 1;
 			}
 		}
+
 	}
+
+	// Refresh displays
+	RefreshDisplays(digitEnables, digitValues, decPtEnables);
 
 #ifdef __USE_AXI_HW_TIMER__
 	// Clear hardware timer event (interrupt request flag)
@@ -600,7 +596,7 @@ int main()
     // Disable hardware timer
 	XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, 0x00000000);
 	// Set hardware timer load value
-	XTmrCtr_SetLoadReg(XPAR_AXI_TIMER_0_BASEADDR, 0, 125000); // Counter will wrap around every 1.25 ms
+	XTmrCtr_SetLoadReg(XPAR_AXI_TIMER_0_BASEADDR, 0, 12500000); // Counter will wrap around every 0.125 ms
 	XTmrCtr_SetControlStatusReg(XPAR_AXI_TIMER_0_BASEADDR, 0, XTC_CSR_LOAD_MASK);
 #endif
 
@@ -631,8 +627,6 @@ int main()
 	while (1)
 	{
 		// Put here operations that are performed whenever possible
-
-		// JUST FOR DEMONSTRATION PURPOSES
 		xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue, timerValue.secMSValue, timerValue.secLSValue);
 		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, zeroFlag);
 	}

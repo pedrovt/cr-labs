@@ -1,11 +1,11 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Thu Mar 26 10:15:42 2020
-// Host        : ASRO-NUC running 64-bit major release  (build 9200)
+// Date        : Tue Apr 28 16:15:59 2020
+// Host        : ASUS-PC running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub -rename_top mb_design_ilmb_v10_0 -prefix
-//               mb_design_ilmb_v10_0_ mb_design_dlmb_v10_0_stub.v
-// Design      : mb_design_dlmb_v10_0
+//               mb_design_ilmb_v10_0_ mb_design_ilmb_v10_0_stub.v
+// Design      : mb_design_ilmb_v10_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1
 // --------------------------------------------------------------------------------

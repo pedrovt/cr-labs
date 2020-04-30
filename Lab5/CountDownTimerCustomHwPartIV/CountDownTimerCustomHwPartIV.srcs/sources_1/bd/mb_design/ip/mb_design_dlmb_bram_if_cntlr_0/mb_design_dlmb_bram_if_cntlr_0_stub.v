@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Thu Mar 26 10:17:13 2020
-// Host        : ASRO-NUC running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top mb_design_dlmb_bram_if_cntlr_0 -prefix
-//               mb_design_dlmb_bram_if_cntlr_0_ mb_design_dlmb_bram_if_cntlr_0_stub.v
+// Date        : Tue Apr 28 16:16:29 2020
+// Host        : ASUS-PC running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.srcs/sources_1/bd/mb_design/ip/mb_design_dlmb_bram_if_cntlr_0/mb_design_dlmb_bram_if_cntlr_0_stub.v
 // Design      : mb_design_dlmb_bram_if_cntlr_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1

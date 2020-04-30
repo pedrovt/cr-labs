@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
---Date        : Tue Apr 28 15:12:51 2020
+--Date        : Thu Apr 30 12:36:10 2020
 --Host        : ASUS-PC running 64-bit major release  (build 9200)
 --Command     : generate_target mb_design.bd
 --Design      : mb_design
@@ -2538,7 +2538,7 @@ entity mb_design is
     usb_uart_txd : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=29,numReposBlks=19,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=8,da_board_cnt=11,da_clkrst_cnt=1,da_mb_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=29,numReposBlks=19,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=9,da_board_cnt=11,da_clkrst_cnt=1,da_mb_cnt=1,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of mb_design : entity is "mb_design.hwdef";
 end mb_design;
@@ -2818,7 +2818,7 @@ architecture STRUCTURE of mb_design is
     Interrupt : out STD_LOGIC
   );
   end component mb_design_fit_timer_0_0;
-  component mb_design_Nexys4DisplayDriverE_0_0 is
+  component mb_design_Nexys4DisplayDriverE_0_1 is
   port (
     dispEn_n : out STD_LOGIC_VECTOR ( 7 downto 0 );
     dispSeg_n : out STD_LOGIC_VECTOR ( 6 downto 0 );
@@ -2845,7 +2845,7 @@ architecture STRUCTURE of mb_design is
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
-  end component mb_design_Nexys4DisplayDriverE_0_0;
+  end component mb_design_Nexys4DisplayDriverE_0_1;
   signal Nexys4DisplayDriverE_0_dispEn_n : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal Nexys4DisplayDriverE_0_dispPt_n : STD_LOGIC;
   signal Nexys4DisplayDriverE_0_dispSeg_n : STD_LOGIC_VECTOR ( 6 downto 0 );
@@ -3078,7 +3078,7 @@ begin
   seg(6 downto 0) <= Nexys4DisplayDriverE_0_dispSeg_n(6 downto 0);
   sys_clock_1 <= sys_clock;
   usb_uart_txd <= axi_uartlite_0_UART_TxD;
-Nexys4DisplayDriverE_0: component mb_design_Nexys4DisplayDriverE_0_0
+Nexys4DisplayDriverE_0: component mb_design_Nexys4DisplayDriverE_0_1
      port map (
       dispEn_n(7 downto 0) => Nexys4DisplayDriverE_0_dispEn_n(7 downto 0),
       dispPt_n => Nexys4DisplayDriverE_0_dispPt_n,

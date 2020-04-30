@@ -1,8 +1,8 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Thu Mar 26 10:22:20 2020
--- Host        : ASRO-NUC running 64-bit major release  (build 9200)
+-- Date        : Tue Apr 28 16:15:44 2020
+-- Host        : ASUS-PC running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top mb_design_rst_clk_wiz_1_100M_0 -prefix
 --               mb_design_rst_clk_wiz_1_100M_0_ mb_design_rst_clk_wiz_1_100M_0_sim_netlist.vhdl
 -- Design      : mb_design_rst_clk_wiz_1_100M_0

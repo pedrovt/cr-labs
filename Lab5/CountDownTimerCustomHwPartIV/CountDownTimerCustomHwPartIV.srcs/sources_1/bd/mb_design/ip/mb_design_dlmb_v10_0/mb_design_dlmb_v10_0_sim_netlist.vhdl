@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Thu Mar 26 10:15:42 2020
--- Host        : ASRO-NUC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top mb_design_dlmb_v10_0 -prefix
---               mb_design_dlmb_v10_0_ mb_design_dlmb_v10_0_sim_netlist.vhdl
+-- Date        : Tue Apr 28 16:16:32 2020
+-- Host        : ASUS-PC running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim
+--               C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.srcs/sources_1/bd/mb_design/ip/mb_design_dlmb_v10_0/mb_design_dlmb_v10_0_sim_netlist.vhdl
 -- Design      : mb_design_dlmb_v10_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -52,6 +52,8 @@ entity mb_design_dlmb_v10_0_lmb_v10 is
   attribute C_LMB_NUM_SLAVES of mb_design_dlmb_v10_0_lmb_v10 : entity is 1;
   attribute C_LMB_PROTOCOL : integer;
   attribute C_LMB_PROTOCOL of mb_design_dlmb_v10_0_lmb_v10 : entity is 0;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of mb_design_dlmb_v10_0_lmb_v10 : entity is "lmb_v10";
 end mb_design_dlmb_v10_0_lmb_v10;
 
 architecture STRUCTURE of mb_design_dlmb_v10_0_lmb_v10 is

@@ -1,0 +1,7 @@
+19:51:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\temp_xsdb_launch_script.tcl
+19:51:20 INFO  : XSCT server has started successfully.
+19:51:20 INFO  : Successfully done setting XSCT server connection channel  
+19:51:20 INFO  : plnx-install-location is set to ''
+19:51:20 INFO  : Successfully done query RDI_DATADIR 
+19:51:20 INFO  : Successfully done setting workspace for the tool. 
+19:51:22 INFO  : Registering command handlers for Vitis TCF services

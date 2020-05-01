@@ -1,4 +1,4 @@
-22:36:34 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
+23:09:19 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -17,5 +17,5 @@ mb-size CountDownTimerCustomHwPartIVApp.elf  |tee "CountDownTimerCustomHwPartIVA
 Finished building: CountDownTimerCustomHwPartIVApp.elf.size
  
 
-22:36:35 Build Finished (took 852ms)
+23:09:22 Build Finished (took 2s.652ms)
 

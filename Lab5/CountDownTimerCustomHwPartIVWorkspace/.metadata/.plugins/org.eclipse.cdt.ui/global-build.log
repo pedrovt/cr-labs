@@ -1,6 +1,6 @@
 Nothing to build in platform 'CountDownTimerCustomHwPartIV'
 
-22:36:34 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
+23:09:19 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
 make all 
 Building file: ../src/helloworld.c
 Invoking: MicroBlaze gcc compiler
@@ -18,3 +18,6 @@ mb-size CountDownTimerCustomHwPartIVApp.elf  |tee "CountDownTimerCustomHwPartIVA
   11788	    760	   3172	  15720	   3d68	CountDownTimerCustomHwPartIVApp.elf
 Finished building: CountDownTimerCustomHwPartIVApp.elf.size
  
+23:09:23 **** Build of configuration Debug for project CountDownTimerCustomHwPartIVApp_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

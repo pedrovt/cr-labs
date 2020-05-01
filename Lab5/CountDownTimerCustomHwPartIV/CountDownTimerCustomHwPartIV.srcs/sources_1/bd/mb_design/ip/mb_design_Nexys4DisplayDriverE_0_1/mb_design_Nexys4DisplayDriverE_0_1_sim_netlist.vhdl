@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Thu Apr 30 12:12:21 2020
+-- Date        : Fri May  1 23:01:18 2020
 -- Host        : ASUS-PC running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.srcs/sources_1/bd/mb_design/ip/mb_design_Nexys4DisplayDriverE_0_1/mb_design_Nexys4DisplayDriverE_0_1_sim_netlist.vhdl
@@ -556,6 +556,10 @@ architecture STRUCTURE of mb_design_Nexys4DisplayDriverE_0_1_Nexys4DisplayDriver
   signal \s_clkEnbCnt0_carry__0_i_2_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__0_i_3_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__0_i_4_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__0_i_5_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__0_i_6_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__0_i_7_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__0_i_8_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__0_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__0_n_1\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__0_n_2\ : STD_LOGIC;
@@ -563,13 +567,35 @@ architecture STRUCTURE of mb_design_Nexys4DisplayDriverE_0_1_Nexys4DisplayDriver
   signal \s_clkEnbCnt0_carry__1_i_1_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__1_i_2_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__1_i_3_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_i_4_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_i_5_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_i_6_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_i_7_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_i_8_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__1_n_0\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__1_n_1\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__1_n_2\ : STD_LOGIC;
   signal \s_clkEnbCnt0_carry__1_n_3\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_1_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_2_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_3_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_4_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_5_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_6_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_7_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_i_8_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_n_0\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_n_1\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_n_2\ : STD_LOGIC;
+  signal \s_clkEnbCnt0_carry__2_n_3\ : STD_LOGIC;
   signal s_clkEnbCnt0_carry_i_1_n_0 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_i_2_n_0 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_i_3_n_0 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_i_4_n_0 : STD_LOGIC;
+  signal s_clkEnbCnt0_carry_i_5_n_0 : STD_LOGIC;
+  signal s_clkEnbCnt0_carry_i_6_n_0 : STD_LOGIC;
+  signal s_clkEnbCnt0_carry_i_7_n_0 : STD_LOGIC;
+  signal s_clkEnbCnt0_carry_i_8_n_0 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_n_0 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_n_1 : STD_LOGIC;
   signal s_clkEnbCnt0_carry_n_2 : STD_LOGIC;
@@ -694,8 +720,8 @@ architecture STRUCTURE of mb_design_Nexys4DisplayDriverE_0_1_Nexys4DisplayDriver
   signal \slv_reg_wren__2\ : STD_LOGIC;
   signal NLW_s_clkEnbCnt0_carry_O_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal \NLW_s_clkEnbCnt0_carry__0_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal \NLW_s_clkEnbCnt0_carry__1_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
   signal \NLW_s_clkEnbCnt0_carry__1_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 0 );
+  signal \NLW_s_clkEnbCnt0_carry__2_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal \NLW_s_clkEnbCnt_reg[28]_i_1_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of axi_arready_i_1 : label is "soft_lutpair9";
@@ -1618,7 +1644,7 @@ s_clkEnable_reg: unisim.vcomponents.FDRE
      port map (
       C => s00_axi_aclk,
       CE => '1',
-      D => \s_clkEnbCnt0_carry__1_n_1\,
+      D => \s_clkEnbCnt0_carry__2_n_0\,
       Q => s_clkEnable,
       R => axi_awready_i_1_n_0
     );
@@ -1630,12 +1656,15 @@ s_clkEnbCnt0_carry: unisim.vcomponents.CARRY4
       CO(1) => s_clkEnbCnt0_carry_n_2,
       CO(0) => s_clkEnbCnt0_carry_n_3,
       CYINIT => '1',
-      DI(3 downto 0) => B"0000",
+      DI(3) => s_clkEnbCnt0_carry_i_1_n_0,
+      DI(2) => s_clkEnbCnt0_carry_i_2_n_0,
+      DI(1) => s_clkEnbCnt0_carry_i_3_n_0,
+      DI(0) => s_clkEnbCnt0_carry_i_4_n_0,
       O(3 downto 0) => NLW_s_clkEnbCnt0_carry_O_UNCONNECTED(3 downto 0),
-      S(3) => s_clkEnbCnt0_carry_i_1_n_0,
-      S(2) => s_clkEnbCnt0_carry_i_2_n_0,
-      S(1) => s_clkEnbCnt0_carry_i_3_n_0,
-      S(0) => s_clkEnbCnt0_carry_i_4_n_0
+      S(3) => s_clkEnbCnt0_carry_i_5_n_0,
+      S(2) => s_clkEnbCnt0_carry_i_6_n_0,
+      S(1) => s_clkEnbCnt0_carry_i_7_n_0,
+      S(0) => s_clkEnbCnt0_carry_i_8_n_0
     );
 \s_clkEnbCnt0_carry__0\: unisim.vcomponents.CARRY4
      port map (
@@ -1645,164 +1674,412 @@ s_clkEnbCnt0_carry: unisim.vcomponents.CARRY4
       CO(1) => \s_clkEnbCnt0_carry__0_n_2\,
       CO(0) => \s_clkEnbCnt0_carry__0_n_3\,
       CYINIT => '0',
-      DI(3 downto 0) => B"0000",
+      DI(3) => \s_clkEnbCnt0_carry__0_i_1_n_0\,
+      DI(2) => \s_clkEnbCnt0_carry__0_i_2_n_0\,
+      DI(1) => \s_clkEnbCnt0_carry__0_i_3_n_0\,
+      DI(0) => \s_clkEnbCnt0_carry__0_i_4_n_0\,
       O(3 downto 0) => \NLW_s_clkEnbCnt0_carry__0_O_UNCONNECTED\(3 downto 0),
-      S(3) => \s_clkEnbCnt0_carry__0_i_1_n_0\,
-      S(2) => \s_clkEnbCnt0_carry__0_i_2_n_0\,
-      S(1) => \s_clkEnbCnt0_carry__0_i_3_n_0\,
-      S(0) => \s_clkEnbCnt0_carry__0_i_4_n_0\
+      S(3) => \s_clkEnbCnt0_carry__0_i_5_n_0\,
+      S(2) => \s_clkEnbCnt0_carry__0_i_6_n_0\,
+      S(1) => \s_clkEnbCnt0_carry__0_i_7_n_0\,
+      S(0) => \s_clkEnbCnt0_carry__0_i_8_n_0\
     );
-\s_clkEnbCnt0_carry__0_i_1\: unisim.vcomponents.LUT3
+\s_clkEnbCnt0_carry__0_i_1\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"01"
+      INIT => X"CE328000"
     )
         port map (
-      I0 => s_clkEnbCnt_reg(23),
-      I1 => s_clkEnbCnt_reg(22),
-      I2 => s_clkEnbCnt_reg(21),
+      I0 => s_clkEnbCnt_reg(14),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => s_clkEnbCnt_reg(15),
       O => \s_clkEnbCnt0_carry__0_i_1_n_0\
     );
-\s_clkEnbCnt0_carry__0_i_2\: unisim.vcomponents.LUT6
+\s_clkEnbCnt0_carry__0_i_2\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"0002002000005548"
-    )
-        port map (
-      I0 => s_clkEnbCnt_reg(18),
-      I1 => \slv_reg2_reg_n_0_[1]\,
-      I2 => \slv_reg2_reg_n_0_[0]\,
-      I3 => \slv_reg2_reg_n_0_[2]\,
-      I4 => s_clkEnbCnt_reg(20),
-      I5 => s_clkEnbCnt_reg(19),
-      O => \s_clkEnbCnt0_carry__0_i_2_n_0\
-    );
-\s_clkEnbCnt0_carry__0_i_3\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"2020100804040820"
-    )
-        port map (
-      I0 => s_clkEnbCnt_reg(15),
-      I1 => \slv_reg2_reg_n_0_[2]\,
-      I2 => s_clkEnbCnt_reg(17),
-      I3 => \slv_reg2_reg_n_0_[0]\,
-      I4 => \slv_reg2_reg_n_0_[1]\,
-      I5 => s_clkEnbCnt_reg(16),
-      O => \s_clkEnbCnt0_carry__0_i_3_n_0\
-    );
-\s_clkEnbCnt0_carry__0_i_4\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"2090810008040001"
+      INIT => X"332B0202"
     )
         port map (
       I0 => s_clkEnbCnt_reg(12),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[1]\,
+      I3 => \slv_reg2_reg_n_0_[0]\,
+      I4 => s_clkEnbCnt_reg(13),
+      O => \s_clkEnbCnt0_carry__0_i_2_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_3\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"3FBB2220"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(10),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[1]\,
+      I3 => \slv_reg2_reg_n_0_[0]\,
+      I4 => s_clkEnbCnt_reg(11),
+      O => \s_clkEnbCnt0_carry__0_i_3_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_4\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"EFFB0A82"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(8),
       I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => \slv_reg2_reg_n_0_[1]\,
+      I3 => \slv_reg2_reg_n_0_[2]\,
+      I4 => s_clkEnbCnt_reg(9),
+      O => \s_clkEnbCnt0_carry__0_i_4_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_5\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"18248284"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(14),
+      I1 => s_clkEnbCnt_reg(15),
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[0]\,
+      I4 => \slv_reg2_reg_n_0_[1]\,
+      O => \s_clkEnbCnt0_carry__0_i_5_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_6\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"82818441"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(12),
+      I1 => s_clkEnbCnt_reg(13),
       I2 => \slv_reg2_reg_n_0_[2]\,
       I3 => \slv_reg2_reg_n_0_[1]\,
-      I4 => s_clkEnbCnt_reg(14),
-      I5 => s_clkEnbCnt_reg(13),
-      O => \s_clkEnbCnt0_carry__0_i_4_n_0\
+      I4 => \slv_reg2_reg_n_0_[0]\,
+      O => \s_clkEnbCnt0_carry__0_i_6_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_7\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"81214142"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(10),
+      I1 => s_clkEnbCnt_reg(11),
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => \slv_reg2_reg_n_0_[0]\,
+      O => \s_clkEnbCnt0_carry__0_i_7_n_0\
+    );
+\s_clkEnbCnt0_carry__0_i_8\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"24111241"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(8),
+      I1 => s_clkEnbCnt_reg(9),
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => \slv_reg2_reg_n_0_[2]\,
+      O => \s_clkEnbCnt0_carry__0_i_8_n_0\
     );
 \s_clkEnbCnt0_carry__1\: unisim.vcomponents.CARRY4
      port map (
       CI => \s_clkEnbCnt0_carry__0_n_0\,
-      CO(3) => \NLW_s_clkEnbCnt0_carry__1_CO_UNCONNECTED\(3),
+      CO(3) => \s_clkEnbCnt0_carry__1_n_0\,
       CO(2) => \s_clkEnbCnt0_carry__1_n_1\,
       CO(1) => \s_clkEnbCnt0_carry__1_n_2\,
       CO(0) => \s_clkEnbCnt0_carry__1_n_3\,
       CYINIT => '0',
-      DI(3 downto 0) => B"0000",
+      DI(3) => \s_clkEnbCnt0_carry__1_i_1_n_0\,
+      DI(2) => \s_clkEnbCnt0_carry__1_i_2_n_0\,
+      DI(1) => \s_clkEnbCnt0_carry__1_i_3_n_0\,
+      DI(0) => \s_clkEnbCnt0_carry__1_i_4_n_0\,
       O(3 downto 0) => \NLW_s_clkEnbCnt0_carry__1_O_UNCONNECTED\(3 downto 0),
-      S(3) => '0',
-      S(2) => \s_clkEnbCnt0_carry__1_i_1_n_0\,
-      S(1) => \s_clkEnbCnt0_carry__1_i_2_n_0\,
-      S(0) => \s_clkEnbCnt0_carry__1_i_3_n_0\
+      S(3) => \s_clkEnbCnt0_carry__1_i_5_n_0\,
+      S(2) => \s_clkEnbCnt0_carry__1_i_6_n_0\,
+      S(1) => \s_clkEnbCnt0_carry__1_i_7_n_0\,
+      S(0) => \s_clkEnbCnt0_carry__1_i_8_n_0\
     );
 \s_clkEnbCnt0_carry__1_i_1\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(22),
+      I1 => s_clkEnbCnt_reg(23),
+      O => \s_clkEnbCnt0_carry__1_i_1_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_2\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"FFFFAAA8"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(20),
+      I1 => \slv_reg2_reg_n_0_[1]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[2]\,
+      I4 => s_clkEnbCnt_reg(21),
+      O => \s_clkEnbCnt0_carry__1_i_2_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_3\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"FFF0A8A0"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(18),
+      I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => s_clkEnbCnt_reg(19),
+      O => \s_clkEnbCnt0_carry__1_i_3_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_4\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"FFA80200"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(16),
+      I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => \slv_reg2_reg_n_0_[1]\,
+      I3 => s_clkEnbCnt_reg(17),
+      I4 => \slv_reg2_reg_n_0_[2]\,
+      O => \s_clkEnbCnt0_carry__1_i_4_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_5\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(22),
+      I1 => s_clkEnbCnt_reg(23),
+      O => \s_clkEnbCnt0_carry__1_i_5_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_6\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"00005556"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(20),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => s_clkEnbCnt_reg(21),
+      O => \s_clkEnbCnt0_carry__1_i_6_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_7\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"050605A0"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(18),
+      I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => s_clkEnbCnt_reg(19),
+      I3 => \slv_reg2_reg_n_0_[2]\,
+      I4 => \slv_reg2_reg_n_0_[1]\,
+      O => \s_clkEnbCnt0_carry__1_i_7_n_0\
+    );
+\s_clkEnbCnt0_carry__1_i_8\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"0056A900"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(16),
+      I1 => \slv_reg2_reg_n_0_[1]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => s_clkEnbCnt_reg(17),
+      I4 => \slv_reg2_reg_n_0_[2]\,
+      O => \s_clkEnbCnt0_carry__1_i_8_n_0\
+    );
+\s_clkEnbCnt0_carry__2\: unisim.vcomponents.CARRY4
+     port map (
+      CI => \s_clkEnbCnt0_carry__1_n_0\,
+      CO(3) => \s_clkEnbCnt0_carry__2_n_0\,
+      CO(2) => \s_clkEnbCnt0_carry__2_n_1\,
+      CO(1) => \s_clkEnbCnt0_carry__2_n_2\,
+      CO(0) => \s_clkEnbCnt0_carry__2_n_3\,
+      CYINIT => '0',
+      DI(3) => \s_clkEnbCnt0_carry__2_i_1_n_0\,
+      DI(2) => \s_clkEnbCnt0_carry__2_i_2_n_0\,
+      DI(1) => \s_clkEnbCnt0_carry__2_i_3_n_0\,
+      DI(0) => \s_clkEnbCnt0_carry__2_i_4_n_0\,
+      O(3 downto 0) => \NLW_s_clkEnbCnt0_carry__2_O_UNCONNECTED\(3 downto 0),
+      S(3) => \s_clkEnbCnt0_carry__2_i_5_n_0\,
+      S(2) => \s_clkEnbCnt0_carry__2_i_6_n_0\,
+      S(1) => \s_clkEnbCnt0_carry__2_i_7_n_0\,
+      S(0) => \s_clkEnbCnt0_carry__2_i_8_n_0\
+    );
+\s_clkEnbCnt0_carry__2_i_1\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(30),
+      I1 => s_clkEnbCnt_reg(31),
+      O => \s_clkEnbCnt0_carry__2_i_1_n_0\
+    );
+\s_clkEnbCnt0_carry__2_i_2\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(28),
+      I1 => s_clkEnbCnt_reg(29),
+      O => \s_clkEnbCnt0_carry__2_i_2_n_0\
+    );
+\s_clkEnbCnt0_carry__2_i_3\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(26),
+      I1 => s_clkEnbCnt_reg(27),
+      O => \s_clkEnbCnt0_carry__2_i_3_n_0\
+    );
+\s_clkEnbCnt0_carry__2_i_4\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"E"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(24),
+      I1 => s_clkEnbCnt_reg(25),
+      O => \s_clkEnbCnt0_carry__2_i_4_n_0\
+    );
+\s_clkEnbCnt0_carry__2_i_5\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"1"
     )
         port map (
       I0 => s_clkEnbCnt_reg(30),
       I1 => s_clkEnbCnt_reg(31),
-      O => \s_clkEnbCnt0_carry__1_i_1_n_0\
+      O => \s_clkEnbCnt0_carry__2_i_5_n_0\
     );
-\s_clkEnbCnt0_carry__1_i_2\: unisim.vcomponents.LUT3
+\s_clkEnbCnt0_carry__2_i_6\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"01"
+      INIT => X"1"
     )
         port map (
-      I0 => s_clkEnbCnt_reg(29),
-      I1 => s_clkEnbCnt_reg(28),
-      I2 => s_clkEnbCnt_reg(27),
-      O => \s_clkEnbCnt0_carry__1_i_2_n_0\
+      I0 => s_clkEnbCnt_reg(28),
+      I1 => s_clkEnbCnt_reg(29),
+      O => \s_clkEnbCnt0_carry__2_i_6_n_0\
     );
-\s_clkEnbCnt0_carry__1_i_3\: unisim.vcomponents.LUT3
+\s_clkEnbCnt0_carry__2_i_7\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"01"
+      INIT => X"1"
     )
         port map (
       I0 => s_clkEnbCnt_reg(26),
-      I1 => s_clkEnbCnt_reg(25),
-      I2 => s_clkEnbCnt_reg(24),
-      O => \s_clkEnbCnt0_carry__1_i_3_n_0\
+      I1 => s_clkEnbCnt_reg(27),
+      O => \s_clkEnbCnt0_carry__2_i_7_n_0\
     );
-s_clkEnbCnt0_carry_i_1: unisim.vcomponents.LUT6
+\s_clkEnbCnt0_carry__2_i_8\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"4000040121000058"
+      INIT => X"1"
     )
         port map (
-      I0 => s_clkEnbCnt_reg(9),
-      I1 => \slv_reg2_reg_n_0_[0]\,
-      I2 => \slv_reg2_reg_n_0_[1]\,
-      I3 => \slv_reg2_reg_n_0_[2]\,
-      I4 => s_clkEnbCnt_reg(11),
-      I5 => s_clkEnbCnt_reg(10),
-      O => s_clkEnbCnt0_carry_i_1_n_0
+      I0 => s_clkEnbCnt_reg(24),
+      I1 => s_clkEnbCnt_reg(25),
+      O => \s_clkEnbCnt0_carry__2_i_8_n_0\
     );
-s_clkEnbCnt0_carry_i_2: unisim.vcomponents.LUT6
+s_clkEnbCnt0_carry_i_1: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"0000040041001066"
+      INIT => X"FFBFA828"
     )
         port map (
       I0 => s_clkEnbCnt_reg(6),
-      I1 => \slv_reg2_reg_n_0_[0]\,
-      I2 => \slv_reg2_reg_n_0_[2]\,
-      I3 => \slv_reg2_reg_n_0_[1]\,
-      I4 => s_clkEnbCnt_reg(8),
-      I5 => s_clkEnbCnt_reg(7),
-      O => s_clkEnbCnt0_carry_i_2_n_0
-    );
-s_clkEnbCnt0_carry_i_3: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"0022040810008180"
-    )
-        port map (
-      I0 => s_clkEnbCnt_reg(3),
       I1 => \slv_reg2_reg_n_0_[1]\,
       I2 => \slv_reg2_reg_n_0_[0]\,
       I3 => \slv_reg2_reg_n_0_[2]\,
+      I4 => s_clkEnbCnt_reg(7),
+      O => s_clkEnbCnt0_carry_i_1_n_0
+    );
+s_clkEnbCnt0_carry_i_2: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"FF8CA008"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(4),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
       I4 => s_clkEnbCnt_reg(5),
-      I5 => s_clkEnbCnt_reg(4),
+      O => s_clkEnbCnt0_carry_i_2_n_0
+    );
+s_clkEnbCnt0_carry_i_3: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"8CCC0880"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(2),
+      I1 => \slv_reg2_reg_n_0_[2]\,
+      I2 => \slv_reg2_reg_n_0_[0]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => s_clkEnbCnt_reg(3),
       O => s_clkEnbCnt0_carry_i_3_n_0
     );
-s_clkEnbCnt0_carry_i_4: unisim.vcomponents.LUT6
+s_clkEnbCnt0_carry_i_4: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"222A080000004080"
+      INIT => X"F0008000"
     )
         port map (
       I0 => s_clkEnbCnt_reg(0),
-      I1 => \slv_reg2_reg_n_0_[2]\,
+      I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[1]\,
+      I4 => s_clkEnbCnt_reg(1),
+      O => s_clkEnbCnt0_carry_i_4_n_0
+    );
+s_clkEnbCnt0_carry_i_5: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"11124112"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(6),
+      I1 => s_clkEnbCnt_reg(7),
       I2 => \slv_reg2_reg_n_0_[1]\,
       I3 => \slv_reg2_reg_n_0_[0]\,
-      I4 => s_clkEnbCnt_reg(2),
-      I5 => s_clkEnbCnt_reg(1),
-      O => s_clkEnbCnt0_carry_i_4_n_0
+      I4 => \slv_reg2_reg_n_0_[2]\,
+      O => s_clkEnbCnt0_carry_i_5_n_0
+    );
+s_clkEnbCnt0_carry_i_6: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"11224818"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(4),
+      I1 => s_clkEnbCnt_reg(5),
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[0]\,
+      I4 => \slv_reg2_reg_n_0_[1]\,
+      O => s_clkEnbCnt0_carry_i_6_n_0
+    );
+s_clkEnbCnt0_carry_i_7: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"48181828"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(2),
+      I1 => s_clkEnbCnt_reg(3),
+      I2 => \slv_reg2_reg_n_0_[2]\,
+      I3 => \slv_reg2_reg_n_0_[0]\,
+      I4 => \slv_reg2_reg_n_0_[1]\,
+      O => s_clkEnbCnt0_carry_i_7_n_0
+    );
+s_clkEnbCnt0_carry_i_8: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"06A0A0A0"
+    )
+        port map (
+      I0 => s_clkEnbCnt_reg(0),
+      I1 => \slv_reg2_reg_n_0_[0]\,
+      I2 => s_clkEnbCnt_reg(1),
+      I3 => \slv_reg2_reg_n_0_[2]\,
+      I4 => \slv_reg2_reg_n_0_[1]\,
+      O => s_clkEnbCnt0_carry_i_8_n_0
     );
 \s_clkEnbCnt[0]_i_1\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"B"
     )
         port map (
-      I0 => \s_clkEnbCnt0_carry__1_n_1\,
+      I0 => \s_clkEnbCnt0_carry__2_n_0\,
       I1 => s00_axi_aresetn,
       O => \s_clkEnbCnt[0]_i_1_n_0\
     );

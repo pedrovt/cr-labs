@@ -1,0 +1,25 @@
+Nothing to build in platform 'CountDownTimerCustomHwPartIV'
+
+12:44:16 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CountDownTimerCustomHwPartIVApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CountDownTimerCustomHwPartIVApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CountDownTimerCustomHwPartIVApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size CountDownTimerCustomHwPartIVApp.elf  |tee "CountDownTimerCustomHwPartIVApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  11552	    760	   3160	  15472	   3c70	CountDownTimerCustomHwPartIVApp.elf
+Finished building: CountDownTimerCustomHwPartIVApp.elf.size
+ 

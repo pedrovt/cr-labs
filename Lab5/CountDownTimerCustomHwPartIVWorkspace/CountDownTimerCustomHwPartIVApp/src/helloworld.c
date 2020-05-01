@@ -91,6 +91,7 @@ typedef enum {Stopped, Started, SetLSSec, SetMSSec, SetLSMin, SetMSMin} TFSMStat
 // Buttons GPIO masks
 #define BUTTON_UP_MASK		0x01
 #define BUTTON_DOWN_MASK	0x04
+#define BUTTON_LEFT_MASK	0x02
 #define BUTTON_RIGHT_MASK	0x08
 #define BUTTON_CENTER_MASK	0x10
 
@@ -101,9 +102,11 @@ typedef struct SButtonStatus
 	bool downPressed;
 	bool setPressed;
 	bool startPressed;
+	bool leftPressed;
 
 	bool setPrevious;
 	bool startPrevious;
+	bool leftPrevious;
 } TButtonStatus;
 
 // Data structure to store countdown timer value
@@ -120,6 +123,9 @@ typedef struct STimerValue
 static TButtonStatus buttonStatus   = {FALSE, FALSE, FALSE, FALSE, FALSE, FALSE};
 static TTimerValue   timerValue     = {5, 9, 5, 9};
 static bool          zeroFlag       = FALSE;
+static char		     brightness		= 0;
+static char		     refreshRate	= 5;	// Refresh rate by default
+
 
 /***************************** Helper functions ******************************/
 
@@ -181,14 +187,14 @@ bool IsTimerValueZero(const TTimerValue* pTimerValue)
 // Conversion of the countdown timer values stored in a structure to an array of digits
 void TimerValue2DigitValues(const TTimerValue* pTimerValue, unsigned int digitValues[8])
 {
-	digitValues[0] = 0;
+	digitValues[0] = 5;
 	digitValues[1] = 0;
 	digitValues[2] = pTimerValue->secLSValue;
 	digitValues[3] = pTimerValue->secMSValue;
 	digitValues[4] = pTimerValue->minLSValue;
 	digitValues[5] = pTimerValue->minMSValue;
 	digitValues[6] = 0;
-	digitValues[7] = 0;
+	digitValues[7] = refreshRate;
 }
 
 /******************* Countdown timer operations functions ********************/
@@ -206,6 +212,7 @@ void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[
 
 	XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 0, XGPIO_DATA_OFFSET, enables);
 	XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 4, XGPIO_DATA_OFFSET, newDigitValues);
+
 }
 
 void ReadButtons(TButtonStatus* pButtonStatus)
@@ -218,6 +225,7 @@ void ReadButtons(TButtonStatus* pButtonStatus)
 	pButtonStatus->downPressed  = buttonsPattern & BUTTON_DOWN_MASK;
 	pButtonStatus->setPressed   = buttonsPattern & BUTTON_CENTER_MASK;
 	pButtonStatus->startPressed = buttonsPattern & BUTTON_RIGHT_MASK;
+	pButtonStatus->leftPressed  = buttonsPattern & BUTTON_LEFT_MASK;
 }
 
 
@@ -240,6 +248,16 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus,
 	   default: xil_printf("Error");
 	}
 	*/
+
+	/* Brightness control */
+	if (DetectAndClearRisingEdge(&(pButtonStatus->leftPrevious), pButtonStatus->leftPressed)) {
+		xil_printf("BRIGHTNESS %d", brightness);
+		brightness = brightness + 1;
+		if (brightness > 7) {
+			brightness = 0;
+		}
+	}
+
 
 	switch (*pFSMState) {
 		case Stopped:
@@ -590,6 +608,11 @@ int main()
     //	Outputs
     XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR,     XGPIO_TRI_OFFSET,  0xFFFF0000);
 
+    //  Refresh Rate & Brightness
+    refreshRate = XGpio_ReadReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_DATA_OFFSET) & 0x7;	// only the first 3 switches are considered
+    xil_printf("REFRESH %d", refreshRate);
+    XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 8, XGPIO_DATA_OFFSET, refreshRate);
+
     xil_printf("\n\rIOs configured.");
 
 #ifdef __USE_AXI_HW_TIMER__
@@ -627,7 +650,7 @@ int main()
 	while (1)
 	{
 		// Put here operations that are performed whenever possible
-		xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue, timerValue.secMSValue, timerValue.secLSValue);
+		//xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue, timerValue.secMSValue, timerValue.secLSValue);
 		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET, zeroFlag);
 	}
 

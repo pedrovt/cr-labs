@@ -40,3 +40,496 @@ con
 ----------------End of Script----------------
 
 12:44:55 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:08:55 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:11:31 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:11:34 INFO  : Disconnected from the channel tcfchan#2.
+13:11:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:11:36 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:11:36 INFO  : 'jtag frequency' command is executed.
+13:11:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:11:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:11:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:11:38 INFO  : Context for processor 'microblaze_0' is selected.
+13:11:38 INFO  : System reset is completed.
+13:11:41 INFO  : 'after 3000' command is executed.
+13:11:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:11:41 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:11:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:11:41 INFO  : Memory regions updated for context MicroBlaze #0
+13:11:41 INFO  : Memory regions updated for context MicroBlaze #0
+13:11:42 INFO  : Context for processor 'microblaze_0' is selected.
+13:11:42 INFO  : 'con' command is executed.
+13:11:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:11:42 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:12:45 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:12:52 INFO  : Disconnected from the channel tcfchan#3.
+13:12:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:12:53 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:12:53 INFO  : 'jtag frequency' command is executed.
+13:12:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:12:55 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:12:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:12:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:55 INFO  : System reset is completed.
+13:12:58 INFO  : 'after 3000' command is executed.
+13:12:58 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:58 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:12:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:12:58 INFO  : Memory regions updated for context MicroBlaze #0
+13:12:58 INFO  : Memory regions updated for context MicroBlaze #0
+13:12:59 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:59 INFO  : 'con' command is executed.
+13:12:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:12:59 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:13:35 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:13:39 INFO  : Disconnected from the channel tcfchan#4.
+13:13:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:13:40 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:13:40 INFO  : 'jtag frequency' command is executed.
+13:13:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:13:42 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:13:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:13:42 INFO  : Context for processor 'microblaze_0' is selected.
+13:13:42 INFO  : System reset is completed.
+13:13:45 INFO  : 'after 3000' command is executed.
+13:13:45 INFO  : Context for processor 'microblaze_0' is selected.
+13:13:45 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:13:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:13:45 INFO  : Memory regions updated for context MicroBlaze #0
+13:13:45 INFO  : Memory regions updated for context MicroBlaze #0
+13:13:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:13:46 INFO  : 'con' command is executed.
+13:13:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:13:46 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:14:37 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:14:43 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:14:48 INFO  : Disconnected from the channel tcfchan#5.
+13:14:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:14:49 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:14:49 INFO  : 'jtag frequency' command is executed.
+13:14:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:14:51 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:14:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:14:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:14:51 INFO  : System reset is completed.
+13:14:54 INFO  : 'after 3000' command is executed.
+13:14:54 INFO  : Context for processor 'microblaze_0' is selected.
+13:14:55 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:14:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:14:55 INFO  : Memory regions updated for context MicroBlaze #0
+13:14:55 INFO  : Memory regions updated for context MicroBlaze #0
+13:14:55 INFO  : Context for processor 'microblaze_0' is selected.
+13:14:55 INFO  : 'con' command is executed.
+13:14:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:14:55 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:15:20 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:15:23 INFO  : Disconnected from the channel tcfchan#6.
+13:15:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:15:24 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:15:24 INFO  : 'jtag frequency' command is executed.
+13:15:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:15:27 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:15:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:15:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:15:27 INFO  : System reset is completed.
+13:15:30 INFO  : 'after 3000' command is executed.
+13:15:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:15:30 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:15:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:15:30 INFO  : Memory regions updated for context MicroBlaze #0
+13:15:30 INFO  : Memory regions updated for context MicroBlaze #0
+13:15:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:15:31 INFO  : 'con' command is executed.
+13:15:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:15:31 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:15:55 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:15:58 INFO  : Disconnected from the channel tcfchan#7.
+13:15:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:15:59 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:15:59 INFO  : 'jtag frequency' command is executed.
+13:15:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:16:02 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:16:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:16:02 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:02 INFO  : System reset is completed.
+13:16:05 INFO  : 'after 3000' command is executed.
+13:16:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:05 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:16:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:16:05 INFO  : Memory regions updated for context MicroBlaze #0
+13:16:05 INFO  : Memory regions updated for context MicroBlaze #0
+13:16:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:16:06 INFO  : 'con' command is executed.
+13:16:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:16:06 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+13:18:04 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+13:18:07 INFO  : Disconnected from the channel tcfchan#8.
+13:18:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:18:09 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:18:09 INFO  : 'jtag frequency' command is executed.
+13:18:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:18:11 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+13:18:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:18:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:18:11 INFO  : System reset is completed.
+13:18:14 INFO  : 'after 3000' command is executed.
+13:18:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:18:14 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+13:18:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+13:18:14 INFO  : Memory regions updated for context MicroBlaze #0
+13:18:14 INFO  : Memory regions updated for context MicroBlaze #0
+13:18:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:18:15 INFO  : 'con' command is executed.
+13:18:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:18:15 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:21:26 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:21:34 INFO  : Disconnected from the channel tcfchan#9.
+22:21:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:35 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:21:35 INFO  : 'jtag frequency' command is executed.
+22:21:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:21:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:21:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:21:38 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:38 INFO  : System reset is completed.
+22:21:41 INFO  : 'after 3000' command is executed.
+22:21:41 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:41 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:21:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:21:41 INFO  : Memory regions updated for context MicroBlaze #0
+22:21:41 INFO  : Memory regions updated for context MicroBlaze #0
+22:21:41 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:42 INFO  : 'con' command is executed.
+22:21:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:21:42 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:22:27 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:22:38 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:22:47 INFO  : Disconnected from the channel tcfchan#10.
+22:22:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:48 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:22:48 INFO  : 'jtag frequency' command is executed.
+22:22:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:22:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:22:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:22:50 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:50 INFO  : System reset is completed.
+22:22:53 INFO  : 'after 3000' command is executed.
+22:22:53 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:54 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:22:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:22:54 INFO  : Memory regions updated for context MicroBlaze #0
+22:22:54 INFO  : Memory regions updated for context MicroBlaze #0
+22:22:54 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:54 INFO  : 'con' command is executed.
+22:22:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:22:54 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:27:04 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:27:07 INFO  : Disconnected from the channel tcfchan#11.
+22:27:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:27:08 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:27:08 INFO  : 'jtag frequency' command is executed.
+22:27:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:27:10 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:27:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:27:10 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:10 INFO  : System reset is completed.
+22:27:13 INFO  : 'after 3000' command is executed.
+22:27:13 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:13 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:27:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:27:13 INFO  : Memory regions updated for context MicroBlaze #0
+22:27:13 INFO  : Memory regions updated for context MicroBlaze #0
+22:27:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:14 INFO  : 'con' command is executed.
+22:27:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:27:14 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:27:34 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:27:37 INFO  : Disconnected from the channel tcfchan#12.
+22:27:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:27:38 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:27:38 INFO  : 'jtag frequency' command is executed.
+22:27:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:27:40 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:27:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:27:40 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:40 INFO  : System reset is completed.
+22:27:43 INFO  : 'after 3000' command is executed.
+22:27:43 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:43 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:27:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:27:44 INFO  : Memory regions updated for context MicroBlaze #0
+22:27:44 INFO  : Memory regions updated for context MicroBlaze #0
+22:27:44 INFO  : Context for processor 'microblaze_0' is selected.
+22:27:44 INFO  : 'con' command is executed.
+22:27:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:27:44 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:35:04 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:35:12 INFO  : Disconnected from the channel tcfchan#13.
+22:35:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:35:13 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:35:13 INFO  : 'jtag frequency' command is executed.
+22:35:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:35:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:35:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:35:15 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:15 INFO  : System reset is completed.
+22:35:18 INFO  : 'after 3000' command is executed.
+22:35:18 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:18 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:35:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:35:18 INFO  : Memory regions updated for context MicroBlaze #0
+22:35:18 INFO  : Memory regions updated for context MicroBlaze #0
+22:35:19 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:19 INFO  : 'con' command is executed.
+22:35:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:35:19 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:35:35 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:35:41 INFO  : Disconnected from the channel tcfchan#14.
+22:35:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:35:42 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:35:42 INFO  : 'jtag frequency' command is executed.
+22:35:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:35:45 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:35:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:35:45 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:45 INFO  : System reset is completed.
+22:35:48 INFO  : 'after 3000' command is executed.
+22:35:48 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:48 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:35:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:35:48 INFO  : Memory regions updated for context MicroBlaze #0
+22:35:48 INFO  : Memory regions updated for context MicroBlaze #0
+22:35:49 INFO  : Context for processor 'microblaze_0' is selected.
+22:35:49 INFO  : 'con' command is executed.
+22:35:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:35:49 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'
+22:36:34 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerCustomHwPartIVApp'...
+22:36:37 INFO  : Disconnected from the channel tcfchan#15.
+22:36:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:36:38 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+22:36:38 INFO  : 'jtag frequency' command is executed.
+22:36:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+22:36:40 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit"
+22:36:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:36:40 INFO  : Context for processor 'microblaze_0' is selected.
+22:36:41 INFO  : System reset is completed.
+22:36:44 INFO  : 'after 3000' command is executed.
+22:36:44 INFO  : Context for processor 'microblaze_0' is selected.
+22:36:44 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf' is downloaded to processor 'microblaze_0'.
+22:36:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf
+----------------End of Script----------------
+
+22:36:44 INFO  : Memory regions updated for context MicroBlaze #0
+22:36:44 INFO  : Memory regions updated for context MicroBlaze #0
+22:36:44 INFO  : Context for processor 'microblaze_0' is selected.
+22:36:45 INFO  : 'con' command is executed.
+22:36:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:36:45 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimercustomhwpartivapp-default.tcl'

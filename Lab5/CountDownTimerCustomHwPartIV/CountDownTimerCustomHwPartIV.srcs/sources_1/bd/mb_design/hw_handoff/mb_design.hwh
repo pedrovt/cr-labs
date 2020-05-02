@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri May  1 23:00:20 2020" VIVADOVERSION="2019.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat May  2 19:31:12 2020" VIVADOVERSION="2019.2">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys4:part0:1.1" DEVICE="7a100t" NAME="mb_design" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -94,7 +94,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE COREREVISION="4" FULLNAME="/Nexys4DisplayDriverE_0" HWVERSION="1.0" INSTANCE="Nexys4DisplayDriverE_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Nexys4DisplayDriverExtended" VLNV="xilinx.com:user:Nexys4DisplayDriverExtended:1.0">
+    <MODULE COREREVISION="10" FULLNAME="/Nexys4DisplayDriverE_0" HWVERSION="1.0" INSTANCE="Nexys4DisplayDriverE_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Nexys4DisplayDriverExtended" VLNV="xilinx.com:user:Nexys4DisplayDriverExtended:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>

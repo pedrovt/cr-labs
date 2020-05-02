@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:Nexys4DisplayDriverExtended:1.0
--- IP Revision: 4
+-- IP Revision: 10
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

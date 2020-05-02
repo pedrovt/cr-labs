@@ -123,8 +123,8 @@ typedef struct STimerValue
 static TButtonStatus buttonStatus   = {FALSE, FALSE, FALSE, FALSE, FALSE, FALSE};
 static TTimerValue   timerValue     = {5, 9, 5, 9};
 static bool          zeroFlag       = FALSE;
-static char		     brightness		= 0;
-static char		     refreshRate	= 5;	// Refresh rate by default
+static char		     brightness		= 2;	// Max brightness by default
+static char		     refreshRate	= 3;	// Refresh rate by default (800Hz)
 
 
 /***************************** Helper functions ******************************/
@@ -187,14 +187,14 @@ bool IsTimerValueZero(const TTimerValue* pTimerValue)
 // Conversion of the countdown timer values stored in a structure to an array of digits
 void TimerValue2DigitValues(const TTimerValue* pTimerValue, unsigned int digitValues[8])
 {
-	digitValues[0] = 5;
+	digitValues[0] = 0;
 	digitValues[1] = 0;
 	digitValues[2] = pTimerValue->secLSValue;
 	digitValues[3] = pTimerValue->secMSValue;
 	digitValues[4] = pTimerValue->minLSValue;
 	digitValues[5] = pTimerValue->minMSValue;
 	digitValues[6] = 0;
-	digitValues[7] = refreshRate;
+	digitValues[7] = 0;
 }
 
 /******************* Countdown timer operations functions ********************/
@@ -236,26 +236,14 @@ void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus,
 	// Use DetectAndClearRisingEdge function
 	// Zeroflag when timer = 0
 
-	/* Debug only */
-	/*
-	switch(*pFSMState) {
-	   case Stopped: xil_printf("State: Stopped\n"); break;
-	   case Started: xil_printf("State: Started\n"); break;
-	   case SetLSSec: xil_printf("State: SetLSSec\n"); break;
-	   case SetMSSec: xil_printf("State: SetMSSec\n"); break;
-	   case SetLSMin: xil_printf("State: SetLSMin\n"); break;
-	   case SetMSMin: xil_printf("State: SetMSMin\n"); break;
-	   default: xil_printf("Error");
-	}
-	*/
-
 	/* Brightness control */
 	if (DetectAndClearRisingEdge(&(pButtonStatus->leftPrevious), pButtonStatus->leftPressed)) {
-		xil_printf("BRIGHTNESS %d", brightness);
+		xil_printf("Changed brightness to %d\n", brightness);
 		brightness = brightness + 1;
 		if (brightness > 7) {
 			brightness = 0;
 		}
+		XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 8, XGPIO_DATA_OFFSET, brightness << 3 | refreshRate);
 	}
 
 
@@ -588,6 +576,12 @@ void init_state() {
 	timerValue.minLSValue = 9;
 	timerValue.secMSValue = 5;
 	timerValue.secLSValue = 9;
+
+    //  Refresh Rate & Brightness
+    refreshRate = XGpio_ReadReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_DATA_OFFSET) & 0x7;	// only the first 3 switches are considered
+    xil_printf("\n\nRefresh Rate #%d, Brightness #%d", refreshRate, brightness);
+    XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 8, XGPIO_DATA_OFFSET, brightness << 3 | refreshRate);
+
 }
 /******************************* Main function *******************************/
 
@@ -596,9 +590,10 @@ int main()
 	int status;
 
 	init_platform();
-	init_state();
+
 
 	xil_printf("\n\n\rCount down timer - interrupt based version.\n\rConfiguring...");
+	init_state();
 
     //	GPIO tri-state configuration
     //	Inputs
@@ -607,12 +602,6 @@ int main()
 
     //	Outputs
     XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR,     XGPIO_TRI_OFFSET,  0xFFFF0000);
-
-    //  Refresh Rate & Brightness
-    refreshRate = XGpio_ReadReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_DATA_OFFSET) & 0x7;	// only the first 3 switches are considered
-    xil_printf("REFRESH %d", refreshRate);
-    XGpio_WriteReg(XPAR_NEXYS4DISPLAYDRIVERE_0_S00_AXI_BASEADDR + 8, XGPIO_DATA_OFFSET, refreshRate);
-
     xil_printf("\n\rIOs configured.");
 
 #ifdef __USE_AXI_HW_TIMER__

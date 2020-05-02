@@ -3,3 +3,14 @@ timestamp=[2020-05-01 12:42:01], mode=WORKBENCH_UI_INIT, duration=0:00:01.315, d
 timestamp=[2020-05-01 12:43:29], mode=APP_CREATION, duration=0:00:13.649, duration_ms=13649, data={name=CountDownTimerCustomHwPartIVApp, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=CountDownTimerCustomHwPartIV, application_type=application}
 timestamp=[2020-05-01 12:44:08], mode=PLATFORM_GENERATION, duration=0:00:15.454, duration_ms=15454, data={name=CountDownTimerCustomHwPartIV}
 timestamp=[2020-05-01 23:09:16], mode=PLATFORM_GENERATION, duration=0:00:04.029, duration_ms=4029, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 01:44:05], mode=PLATFORM_GENERATION, duration=0:00:03.895, duration_ms=3895, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 03:23:43], mode=PLATFORM_GENERATION, duration=0:00:04.459, duration_ms=4459, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 15:20:49], mode=WORKBENCH_START, duration=0:00:18.520, duration_ms=18520, data={}
+timestamp=[2020-05-02 15:20:50], mode=WORKBENCH_UI_INIT, duration=0:00:01.311, duration_ms=1311, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerCustomHwPartIV,CountDownTimerCustomHwPartIVApp,CountDownTimerCustomHwPartIVApp_system,RemoteSystemsTempFiles}
+timestamp=[2020-05-02 15:46:23], mode=PLATFORM_GENERATION, duration=0:00:21.622, duration_ms=21622, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 16:18:00], mode=PLATFORM_GENERATION, duration=0:00:03.244, duration_ms=3244, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 17:31:22], mode=WORKBENCH_START, duration=0:00:15.581, duration_ms=15581, data={}
+timestamp=[2020-05-02 17:31:23], mode=WORKBENCH_UI_INIT, duration=0:00:01.226, duration_ms=1226, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CountDownTimerCustomHwPartIV,CountDownTimerCustomHwPartIVApp,CountDownTimerCustomHwPartIVApp_system,RemoteSystemsTempFiles}
+timestamp=[2020-05-02 19:10:51], mode=PLATFORM_GENERATION, duration=0:00:15.664, duration_ms=15664, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 19:37:24], mode=PLATFORM_GENERATION, duration=0:00:02.914, duration_ms=2914, data={name=CountDownTimerCustomHwPartIV}
+timestamp=[2020-05-02 19:37:47], mode=PLATFORM_GENERATION, duration=0:00:02.913, duration_ms=2913, data={name=CountDownTimerCustomHwPartIV}

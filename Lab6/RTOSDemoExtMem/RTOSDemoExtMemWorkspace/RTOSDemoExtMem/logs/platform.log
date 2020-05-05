@@ -1,0 +1,1265 @@
+TRACE::2020-05-05.17:57:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:26::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-05.17:57:26::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:26::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-05-05.17:57:26::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem"
+		}]
+}
+TRACE::2020-05-05.17:57:26::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-05-05.17:57:26::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-05-05.17:57:26::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem"
+		}]
+}
+TRACE::2020-05-05.17:57:27::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem"
+		}]
+}
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-05.17:57:27::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::mss does not exists at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::Creating sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::Writing mss at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.17:57:27::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-05.17:57:27::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-05.17:57:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-05.17:57:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-05.17:57:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-05.17:57:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:27::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.17:57:27::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-05-05.17:57:29::SCWPlatform::Started generating the artifacts platform RTOSDemoExtMem
+TRACE::2020-05-05.17:57:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-05.17:57:29::SCWPlatform::Started generating the artifacts for system configuration RTOSDemoExtMem
+LOG::2020-05-05.17:57:29::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-05-05.17:57:29::SCWSystem::Not a boot domain 
+LOG::2020-05-05.17:57:29::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-05.17:57:29::SCWDomain::Generating domain artifcats
+TRACE::2020-05-05.17:57:29::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-05.17:57:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+KEYINFO::2020-05-05.17:57:30::SCWMssOS::Could not open the swdb for C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+KEYINFO::2020-05-05.17:57:30::SCWMssOS::Could not open the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss is not found
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-05-05.17:57:30::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-05-05.17:57:30::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-05.17:57:30::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.17:57:30::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-05.17:57:30::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-05.17:57:30::SCWDomain::Skipping the build for domain :  freertos10_xilinx_domain
+TRACE::2020-05-05.17:57:30::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-05.17:57:30::SCWMssOS::Copying to export directory.
+TRACE::2020-05-05.17:57:30::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-05.17:57:30::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-05.17:57:30::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-05.17:57:30::SCWSystem::Completed Processing the sysconfig RTOSDemoExtMem
+LOG::2020-05-05.17:57:30::SCWPlatform::Completed generating the artifacts for system configuration RTOSDemoExtMem
+TRACE::2020-05-05.17:57:30::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-05.17:57:30::SCWSystem::Writing the bif file for system config RTOSDemoExtMem
+TRACE::2020-05-05.17:57:30::SCWSystem::dir created 
+TRACE::2020-05-05.17:57:30::SCWSystem::Writing the bif 
+TRACE::2020-05-05.17:57:30::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-05.17:57:30::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-05.17:57:30::SCWPlatform::Completed generating the platform
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-05.17:57:30::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:30::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:30::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-05.17:57:31::SCWPlatform::Started generating the artifacts platform RTOSDemoExtMem
+TRACE::2020-05-05.17:57:31::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-05.17:57:31::SCWPlatform::Started generating the artifacts for system configuration RTOSDemoExtMem
+LOG::2020-05-05.17:57:31::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-05.17:57:31::SCWDomain::Generating domain artifcats
+TRACE::2020-05-05.17:57:31::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-05.17:57:31::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.17:57:31::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-05.17:57:31::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-05.17:57:31::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_domain
+TRACE::2020-05-05.17:57:31::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-05.17:57:31::SCWMssOS::Copying to export directory.
+TRACE::2020-05-05.17:57:31::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-05.17:57:31::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-05.17:57:31::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-05.17:57:31::SCWSystem::Completed Processing the sysconfig RTOSDemoExtMem
+LOG::2020-05-05.17:57:31::SCWPlatform::Completed generating the artifacts for system configuration RTOSDemoExtMem
+TRACE::2020-05-05.17:57:31::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-05.17:57:31::SCWSystem::Writing the bif file for system config RTOSDemoExtMem
+TRACE::2020-05-05.17:57:31::SCWSystem::dir created 
+TRACE::2020-05-05.17:57:31::SCWSystem::Writing the bif 
+TRACE::2020-05-05.17:57:31::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-05.17:57:31::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-05.17:57:31::SCWPlatform::Completed generating the platform
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:57:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:57:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:57:31::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:57:31::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:57:31::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-05.17:57:31::SCWPlatform::updated the xpfm file.
+LOG::2020-05-05.17:58:09::SCWPlatform::Started generating the artifacts platform RTOSDemoExtMem
+TRACE::2020-05-05.17:58:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-05.17:58:09::SCWPlatform::Started generating the artifacts for system configuration RTOSDemoExtMem
+LOG::2020-05-05.17:58:09::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-05-05.17:58:09::SCWSystem::Not a boot domain 
+LOG::2020-05-05.17:58:09::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-05.17:58:09::SCWDomain::Generating domain artifcats
+TRACE::2020-05-05.17:58:09::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-05.17:58:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-05.17:58:09::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:09::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:09::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:09::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:58:09::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:58:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:58:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:58:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:58:09::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:58:09::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:09::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.17:58:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-05.17:58:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-05.17:58:09::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_domain
+TRACE::2020-05-05.17:58:09::SCWMssOS::doing bsp build ... 
+TRACE::2020-05-05.17:58:09::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp & make 
+TRACE::2020-05-05.17:58:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.17:58:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.17:58:10::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.17:58:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.17:58:10::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2020-05-05.17:58:10::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-comp
+TRACE::2020-05-05.17:58:10::SCWMssOS::are" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:10::SCWMssOS::"include"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.17:58:11::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.17:58:11::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-05.17:58:11::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-05.17:58:11::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-05-05.17:58:11::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2020-05-05.17:58:11::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-05-05.17:58:11::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXT
+TRACE::2020-05-05.17:58:11::SCWMssOS::RA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-05.17:58:11::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.17:58:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.17:58:12::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:12::SCWMssOS::"Compiling bram"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.17:58:13::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.17:58:13::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2020-05-05.17:58:13::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare
+TRACE::2020-05-05.17:58:13::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:13::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-05-05.17:58:17::SCWMssOS::"Compiling FreeRTOS"
+
+TRACE::2020-05-05.17:58:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-05.17:58:19::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.17:58:19::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.17:58:19::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:19::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-05-05.17:58:20::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-05.17:58:20::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-05-05.17:58:20::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+TRACE::2020-05-05.17:58:20::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:20::SCWMssOS::"Compiling intc"
+
+TRACE::2020-05-05.17:58:21::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-05.17:58:21::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-05-05.17:58:21::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-05-05.17:58:21::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:21::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-05-05.17:58:22::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-05.17:58:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-05.17:58:22::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-05.17:58:22::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.17:58:22::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-05-05.17:58:23::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-05-05.17:58:23::SCWMssOS::Copying to export directory.
+TRACE::2020-05-05.17:58:24::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-05.17:58:24::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-05.17:58:24::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-05.17:58:24::SCWSystem::Completed Processing the sysconfig RTOSDemoExtMem
+LOG::2020-05-05.17:58:24::SCWPlatform::Completed generating the artifacts for system configuration RTOSDemoExtMem
+TRACE::2020-05-05.17:58:24::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-05.17:58:24::SCWSystem::Writing the bif file for system config RTOSDemoExtMem
+TRACE::2020-05-05.17:58:24::SCWSystem::dir created 
+TRACE::2020-05-05.17:58:24::SCWSystem::Writing the bif 
+TRACE::2020-05-05.17:58:24::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-05.17:58:24::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-05.17:58:24::SCWPlatform::Completed generating the platform
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:58:24::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:58:24::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:58:24::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:58:24::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:58:24::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:58:24::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-05.17:58:24::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.17:58:24::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.17:58:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.17:58:24::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.17:58:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.17:58:24::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+LOG::2020-05-05.18:04:09::SCWPlatform::Started generating the artifacts platform RTOSDemoExtMem
+TRACE::2020-05-05.18:04:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-05.18:04:09::SCWPlatform::Started generating the artifacts for system configuration RTOSDemoExtMem
+LOG::2020-05-05.18:04:09::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-05-05.18:04:09::SCWSystem::Not a boot domain 
+LOG::2020-05-05.18:04:09::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-05.18:04:09::SCWDomain::Generating domain artifcats
+TRACE::2020-05-05.18:04:09::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-05.18:04:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-05.18:04:09::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:09::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:09::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:09::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.18:04:09::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.18:04:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.18:04:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.18:04:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.18:04:09::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.18:04:09::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:09::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-05.18:04:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-05.18:04:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-05.18:04:09::SCWDomain::Building the domain :  freertos10_xilinx_domain
+TRACE::2020-05-05.18:04:09::SCWMssOS::doing bsp build ... 
+TRACE::2020-05-05.18:04:09::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp & make 
+TRACE::2020-05-05.18:04:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-05.18:04:09::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.18:04:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.18:04:09::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:09::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-05.18:04:09::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.18:04:09::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.18:04:09::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-05.18:04:10::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2020-05-05.18:04:10::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-comp
+TRACE::2020-05-05.18:04:10::SCWMssOS::are" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:10::SCWMssOS::"include"
+
+TRACE::2020-05-05.18:04:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-05.18:04:10::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-05.18:04:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-05.18:04:10::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-05.18:04:11::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-05.18:04:11::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-05-05.18:04:11::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2020-05-05.18:04:11::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-05-05.18:04:11::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXT
+TRACE::2020-05-05.18:04:11::SCWMssOS::RA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.18:04:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.18:04:11::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:11::SCWMssOS::"Compiling bram"
+
+TRACE::2020-05-05.18:04:12::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-05.18:04:12::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.18:04:12::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.18:04:12::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:12::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-05-05.18:04:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-05.18:04:13::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2020-05-05.18:04:13::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare
+TRACE::2020-05-05.18:04:13::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:13::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-05-05.18:04:16::SCWMssOS::"Compiling FreeRTOS"
+
+TRACE::2020-05-05.18:04:18::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-05.18:04:18::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-05.18:04:18::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-05.18:04:18::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:18::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-05-05.18:04:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-05.18:04:19::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-05-05.18:04:19::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+TRACE::2020-05-05.18:04:19::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:20::SCWMssOS::"Compiling intc"
+
+TRACE::2020-05-05.18:04:20::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-05.18:04:20::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-05-05.18:04:20::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-05-05.18:04:20::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:21::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-05-05.18:04:22::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-05.18:04:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-05.18:04:22::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-05.18:04:22::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-05.18:04:22::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::Copying to export directory.
+TRACE::2020-05-05.18:04:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-05.18:04:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-05.18:04:23::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-05.18:04:23::SCWSystem::Completed Processing the sysconfig RTOSDemoExtMem
+LOG::2020-05-05.18:04:23::SCWPlatform::Completed generating the artifacts for system configuration RTOSDemoExtMem
+TRACE::2020-05-05.18:04:23::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-05.18:04:23::SCWSystem::Writing the bif file for system config RTOSDemoExtMem
+TRACE::2020-05-05.18:04:23::SCWSystem::dir created 
+TRACE::2020-05-05.18:04:23::SCWSystem::Writing the bif 
+TRACE::2020-05-05.18:04:23::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-05.18:04:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-05.18:04:23::SCWPlatform::Completed generating the platform
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.18:04:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.18:04:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.18:04:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWWriter::formatted JSON is {
+	"platformName":	"RTOSDemoExtMem",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"RTOSDemoExtMem",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMem.xsa",
+	"platIntHandOff":	"<platformDir>/hw/RTOSDemoExtMem.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"RTOSDemoExtMem",
+	"systems":	[{
+			"systemName":	"RTOSDemoExtMem",
+			"systemDesc":	"RTOSDemoExtMem",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"RTOSDemoExtMem",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7182b8364fda9bd8a11624e67b7777e8",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-05.18:04:23::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/hw/RTOSDemoExtMem.xsa
+TRACE::2020-05-05.18:04:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-05.18:04:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-05.18:04:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-05.18:04:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-05.18:04:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/microblaze_0/freertos10_xilinx_domain/bsp/system.mss

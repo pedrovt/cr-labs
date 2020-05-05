@@ -1,0 +1,23 @@
+Nothing to build in platform 'RTOSDemoExtMem'
+
+18:05:48 **** Incremental Build of configuration Debug for project RTOSDemoExtMemApp ****
+make all 
+Building file: ../src/freertos_hello_world.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/export/RTOSDemoExtMem/sw/RTOSDemoExtMem/freertos10_xilinx_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:46:1: warning: multi-line comment [-Wcomment]
+ // in the file "mb_design_wrapper\microblaze_0\freertos10_xilinx_domain\bsp\
+ ^
+Finished building: ../src/freertos_hello_world.c
+ 
+Building target: RTOSDemoExtMemApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/RTOSDemoExtMem/RTOSDemoExtMemWorkspace/RTOSDemoExtMem/export/RTOSDemoExtMem/sw/RTOSDemoExtMem/freertos10_xilinx_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "RTOSDemoExtMemApp.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+Finished building target: RTOSDemoExtMemApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size RTOSDemoExtMemApp.elf  |tee "RTOSDemoExtMemApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34888	   1888	  69624	 106400	  19fa0	RTOSDemoExtMemApp.elf
+Finished building: RTOSDemoExtMemApp.elf.size
+ 

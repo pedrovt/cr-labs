@@ -1,0 +1,325 @@
+19:11:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Desktop\RTOSDemo\RTOSDemoWorkspace\temp_xsdb_launch_script.tcl
+19:12:01 INFO  : XSCT server has started successfully.
+19:12:01 INFO  : plnx-install-location is set to ''
+19:12:01 INFO  : Successfully done setting XSCT server connection channel  
+19:12:03 INFO  : Registering command handlers for Vitis TCF services
+19:12:04 INFO  : Successfully done setting workspace for the tool. 
+19:12:04 INFO  : Successfully done query RDI_DATADIR 
+19:16:42 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+19:17:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:04 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+19:17:04 INFO  : 'jtag frequency' command is executed.
+19:17:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+19:17:06 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Desktop/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+19:17:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:17:06 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:06 INFO  : System reset is completed.
+19:17:09 INFO  : 'after 3000' command is executed.
+19:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:09 INFO  : The application 'C:/Users/Pedro/Desktop/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+19:17:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Desktop/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Desktop/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+19:17:09 INFO  : Memory regions updated for context MicroBlaze #0
+19:17:09 INFO  : Memory regions updated for context MicroBlaze #0
+19:17:10 INFO  : Context for processor 'microblaze_0' is selected.
+19:17:10 INFO  : 'con' command is executed.
+19:17:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:17:10 INFO  : Launch script is exported to file 'C:\Users\Pedro\Desktop\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_rtosdemoapp-default.tcl'
+19:17:37 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+19:33:56 INFO  : Disconnected from the channel tcfchan#2.
+23:52:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\temp_xsdb_launch_script.tcl
+23:52:43 INFO  : XSCT server has started successfully.
+23:52:43 INFO  : Successfully done setting XSCT server connection channel  
+23:52:43 INFO  : plnx-install-location is set to ''
+23:52:43 INFO  : Successfully done setting workspace for the tool. 
+23:52:48 INFO  : Registering command handlers for Vitis TCF services
+23:52:52 INFO  : Successfully done query RDI_DATADIR 
+00:06:11 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+09:33:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:33:24 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:33:24 INFO  : 'jtag frequency' command is executed.
+09:33:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:33:26 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:33:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:33:26 INFO  : Context for processor 'microblaze_0' is selected.
+09:33:26 INFO  : System reset is completed.
+09:33:29 INFO  : 'after 3000' command is executed.
+09:33:29 INFO  : Context for processor 'microblaze_0' is selected.
+09:33:30 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+09:33:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:33:30 INFO  : Memory regions updated for context MicroBlaze #0
+09:33:30 INFO  : Memory regions updated for context MicroBlaze #0
+09:33:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:33:30 INFO  : 'con' command is executed.
+09:33:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:33:30 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_rtosdemoapp-default.tcl'
+09:49:28 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+09:49:42 INFO  : Disconnected from the channel tcfchan#2.
+09:49:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:49:43 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:49:43 INFO  : 'jtag frequency' command is executed.
+09:49:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:49:46 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:49:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:49:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:46 INFO  : System reset is completed.
+09:49:49 INFO  : 'after 3000' command is executed.
+09:49:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:49 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+09:49:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:49:49 INFO  : Memory regions updated for context MicroBlaze #0
+09:49:49 INFO  : Memory regions updated for context MicroBlaze #0
+09:49:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:49 INFO  : 'con' command is executed.
+09:49:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:49:49 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+09:50:18 INFO  : Disconnected from the channel tcfchan#3.
+09:50:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:50:19 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:50:19 INFO  : 'jtag frequency' command is executed.
+09:50:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:50:21 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:50:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:50:21 INFO  : Context for processor 'microblaze_0' is selected.
+09:50:21 INFO  : System reset is completed.
+09:50:24 INFO  : 'after 3000' command is executed.
+09:50:24 INFO  : Context for processor 'microblaze_0' is selected.
+09:50:24 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x40000000
+09:50:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:50:24 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x40000000
+09:50:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:50:35 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:50:35 INFO  : 'jtag frequency' command is executed.
+09:50:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:50:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:50:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:50:38 INFO  : Context for processor 'microblaze_0' is selected.
+09:50:38 INFO  : System reset is completed.
+09:50:41 INFO  : 'after 3000' command is executed.
+09:50:41 INFO  : Context for processor 'microblaze_0' is selected.
+09:50:41 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+09:50:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:50:41 INFO  : Memory regions updated for context MicroBlaze #0
+09:50:41 INFO  : Memory regions updated for context MicroBlaze #0
+09:50:41 INFO  : Context for processor 'microblaze_0' is selected.
+09:50:41 INFO  : 'con' command is executed.
+09:50:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:50:41 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+09:50:54 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+09:54:40 INFO  : Disconnected from the channel tcfchan#4.
+09:54:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:54:41 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:54:41 INFO  : 'jtag frequency' command is executed.
+09:54:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:54:43 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:54:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:54:43 INFO  : Context for processor 'microblaze_0' is selected.
+09:54:43 INFO  : System reset is completed.
+09:54:46 INFO  : 'after 3000' command is executed.
+09:54:46 INFO  : Context for processor 'microblaze_0' is selected.
+09:54:46 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+09:54:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:54:47 INFO  : Memory regions updated for context MicroBlaze #0
+09:54:47 INFO  : Memory regions updated for context MicroBlaze #0
+09:54:47 INFO  : Context for processor 'microblaze_0' is selected.
+09:54:47 INFO  : 'con' command is executed.
+09:54:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:54:47 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+09:56:05 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+09:56:25 INFO  : Disconnected from the channel tcfchan#5.
+09:56:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:56:25 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:56:25 INFO  : 'jtag frequency' command is executed.
+09:56:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:56:27 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+09:56:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:56:27 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:27 INFO  : System reset is completed.
+09:56:30 INFO  : 'after 3000' command is executed.
+09:56:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:31 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+09:56:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+09:56:31 INFO  : Memory regions updated for context MicroBlaze #0
+09:56:31 INFO  : Memory regions updated for context MicroBlaze #0
+09:56:31 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:31 INFO  : 'con' command is executed.
+09:56:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:56:31 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+10:03:14 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+10:03:25 INFO  : Disconnected from the channel tcfchan#6.
+10:03:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:03:25 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:03:25 INFO  : 'jtag frequency' command is executed.
+10:03:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:03:28 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+10:03:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:03:28 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:28 INFO  : System reset is completed.
+10:03:31 INFO  : 'after 3000' command is executed.
+10:03:31 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:31 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+10:03:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+10:03:31 INFO  : Memory regions updated for context MicroBlaze #0
+10:03:31 INFO  : Memory regions updated for context MicroBlaze #0
+10:03:31 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:31 INFO  : 'con' command is executed.
+10:03:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:03:31 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+10:15:41 INFO  : Hardware specification for platform project 'RTOSDemo' is updated.
+10:15:53 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+10:15:54 INFO  : The hardware specfication used by project 'RTOSDemoApp' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+10:15:55 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\RTOSDemoApp\_ide\bitstream\RTOSDemo.bit' stored in project is removed.
+10:15:55 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\RTOSDemoApp\_ide\bitstream\RTOSDemo.mmi' stored in project is removed.
+10:15:55 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\RTOSDemoApp\_ide\bitstream' in project 'RTOSDemoApp'.
+10:16:19 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+10:16:26 INFO  : Checking for BSP changes to sync application flags for project 'RTOSDemoApp'...
+10:16:35 INFO  : Disconnected from the channel tcfchan#7.
+10:16:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:16:36 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:16:36 INFO  : 'jtag frequency' command is executed.
+10:16:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:16:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit"
+10:16:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:16:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:16:38 INFO  : System reset is completed.
+10:16:41 INFO  : 'after 3000' command is executed.
+10:16:41 INFO  : Context for processor 'microblaze_0' is selected.
+10:16:41 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf' is downloaded to processor 'microblaze_0'.
+10:16:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/_ide/bitstream/RTOSDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/RTOS/RTOSDemo/RTOSDemoWorkspace/RTOSDemoApp/Debug/RTOSDemoApp.elf
+----------------End of Script----------------
+
+10:16:41 INFO  : Memory regions updated for context MicroBlaze #0
+10:16:41 INFO  : Memory regions updated for context MicroBlaze #0
+10:16:41 INFO  : Context for processor 'microblaze_0' is selected.
+10:16:41 INFO  : 'con' command is executed.
+10:16:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:16:41 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\RTOS\RTOSDemo\RTOSDemoWorkspace\.sdk\launch_scripts\single_application_debug\systemdebugger_rtosdemoapp_system_standalone.tcl'
+14:01:05 INFO  : Disconnected from the channel tcfchan#11.

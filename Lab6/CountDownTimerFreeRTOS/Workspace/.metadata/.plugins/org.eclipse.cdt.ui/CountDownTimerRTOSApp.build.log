@@ -1,0 +1,16 @@
+18:47:56 **** Incremental Build of configuration Debug for project CountDownTimerRTOSApp ****
+make all 
+Building target: CountDownTimerRTOSApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/export/CountDownTimerFreeRTOS/sw/CountDownTimerFreeRTOS/freertos10_xilinx_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CountDownTimerRTOSApp.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+Finished building target: CountDownTimerRTOSApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size CountDownTimerRTOSApp.elf  |tee "CountDownTimerRTOSApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32452	   1852	 115672	 149976	  249d8	CountDownTimerRTOSApp.elf
+Finished building: CountDownTimerRTOSApp.elf.size
+ 
+
+18:47:56 Build Finished (took 653ms)
+

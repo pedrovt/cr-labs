@@ -1,0 +1,1024 @@
+TRACE::2020-05-06.18:44:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:22::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:22::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:22::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-06.18:44:22::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-05-06.18:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS"
+		}]
+}
+TRACE::2020-05-06.18:44:22::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-05-06.18:44:22::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-05-06.18:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS"
+		}]
+}
+TRACE::2020-05-06.18:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS"
+		}]
+}
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-06.18:44:23::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::mss does not exists at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::Creating sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::Writing mss at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-06.18:44:23::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-06.18:44:23::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-06.18:44:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-06.18:44:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-06.18:44:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:23::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:23::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+TRACE::2020-05-06.18:44:23::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:23::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-06.18:44:23::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-05-06.18:44:26::SCWPlatform::Started generating the artifacts platform CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:26::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-06.18:44:26::SCWPlatform::Started generating the artifacts for system configuration CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:26::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-05-06.18:44:26::SCWSystem::Not a boot domain 
+LOG::2020-05-06.18:44:26::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:26::SCWDomain::Generating domain artifcats
+TRACE::2020-05-06.18:44:26::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-06.18:44:26::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-06.18:44:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:26::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:26::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss||
+
+KEYINFO::2020-05-06.18:44:27::SCWMssOS::Could not open the swdb for C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+KEYINFO::2020-05-06.18:44:27::SCWMssOS::Could not open the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss is not found
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-05-06.18:44:27::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss with des name system
+TRACE::2020-05-06.18:44:27::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-06.18:44:27::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-06.18:44:27::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-06.18:44:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-06.18:44:27::SCWDomain::Skipping the build for domain :  freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:27::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-06.18:44:27::SCWMssOS::Copying to export directory.
+TRACE::2020-05-06.18:44:27::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-06.18:44:27::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-06.18:44:27::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-06.18:44:27::SCWSystem::Completed Processing the sysconfig CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:27::SCWPlatform::Completed generating the artifacts for system configuration CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:27::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-06.18:44:27::SCWSystem::Writing the bif file for system config CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:27::SCWSystem::dir created 
+TRACE::2020-05-06.18:44:27::SCWSystem::Writing the bif 
+TRACE::2020-05-06.18:44:27::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-06.18:44:27::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-06.18:44:27::SCWPlatform::Completed generating the platform
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7966432f78efe854ffd32cd3bfd55faa",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-06.18:44:27::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:27::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:27::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:27::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7966432f78efe854ffd32cd3bfd55faa",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-06.18:44:27::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:27::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:28::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:28::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:28::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:28::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:28::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:28::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:28::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:28::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:28::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:28::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:28::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:28::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7966432f78efe854ffd32cd3bfd55faa",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-06.18:44:28::SCWPlatform::Started generating the artifacts platform CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:28::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-06.18:44:29::SCWPlatform::Started generating the artifacts for system configuration CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:29::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:29::SCWDomain::Generating domain artifcats
+TRACE::2020-05-06.18:44:29::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-06.18:44:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:29::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:29::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-06.18:44:29::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-06.18:44:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-06.18:44:29::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-06.18:44:29::SCWMssOS::Copying to export directory.
+TRACE::2020-05-06.18:44:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-06.18:44:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-06.18:44:29::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-06.18:44:29::SCWSystem::Completed Processing the sysconfig CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:29::SCWPlatform::Completed generating the artifacts for system configuration CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:29::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-06.18:44:29::SCWSystem::Writing the bif file for system config CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:29::SCWSystem::dir created 
+TRACE::2020-05-06.18:44:29::SCWSystem::Writing the bif 
+TRACE::2020-05-06.18:44:29::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-06.18:44:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-06.18:44:29::SCWPlatform::Completed generating the platform
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:29::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:29::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:29::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:29::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:29::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:29::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:29::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:29::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7966432f78efe854ffd32cd3bfd55faa",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-06.18:44:29::SCWPlatform::updated the xpfm file.
+LOG::2020-05-06.18:44:41::SCWPlatform::Started generating the artifacts platform CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-06.18:44:41::SCWPlatform::Started generating the artifacts for system configuration CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:41::SCWSystem::Checking the domain freertos10_xilinx_domain
+LOG::2020-05-06.18:44:41::SCWSystem::Not a boot domain 
+LOG::2020-05-06.18:44:41::SCWSystem::Started Processing the domain freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:41::SCWDomain::Generating domain artifcats
+TRACE::2020-05-06.18:44:41::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-06.18:44:41::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-06.18:44:41::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:41::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:41::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:41::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:41::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:41::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:41::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:41::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:41::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:41::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:41::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp
+TRACE::2020-05-06.18:44:41::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:41::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-06.18:44:41::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-06.18:44:41::SCWDomain::Building the domain as part of full build :  freertos10_xilinx_domain
+TRACE::2020-05-06.18:44:41::SCWMssOS::doing bsp build ... 
+TRACE::2020-05-06.18:44:41::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp & make 
+TRACE::2020-05-06.18:44:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-06.18:44:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-06.18:44:42::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-06.18:44:42::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-06.18:44:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-06.18:44:42::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-06.18:44:42::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:42::SCWMssOS::"Running Make include in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-06.18:44:42::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2020-05-06.18:44:42::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-comp
+TRACE::2020-05-06.18:44:42::SCWMssOS::are" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:43::SCWMssOS::"include"
+
+TRACE::2020-05-06.18:44:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-06.18:44:43::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-06.18:44:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-06.18:44:43::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-06.18:44:44::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-06.18:44:44::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::"Running Make include in microblaze_0/libsrc/Nexys4DisplayDriverExtended_v1_0/src"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::make -C microblaze_0/libsrc/Nexys4DisplayDriverExtended_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "A
+TRACE::2020-05-06.18:44:44::SCWMssOS::RCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pa
+TRACE::2020-05-06.18:44:44::SCWMssOS::ttern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-05-06.18:44:44::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2020-05-06.18:44:44::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-06.18:44:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-05-06.18:44:44::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXT
+TRACE::2020-05-06.18:44:44::SCWMssOS::RA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-06.18:44:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-06.18:44:45::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-06.18:44:45::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:45::SCWMssOS::"Compiling bram"
+
+TRACE::2020-05-06.18:44:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-06.18:44:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-06.18:44:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-06.18:44:46::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:46::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-05-06.18:44:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/freertos10_xilinx_v1_4/src"
+
+TRACE::2020-05-06.18:44:46::SCWMssOS::make -C microblaze_0/libsrc/freertos10_xilinx_v1_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2020-05-06.18:44:46::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare
+TRACE::2020-05-06.18:44:46::SCWMssOS::" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:47::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-05-06.18:44:51::SCWMssOS::"Compiling FreeRTOS"
+
+TRACE::2020-05-06.18:44:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-06.18:44:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-06.18:44:53::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-06.18:44:53::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:53::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-05-06.18:44:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-06.18:44:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-05-06.18:44:54::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+TRACE::2020-05-06.18:44:54::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:54::SCWMssOS::"Compiling intc"
+
+TRACE::2020-05-06.18:44:55::SCWMssOS::"Running Make libs in microblaze_0/libsrc/Nexys4DisplayDriverExtended_v1_0/src"
+
+TRACE::2020-05-06.18:44:55::SCWMssOS::make -C microblaze_0/libsrc/Nexys4DisplayDriverExtended_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCH
+TRACE::2020-05-06.18:44:55::SCWMssOS::IVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-patte
+TRACE::2020-05-06.18:44:55::SCWMssOS::rn-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:56::SCWMssOS::"Compiling Nexys4DisplayDriverExtended..."
+
+TRACE::2020-05-06.18:44:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-06.18:44:56::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-05-06.18:44:56::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-05-06.18:44:56::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:56::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-05-06.18:44:57::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-06.18:44:57::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-06.18:44:57::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-06.18:44:57::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-06.18:44:58::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-05-06.18:44:58::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-05-06.18:44:59::SCWMssOS::Copying to export directory.
+TRACE::2020-05-06.18:44:59::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-06.18:44:59::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-06.18:44:59::SCWSystem::Completed Processing the domain freertos10_xilinx_domain
+LOG::2020-05-06.18:44:59::SCWSystem::Completed Processing the sysconfig CountDownTimerFreeRTOS
+LOG::2020-05-06.18:44:59::SCWPlatform::Completed generating the artifacts for system configuration CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:59::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-06.18:44:59::SCWSystem::Writing the bif file for system config CountDownTimerFreeRTOS
+TRACE::2020-05-06.18:44:59::SCWSystem::dir created 
+TRACE::2020-05-06.18:44:59::SCWSystem::Writing the bif 
+TRACE::2020-05-06.18:44:59::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-06.18:44:59::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-06.18:44:59::SCWPlatform::Completed generating the platform
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:59::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:59::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:59::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:59::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:59::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:59::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerFreeRTOS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerFreeRTOS",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerFreeRTOS.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerFreeRTOS",
+	"systems":	[{
+			"systemName":	"CountDownTimerFreeRTOS",
+			"systemDesc":	"CountDownTimerFreeRTOS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerFreeRTOS",
+			"sysActiveDom":	"freertos10_xilinx_domain",
+			"sysDefaultDom":	"freertos10_xilinx_domain",
+			"domains":	[{
+					"domainName":	"freertos10_xilinx_domain",
+					"domainDispName":	"freertos10_xilinx on microblaze_0",
+					"domainDesc":	"freertos10_xilinx_domain",
+					"processors":	"microblaze_0",
+					"os":	"freertos10_xilinx",
+					"sdxOs":	"freertos10_xilinx",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"1.4",
+					"mssFile":	"",
+					"md5Digest":	"7966432f78efe854ffd32cd3bfd55faa",
+					"compatibleApp":	"freertos_hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-06.18:44:59::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/hw/CountDownTimerFreeRTOS.xsa
+TRACE::2020-05-06.18:44:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-06.18:44:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-06.18:44:59::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss
+TRACE::2020-05-06.18:44:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss|system||
+
+TRACE::2020-05-06.18:44:59::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerFreeRTOS/microblaze_0/freertos10_xilinx_domain/bsp/system.mss

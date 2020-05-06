@@ -11,8 +11,16 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity Nexys4DisplayDriver is
+    
+    generic (
+        constant C_REFRESH_RATE_LEVELS  : integer := 8;
+        constant C_BRIGHTNESS_LEVELS    : integer := 7
+	);
+	
   port(clk       : in  std_logic;
-       enable    : in std_logic;
+       reset     : in  std_logic;
+       refrRate  : in  std_logic_vector(2 downto 0);
+       brigthCtrl: in  std_logic_vector(2 downto 0);
        digitEn   : in  std_logic_vector(7 downto 0);
        digVal0   : in  std_logic_vector(3 downto 0);
        digVal1   : in  std_logic_vector(3 downto 0);
@@ -33,13 +41,34 @@ architecture Behavioral of Nexys4DisplayDriver is
     signal s_currentV    : STD_LOGIC_VECTOR(3 downto 0);
     signal s_counter     : unsigned(2 downto 0) := "000";
     signal s_DispSeg     : STD_LOGIC_VECTOR(6 downto 0);
+    
+    signal s_clkEnbCnt                 : integer;
+    signal s_clkEnable                 : std_logic;
+	signal s_brightControl, s_dispEn_n : std_logic_vector(7 downto 0);
+
+    -- Creates an 8x1 array for refresh rates
+    type TRefreshRateLut is array (0 to C_REFRESH_RATE_LEVELS-1) of integer;
+    constant REFRESH_RATE_LUT : TRefreshRateLut := (1999999, 999999, 499999, 249999, 124999, 62499, 31249, 15624);
+    
+    -- Creates a 8x7 array for brightness (8 refresh rates, 7 brightness levels per refresh rate) 
+    type TBrightnessLut is array (0 to C_REFRESH_RATE_LEVELS-1, 0 to C_BRIGHTNESS_LEVELS-1) of integer;
+    constant BRIGTHNESS_LUT : TBrightnessLut := (
+        (285714,571428,857142,1142857,1428571,1714285,1999999),         -- Refresh Rate   50 Hz, brightness levels 1-7
+        (142857,285714,428571,571428,714285,857142,999999),             -- Refresh Rate  100 Hz, brightness levels 1-7
+        (71428,142857,214285,285714,357142,428571,499999),              -- Refresh Rate  200 Hz, brightness levels 1-7
+        (35714,71428,107142,142857,178571,214285,249999),               -- Refresh Rate  400 Hz, brightness levels 1-7
+        (17857,35714,53571,71428,89285,107142,124999),                  -- Refresh Rate  800 Hz, brightness levels 1-7
+        (8928,17857,26785,35714,44642,53571,62499),                     -- Refresh Rate 1600 Hz, brightness levels 1-7
+        (4464,8928,13392,17857,22321,26785,31249),                      -- Refresh Rate 3200 Hz, brightness levels 1-7
+        (2232,4464,6696,8928,11160,13392,15624)                         -- Refresh Rate 6400 Hz, brightness levels 1-7
+    );
 
 begin
 
     -- 3bit Counter
-    ctr3b:  process(clk, enable)
+    ctr3b:  process(clk, s_clkEnable)
             begin
-                if (rising_edge(clk) and enable = '1') then
+                if (rising_edge(clk) and s_clkEnable = '1') then
                     s_counter <= s_counter + 1;
                 end if;
             end process;
@@ -138,5 +167,30 @@ begin
                 dispSeg_n <= "1111111";
               end if;
            end process;
+
+    -- Clock Divider
+    clk_divider:    process(clk)
+                    begin
+                        if (rising_edge(clk)) then
+                            if (reset = '0') then
+                                s_clkEnbCnt <= 0;
+                                s_clkEnable <= '0';
+                                s_brightControl <= (others => '1');
+                                
+                            elsif (s_clkEnbCnt >= REFRESH_RATE_LUT(to_integer(unsigned(refrRate)))) then
+                                s_clkEnbCnt <= 0;
+                                s_clkEnable <= '1';
+                                s_brightControl <= (others => '0');
+                        
+                            else
+                                s_clkEnbCnt <= s_clkEnbCnt + 1;
+                                s_clkEnable <= '0';
+                                
+                                if (s_clkEnbCnt >= BRIGTHNESS_LUT(to_integer(unsigned(refrRate)), to_integer(unsigned(brigthCtrl))))   then
+                                    s_brightControl <= (others => '1');
+                                end if;
+                            end if; 
+                        end if;
+                    end process;
 
 end Behavioral;

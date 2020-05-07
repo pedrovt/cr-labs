@@ -3722,3 +3722,617 @@ TRACE::2020-05-02.19:37:47::SCWMssOS::Checking the sw design at  C:/Users/Pedro/
 TRACE::2020-05-02.19:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
 
 TRACE::2020-05-02.19:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:08::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:08::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:08::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:11::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:14:11::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:11::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:14:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-07.11:14:12::SCWPlatform::Opened new HwDB with name mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWReader::Active system found as  CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.11:14:12::SCWReader::Handling sysconfig CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.11:14:12::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:14:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-07.11:14:12::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-05-07.11:14:12::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-07.11:14:12::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-05-07.11:14:12::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:14:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:14:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:14:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:14:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:14:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:14:12::SCWReader::No isolation master present  
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Platform location is C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:42::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-07.11:18:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:18:42::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:18:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2020-05-07.11:18:42::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2020-05-07.11:18:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:18:43::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:43::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:43::SCWPlatform::update - Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-07.11:18:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:43::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-07.11:18:43::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-07.11:18:43::SCWPlatform::Opened new HwDB with name mb_design_wrapper_1
+TRACE::2020-05-07.11:18:43::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:43::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:43::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-05-07.11:18:43::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-05-07.11:18:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:43::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:18:43::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:43::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerCustomHwPartIV",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerCustomHwPartIV",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerCustomHwPartIV.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerCustomHwPartIV",
+	"systems":	[{
+			"systemName":	"CountDownTimerCustomHwPartIV",
+			"systemDesc":	"CountDownTimerCustomHwPartIV",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerCustomHwPartIV",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"23f48ae7bc9e604d36dc21de83442a96",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-07.11:18:51::SCWPlatform::Started generating the artifacts platform CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.11:18:51::SCWPlatform::Sanity checking of platform is completed
+TRACE::2020-05-07.11:18:51::SCWPlatform::Removing directory failed. Attepting second time.
+LOG::2020-05-07.11:18:51::SCWPlatform::Started generating the artifacts for system configuration CountDownTimerCustomHwPartIV
+LOG::2020-05-07.11:18:51::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-07.11:18:51::SCWSystem::Not a boot domain 
+LOG::2020-05-07.11:18:51::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-07.11:18:51::SCWDomain::Generating domain artifcats
+TRACE::2020-05-07.11:18:51::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-07.11:18:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-07.11:18:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-05-07.11:18:51::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-05-07.11:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:51::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:18:52::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:52::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-07.11:18:52::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:52::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-07.11:18:52::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-07.11:18:52::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-05-07.11:18:52::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-07.11:18:52::SCWMssOS::Copying to export directory.
+TRACE::2020-05-07.11:18:52::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-07.11:18:52::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-07.11:18:52::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-07.11:18:52::SCWSystem::Completed Processing the sysconfig CountDownTimerCustomHwPartIV
+LOG::2020-05-07.11:18:52::SCWPlatform::Completed generating the artifacts for system configuration CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.11:18:52::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-07.11:18:52::SCWSystem::Writing the bif file for system config CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.11:18:52::SCWSystem::dir created 
+TRACE::2020-05-07.11:18:52::SCWSystem::Writing the bif 
+TRACE::2020-05-07.11:18:52::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-07.11:18:52::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-07.11:18:52::SCWPlatform::Completed generating the platform
+TRACE::2020-05-07.11:18:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:53::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-05-07.11:18:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-05-07.11:18:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:53::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:18:53::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:53::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerCustomHwPartIV",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerCustomHwPartIV",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerCustomHwPartIV.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerCustomHwPartIV",
+	"systems":	[{
+			"systemName":	"CountDownTimerCustomHwPartIV",
+			"systemDesc":	"CountDownTimerCustomHwPartIV",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerCustomHwPartIV",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"23f48ae7bc9e604d36dc21de83442a96",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-07.11:18:53::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-07.11:18:53::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.11:18:53::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.11:18:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.11:18:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2020-05-07.11:18:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2020-05-07.11:18:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.11:18:53::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.11:18:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.11:18:53::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWPlatform::Clearing the existing platform
+TRACE::2020-05-07.12:12:19::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-05-07.12:12:19::SCWMssOS::Removing the swdes entry for  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWSystem::Clearing the domains completed.
+TRACE::2020-05-07.12:12:19::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform location is C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Removing the HwDB with name C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-07.12:12:19::SCWPlatform::Opened new HwDB with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWReader::Active system found as  CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.12:12:19::SCWReader::Handling sysconfig CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.12:12:19::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:19::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-07.12:12:19::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-05-07.12:12:19::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-07.12:12:19::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-05-07.12:12:19::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:19::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:19::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:19::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:19::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:19::SCWReader::No isolation master present  
+TRACE::2020-05-07.12:12:25::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:25::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:25::SCWPlatform:: Platform location is C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa
+TRACE::2020-05-07.12:12:25::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:25::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:26::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:26::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_3
+TRACE::2020-05-07.12:12:26::SCWPlatform::Opened existing hwdb mb_design_wrapper_3
+TRACE::2020-05-07.12:12:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:26::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:26::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/tempdsa/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:26::SCWPlatform::update - Opened existing hwdb mb_design_wrapper_4
+TRACE::2020-05-07.12:12:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:26::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:26::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-07.12:12:26::SCWPlatform::Opened new HwDB with name mb_design_wrapper_5
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:26::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:26::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_5
+TRACE::2020-05-07.12:12:26::SCWPlatform::Opened existing hwdb mb_design_wrapper_5
+TRACE::2020-05-07.12:12:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:26::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:26::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:26::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerCustomHwPartIV",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerCustomHwPartIV",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerCustomHwPartIV.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerCustomHwPartIV",
+	"systems":	[{
+			"systemName":	"CountDownTimerCustomHwPartIV",
+			"systemDesc":	"CountDownTimerCustomHwPartIV",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerCustomHwPartIV",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"23f48ae7bc9e604d36dc21de83442a96",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-07.12:12:32::SCWPlatform::Started generating the artifacts platform CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.12:12:32::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-07.12:12:32::SCWPlatform::Started generating the artifacts for system configuration CountDownTimerCustomHwPartIV
+LOG::2020-05-07.12:12:32::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-07.12:12:32::SCWSystem::Not a boot domain 
+LOG::2020-05-07.12:12:32::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-07.12:12:32::SCWDomain::Generating domain artifcats
+TRACE::2020-05-07.12:12:32::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-07.12:12:32::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Opened existing hwdb mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:32::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:32::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-07.12:12:32::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-07.12:12:32::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-07.12:12:32::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-05-07.12:12:32::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-07.12:12:32::SCWMssOS::Copying to export directory.
+TRACE::2020-05-07.12:12:32::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-07.12:12:32::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-07.12:12:32::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-07.12:12:32::SCWSystem::Completed Processing the sysconfig CountDownTimerCustomHwPartIV
+LOG::2020-05-07.12:12:32::SCWPlatform::Completed generating the artifacts for system configuration CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.12:12:32::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-07.12:12:32::SCWSystem::Writing the bif file for system config CountDownTimerCustomHwPartIV
+TRACE::2020-05-07.12:12:32::SCWSystem::dir created 
+TRACE::2020-05-07.12:12:32::SCWSystem::Writing the bif 
+TRACE::2020-05-07.12:12:32::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-07.12:12:32::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-07.12:12:32::SCWPlatform::Completed generating the platform
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Opened existing hwdb mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:32::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:32::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWWriter::formatted JSON is {
+	"platformName":	"CountDownTimerCustomHwPartIV",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CountDownTimerCustomHwPartIV",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CountDownTimerCustomHwPartIV.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CountDownTimerCustomHwPartIV",
+	"systems":	[{
+			"systemName":	"CountDownTimerCustomHwPartIV",
+			"systemDesc":	"CountDownTimerCustomHwPartIV",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CountDownTimerCustomHwPartIV",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"23f48ae7bc9e604d36dc21de83442a96",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-07.12:12:32::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa
+TRACE::2020-05-07.12:12:32::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-07.12:12:32::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Opened existing hwdb mb_design_wrapper_5
+TRACE::2020-05-07.12:12:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-07.12:12:32::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-07.12:12:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-07.12:12:32::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/microblaze_0/standalone_domain/bsp/system.mss

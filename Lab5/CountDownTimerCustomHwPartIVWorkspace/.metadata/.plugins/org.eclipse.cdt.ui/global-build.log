@@ -1,5 +1,8 @@
 Nothing to build in platform 'CountDownTimerCustomHwPartIV'
 
-19:37:52 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
+12:12:35 **** Incremental Build of configuration Debug for project CountDownTimerCustomHwPartIVApp ****
 make all 
 make: Nothing to be done for 'all'.
+12:12:37 **** Build of configuration Debug for project CountDownTimerCustomHwPartIVApp_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

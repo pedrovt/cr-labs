@@ -2894,3 +2894,4148 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-26: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2020-05-02 19:43:26.489
 !MESSAGE Executed Webtalk command
+!SESSION 2020-05-07 11:11:29.377 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-05-07 11:13:14.800
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-05-07 11:13:25.389
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-05-07 11:13:25.406
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.128
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.144
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.165
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.194
+!MESSAGE XSCT Command: [setws C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.212
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:28.250
+!MESSAGE XSCT command with result: [setws C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace], Result: [null, ]. Thread: Thread-15
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-07 11:13:28.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pedro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:30.819
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:31.730
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:31.740
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:13:31.751
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2019.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY org.eclipse.ui 4 4 2020-05-07 11:14:06.713
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@3f2f5454} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:14:08.333
+!MESSAGE XSCT Command: [platform read {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/platform.spr}], Thread: Worker-3: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:14:12.470
+!MESSAGE XSCT command with result: [platform read {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/platform.spr}], Result: [null, ]. Thread: Worker-3: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:14:12.505
+!MESSAGE XSCT Command: [platform active {CountDownTimerCustomHwPartIV}], Thread: Worker-3: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:14:12.512
+!MESSAGE XSCT command with result: [platform active {CountDownTimerCustomHwPartIV}], Result: [null, ]. Thread: Worker-3: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 11:17:03.530
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 11:17:03.536
+!MESSAGE Preference loaded using local preference: C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIV
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:18:42.615
+!MESSAGE XSCT Command: [platform config -updatehw {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa}], Thread: Worker-4: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:18:43.443
+!MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa}], Result: [null, ]. Thread: Worker-4: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.426
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.650
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.663
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss ], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.675
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.683
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.696
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 11:53:28.706
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIV\export\CountDownTimerCustomHwPartIV\sw\CountDownTimerCustomHwPartIV\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.720
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:28.730
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.608
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.636
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Thu May  7 11:00:39 2020",
+"vivado_version": "2019.2",
+"part": "xc7a100tcsg324-1",
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.654
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.676
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"Nexys4DisplayDriverE_0": {"hier_name": "Nexys4DisplayDriverE_0",
+"type": "Nexys4DisplayDriverExtended",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-07 11:53:30.798
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-07 11:53:30.806
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-07 11:53:30.816
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.904
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.937
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:30.960
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIVApp\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.095
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIVApp\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.197
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.227
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.239
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.370
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"Nexys4DisplayDriverE_0": {},
+"axi_gpio_buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741824,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741828,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741832,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741836,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742108,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742120,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742112,
+},
+},
+"axi_gpio_leds": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872896,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872900,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872904,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872908,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873180,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873192,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873184,
+},
+},
+"axi_gpio_switches": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938432,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938436,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938440,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938444,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938716,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938728,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938720,
+},
+},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101952,
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101956,
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101960,
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101968,
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101972,
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101976,
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616452,
+},
+"IVAR[2]": {"description": "Interrupt Vector Address Register 2",
+"address_offset": "0x108",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 2 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616456,
+},
+"IVAR[3]": {"description": "Interrupt Vector Address Register 3",
+"address_offset": "0x10C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 3 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616460,
+},
+"IVAR[4]": {"description": "Interrupt Vector Address Register 4",
+"address_offset": "0x110",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 4 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616464,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.409
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.437
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"axi_gpio_buttons_S_AXI": {"name": "axi_gpio_buttons",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_leds_S_AXI": {"name": "axi_gpio_leds",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_switches_S_AXI": {"name": "axi_gpio_switches",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"Nexys4DisplayDriverE_0_S00_AXI": {"name": "Nexys4DisplayDriverE_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.449
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.464
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 2]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.476
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.496
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.505
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.519
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.529
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.542
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.548
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_FREQ], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.561
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.568
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.579
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.586
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.608
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.621
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, {}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.630
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.641
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.651
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.662
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.673
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.687
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.697
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.819
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274664038A]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.827
+!MESSAGE XSCT Command: [version -server], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.835
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.841
+!MESSAGE XSCT Command: [version], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.848
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.859
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.872
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274664038A]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.881
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.913
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.922
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.941
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274664038A]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.950
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.983
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:31.991
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.006
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274664038A]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.015
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.042
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.050
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.062
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274664038A]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.068
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.096
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.102
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.131
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.137
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.147
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.154
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.165
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.203
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.218
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.224
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.254
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.264
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.302
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:32.308
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.520
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.556
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.568
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.576
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.604
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.613
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.623
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:34.632
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.639
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.646
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.671
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.678
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.823
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:37.989
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:38.086
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:38.097
+!MESSAGE XSCT Command: [con], Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 11:53:38.115
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-15: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 11:53:38.146
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:19.042
+!MESSAGE XSCT Command: [platform read {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/platform.spr}], Thread: Worker-16: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:19.926
+!MESSAGE XSCT command with result: [platform read {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/platform.spr}], Result: [null, ]. Thread: Worker-16: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:12:21.691
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:12:21.697
+!MESSAGE Preference loaded using local preference: C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIV
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:25.747
+!MESSAGE XSCT Command: [platform config -updatehw {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa}], Thread: Worker-17: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:26.668
+!MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIV/CountDownTimerCustomHwPartIV.xsa}], Result: [null, ]. Thread: Worker-17: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.544
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.561
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.570
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.751
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.759
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss ], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.770
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.776
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.792
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:12:35.798
+!MESSAGE Generating MD5 hash for file: C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIV\export\CountDownTimerCustomHwPartIV\sw\CountDownTimerCustomHwPartIV\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.806
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:35.817
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/sw/CountDownTimerCustomHwPartIV/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.824
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.833
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.842
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIVApp\_ide\bitstream}], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.912
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab5\CountDownTimerCustomHwPartIVWorkspace\CountDownTimerCustomHwPartIVApp\_ide\bitstream}], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.920
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.929
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Thu May  7 12:05:20 2020",
+"vivado_version": "2019.2",
+"part": "xc7a100tcsg324-1",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.935
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:36.949
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"Nexys4DisplayDriverE_0": {"hier_name": "Nexys4DisplayDriverE_0",
+"type": "Nexys4DisplayDriverExtended",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:12:37.324
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:40.227
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-111
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:40.240
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-111
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.233
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.244
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.250
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.313
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"Nexys4DisplayDriverE_0": {},
+"axi_gpio_buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741824,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741828,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741832,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741836,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742108,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742120,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742112,
+},
+},
+"axi_gpio_leds": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872896,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872900,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872904,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872908,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873180,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873192,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873184,
+},
+},
+"axi_gpio_switches": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938432,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938436,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938440,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938444,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938716,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938728,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938720,
+},
+},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101952,
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101956,
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101960,
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101968,
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101972,
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101976,
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616452,
+},
+"IVAR[2]": {"description": "Interrupt Vector Address Register 2",
+"address_offset": "0x108",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 2 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616456,
+},
+"IVAR[3]": {"description": "Interrupt Vector Address Register 3",
+"address_offset": "0x10C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 3 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616460,
+},
+"IVAR[4]": {"description": "Interrupt Vector Address Register 4",
+"address_offset": "0x110",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 4 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616464,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.322
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.335
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"axi_gpio_buttons_S_AXI": {"name": "axi_gpio_buttons",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_leds_S_AXI": {"name": "axi_gpio_leds",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_switches_S_AXI": {"name": "axi_gpio_switches",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"Nexys4DisplayDriverE_0_S00_AXI": {"name": "Nexys4DisplayDriverE_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.342
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.352
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 2]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.358
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.367
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.374
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.384
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.392
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.401
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.407
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_FREQ], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.417
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.423
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.431
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.438
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.449
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.456
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.465
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, {}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.471
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.482
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.490
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.501
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.511
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.527
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.534
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.556
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.564
+!MESSAGE XSCT Command: [version -server], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.573
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.583
+!MESSAGE XSCT Command: [version], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.590
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.597
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.613
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.620
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.649
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.656
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.670
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.677
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.703
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.724
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.730
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.756
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.762
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.775
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.782
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.809
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.815
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.842
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274664038A" && level == 0}], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.848
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.856
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.863
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.872
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIV/export/CountDownTimerCustomHwPartIV/hw/CountDownTimerCustomHwPartIV.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.906
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.920
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274664038A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.926
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.954
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.960
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:41.996
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:42.003
+!MESSAGE XSCT Command: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.211
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/_ide/bitstream/CountDownTimerCustomHwPartIV.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.246
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.259
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.266
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.291
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.298
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.308
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:44.314
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.322
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.329
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.354
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.361
+!MESSAGE XSCT Command: [dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.480
+!MESSAGE XSCT command with result: [dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab5/CountDownTimerCustomHwPartIVWorkspace/CountDownTimerCustomHwPartIVApp/Debug/CountDownTimerCustomHwPartIVApp.elf], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.539
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.595
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.602
+!MESSAGE XSCT Command: [con], Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:12:47.614
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-14: Launching Debugger_CountDownTimerCustomHwPartIVApp-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:12:47.623
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:13:18.092
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-163
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-07 12:13:18.106
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-163
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:13:18.276
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-07 12:13:18.345
+!MESSAGE Executed Webtalk command

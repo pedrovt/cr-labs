@@ -1,6 +1,48 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu May  7 12:05:11 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_Nexys4DisplayDriverE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_design_Nexys4DisplayDriverE_0_1 (xilinx.com:user:Nexys4DisplayDriverExtended:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu May  7 11:00:30 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_design_Nexys4DisplayDriverE_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_design_Nexys4DisplayDriverE_0_1 (xilinx.com:user:Nexys4DisplayDriverExtended:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 | Date         : Sat May  2 19:31:01 2020
 | Host         : ASUS-PC running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

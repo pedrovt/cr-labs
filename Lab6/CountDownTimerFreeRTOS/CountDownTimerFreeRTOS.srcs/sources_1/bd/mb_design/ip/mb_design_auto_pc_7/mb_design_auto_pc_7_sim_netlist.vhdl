@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 -- Date        : Wed May  6 18:18:29 2020
 -- Host        : ASUS-PC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top mb_design_auto_pc_7 -prefix
+--               mb_design_auto_pc_7_ mb_design_auto_pc_7_sim_netlist.vhdl
 -- Design      : mb_design_auto_pc_7
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -143,8 +143,6 @@ entity mb_design_auto_pc_7_axi_protocol_converter_v2_1_20_axi_protocol_converter
   attribute C_TRANSLATION_MODE of mb_design_auto_pc_7_axi_protocol_converter_v2_1_20_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of mb_design_auto_pc_7_axi_protocol_converter_v2_1_20_axi_protocol_converter : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of mb_design_auto_pc_7_axi_protocol_converter_v2_1_20_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_20_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of mb_design_auto_pc_7_axi_protocol_converter_v2_1_20_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

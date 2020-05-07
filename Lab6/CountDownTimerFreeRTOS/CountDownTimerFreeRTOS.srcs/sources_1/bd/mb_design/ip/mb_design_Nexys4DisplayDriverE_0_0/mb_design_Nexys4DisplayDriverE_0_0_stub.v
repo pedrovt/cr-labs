@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Wed May  6 18:17:00 2020
+// Date        : Thu May  7 12:30:50 2020
 // Host        : ASUS-PC running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.srcs/sources_1/bd/mb_design/ip/mb_design_Nexys4DisplayDriverE_0_0/mb_design_Nexys4DisplayDriverE_0_0_stub.v

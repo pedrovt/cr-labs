@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 -- Date        : Wed May  6 18:18:29 2020
 -- Host        : ASUS-PC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/CountDownTimerFreeRTOS.srcs/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top mb_design_auto_pc_7 -prefix
+--               mb_design_auto_pc_7_ mb_design_auto_pc_7_stub.vhdl
 -- Design      : mb_design_auto_pc_7
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

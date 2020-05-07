@@ -108,3 +108,694 @@ con
 ----------------End of Script----------------
 
 18:48:08 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+09:19:58 INFO  : Disconnected from the channel tcfchan#4.
+09:31:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\temp_xsdb_launch_script.tcl
+09:31:43 INFO  : XSCT server has started successfully.
+09:31:43 INFO  : Successfully done setting XSCT server connection channel  
+09:31:43 INFO  : plnx-install-location is set to ''
+09:31:43 INFO  : Successfully done setting workspace for the tool. 
+09:31:45 INFO  : Registering command handlers for Vitis TCF services
+09:31:45 INFO  : Successfully done query RDI_DATADIR 
+09:47:32 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+09:47:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:47:39 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+09:47:39 INFO  : 'jtag frequency' command is executed.
+09:47:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+09:47:41 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+09:47:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:47:41 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:41 INFO  : System reset is completed.
+09:47:44 INFO  : 'after 3000' command is executed.
+09:47:44 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:45 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+09:47:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+09:47:45 INFO  : Memory regions updated for context MicroBlaze #0
+09:47:45 INFO  : Memory regions updated for context MicroBlaze #0
+09:47:45 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:45 INFO  : 'con' command is executed.
+09:47:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:47:45 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+10:08:21 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:13:21 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:24:10 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:27:01 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:27:17 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:27:39 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:30:02 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:30:06 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:30:23 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:34:37 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:42:20 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:42:40 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:42:58 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:43:16 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:44:13 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:44:53 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:45:27 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:50:30 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:50:56 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:52:05 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:52:44 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:53:46 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:54:02 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:54:11 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:54:54 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:55:17 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:56:20 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:56:49 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:57:05 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:57:41 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:58:06 INFO  : Disconnected from the channel tcfchan#1.
+10:58:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:58:07 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:58:07 INFO  : 'jtag frequency' command is executed.
+10:58:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:58:09 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+10:58:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:10 INFO  : System reset is completed.
+10:58:13 INFO  : 'after 3000' command is executed.
+10:58:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:13 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+10:58:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+10:58:13 INFO  : Memory regions updated for context MicroBlaze #0
+10:58:13 INFO  : Memory regions updated for context MicroBlaze #0
+10:58:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:13 INFO  : 'con' command is executed.
+10:58:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:58:13 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+10:58:27 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+10:58:33 INFO  : Disconnected from the channel tcfchan#3.
+10:58:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:58:34 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:58:34 INFO  : 'jtag frequency' command is executed.
+10:58:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:58:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+10:58:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:58:36 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:36 INFO  : System reset is completed.
+10:58:39 INFO  : 'after 3000' command is executed.
+10:58:39 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:40 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+10:58:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+10:58:40 INFO  : Memory regions updated for context MicroBlaze #0
+10:58:40 INFO  : Memory regions updated for context MicroBlaze #0
+10:58:40 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:40 INFO  : 'con' command is executed.
+10:58:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:58:40 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:44:30 INFO  : Hardware specification for platform project 'CountDownTimerFreeRTOS' is updated.
+12:44:40 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:44:41 INFO  : The hardware specfication used by project 'CountDownTimerRTOSApp' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+12:44:41 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\CountDownTimerRTOSApp\_ide\bitstream\CountDownTimerFreeRTOS.bit' stored in project is removed.
+12:44:41 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\CountDownTimerRTOSApp\_ide\bitstream\CountDownTimerFreeRTOS.mmi' stored in project is removed.
+12:44:41 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\CountDownTimerRTOSApp\_ide\bitstream' in project 'CountDownTimerRTOSApp'.
+12:44:44 INFO  : Disconnected from the channel tcfchan#4.
+12:44:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:44:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:44:54 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:45:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:03 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:45:03 INFO  : 'jtag frequency' command is executed.
+12:45:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:45:06 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:45:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:45:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:45:06 INFO  : System reset is completed.
+12:45:09 INFO  : 'after 3000' command is executed.
+12:45:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:45:09 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:45:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:45:09 INFO  : Memory regions updated for context MicroBlaze #0
+12:45:09 INFO  : Memory regions updated for context MicroBlaze #0
+12:45:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:45:09 INFO  : 'con' command is executed.
+12:45:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:45:09 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:47:12 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:47:16 INFO  : Disconnected from the channel tcfchan#6.
+12:47:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:17 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:47:17 INFO  : 'jtag frequency' command is executed.
+12:47:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:47:20 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:47:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:47:20 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:20 INFO  : System reset is completed.
+12:47:23 INFO  : 'after 3000' command is executed.
+12:47:23 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:23 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:47:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:47:23 INFO  : Memory regions updated for context MicroBlaze #0
+12:47:23 INFO  : Memory regions updated for context MicroBlaze #0
+12:47:23 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:23 INFO  : 'con' command is executed.
+12:47:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:47:23 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:52:01 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:52:14 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:53:03 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:53:10 INFO  : Disconnected from the channel tcfchan#7.
+12:53:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:53:11 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:53:11 INFO  : 'jtag frequency' command is executed.
+12:53:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:53:13 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:53:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:53:13 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:13 INFO  : System reset is completed.
+12:53:16 INFO  : 'after 3000' command is executed.
+12:53:16 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:17 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:53:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:53:17 INFO  : Memory regions updated for context MicroBlaze #0
+12:53:17 INFO  : Memory regions updated for context MicroBlaze #0
+12:53:17 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:17 INFO  : 'con' command is executed.
+12:53:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:53:17 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:54:25 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:54:27 INFO  : Disconnected from the channel tcfchan#8.
+12:54:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:29 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:54:29 INFO  : 'jtag frequency' command is executed.
+12:54:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:54:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:54:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:54:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:31 INFO  : System reset is completed.
+12:54:34 INFO  : 'after 3000' command is executed.
+12:54:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:34 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:54:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:54:35 INFO  : Memory regions updated for context MicroBlaze #0
+12:54:35 INFO  : Memory regions updated for context MicroBlaze #0
+12:54:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:54:35 INFO  : 'con' command is executed.
+12:54:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:54:35 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:55:04 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:55:06 INFO  : Disconnected from the channel tcfchan#9.
+12:55:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:55:08 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:55:08 INFO  : 'jtag frequency' command is executed.
+12:55:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:55:10 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:55:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:55:10 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:10 INFO  : System reset is completed.
+12:55:13 INFO  : 'after 3000' command is executed.
+12:55:13 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:13 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:55:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:55:13 INFO  : Memory regions updated for context MicroBlaze #0
+12:55:13 INFO  : Memory regions updated for context MicroBlaze #0
+12:55:13 INFO  : Context for processor 'microblaze_0' is selected.
+12:55:13 INFO  : 'con' command is executed.
+12:55:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:55:13 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:56:54 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:56:58 INFO  : Disconnected from the channel tcfchan#10.
+12:56:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:59 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:56:59 INFO  : 'jtag frequency' command is executed.
+12:57:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:57:02 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:57:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:57:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:02 INFO  : System reset is completed.
+12:57:05 INFO  : 'after 3000' command is executed.
+12:57:05 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:05 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:57:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:57:05 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:05 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:05 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:05 INFO  : 'con' command is executed.
+12:57:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:57:05 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:57:21 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:57:25 INFO  : Disconnected from the channel tcfchan#11.
+12:57:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:26 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:57:26 INFO  : 'jtag frequency' command is executed.
+12:57:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:57:29 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:57:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:57:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:29 INFO  : System reset is completed.
+12:57:32 INFO  : 'after 3000' command is executed.
+12:57:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:32 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:57:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:57:32 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:32 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:32 INFO  : 'con' command is executed.
+12:57:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:57:32 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:57:42 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:57:46 INFO  : Disconnected from the channel tcfchan#12.
+12:57:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:48 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:57:48 INFO  : 'jtag frequency' command is executed.
+12:57:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:57:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:57:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:57:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:50 INFO  : System reset is completed.
+12:57:53 INFO  : 'after 3000' command is executed.
+12:57:53 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:53 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:57:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:57:53 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:53 INFO  : Memory regions updated for context MicroBlaze #0
+12:57:53 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:53 INFO  : 'con' command is executed.
+12:57:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:57:53 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:58:17 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:58:20 INFO  : Disconnected from the channel tcfchan#13.
+12:58:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:58:21 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:58:21 INFO  : 'jtag frequency' command is executed.
+12:58:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:58:24 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:58:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:58:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:58:24 INFO  : System reset is completed.
+12:58:27 INFO  : 'after 3000' command is executed.
+12:58:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:58:27 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:58:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:58:27 INFO  : Memory regions updated for context MicroBlaze #0
+12:58:27 INFO  : Memory regions updated for context MicroBlaze #0
+12:58:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:58:27 INFO  : 'con' command is executed.
+12:58:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:58:27 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+12:59:47 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+12:59:49 INFO  : Disconnected from the channel tcfchan#14.
+12:59:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:59:51 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+12:59:51 INFO  : 'jtag frequency' command is executed.
+12:59:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+12:59:54 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+12:59:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:59:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:54 INFO  : System reset is completed.
+12:59:57 INFO  : 'after 3000' command is executed.
+12:59:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:57 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+12:59:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+12:59:57 INFO  : Memory regions updated for context MicroBlaze #0
+12:59:57 INFO  : Memory regions updated for context MicroBlaze #0
+12:59:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:57 INFO  : 'con' command is executed.
+12:59:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:59:57 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+13:00:23 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:00:26 INFO  : Disconnected from the channel tcfchan#15.
+13:00:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:28 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:00:28 INFO  : 'jtag frequency' command is executed.
+13:00:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:00:30 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+13:00:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:00:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:30 INFO  : System reset is completed.
+13:00:33 INFO  : 'after 3000' command is executed.
+13:00:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:33 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+13:00:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+13:00:33 INFO  : Memory regions updated for context MicroBlaze #0
+13:00:33 INFO  : Memory regions updated for context MicroBlaze #0
+13:00:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:00:33 INFO  : 'con' command is executed.
+13:00:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:00:33 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+13:01:27 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:01:36 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:02:07 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:02:13 INFO  : Disconnected from the channel tcfchan#16.
+13:02:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:14 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:02:14 INFO  : 'jtag frequency' command is executed.
+13:02:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:02:17 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+13:02:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:02:17 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:17 INFO  : System reset is completed.
+13:02:20 INFO  : 'after 3000' command is executed.
+13:02:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:20 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+13:02:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+13:02:20 INFO  : Memory regions updated for context MicroBlaze #0
+13:02:20 INFO  : Memory regions updated for context MicroBlaze #0
+13:02:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:02:20 INFO  : 'con' command is executed.
+13:02:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:02:20 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+13:02:37 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:03:01 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:03:23 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:03:28 INFO  : Disconnected from the channel tcfchan#17.
+13:03:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:03:29 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:03:29 INFO  : 'jtag frequency' command is executed.
+13:03:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:03:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+13:03:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:03:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:03:31 INFO  : System reset is completed.
+13:03:34 INFO  : 'after 3000' command is executed.
+13:03:34 INFO  : Context for processor 'microblaze_0' is selected.
+13:03:35 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+13:03:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+13:03:35 INFO  : Memory regions updated for context MicroBlaze #0
+13:03:35 INFO  : Memory regions updated for context MicroBlaze #0
+13:03:35 INFO  : Context for processor 'microblaze_0' is selected.
+13:03:35 INFO  : 'con' command is executed.
+13:03:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:03:35 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+13:04:44 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:04:56 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:05:00 INFO  : Disconnected from the channel tcfchan#18.
+13:05:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:01 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:05:01 INFO  : 'jtag frequency' command is executed.
+13:05:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:05:04 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+13:05:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:05:04 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:04 INFO  : System reset is completed.
+13:05:07 INFO  : 'after 3000' command is executed.
+13:05:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:07 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+13:05:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+13:05:07 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:07 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:07 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:07 INFO  : 'con' command is executed.
+13:05:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:05:07 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+13:05:25 INFO  : Checking for BSP changes to sync application flags for project 'CountDownTimerRTOSApp'...
+13:05:28 INFO  : Disconnected from the channel tcfchan#19.
+13:05:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:29 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+13:05:29 INFO  : 'jtag frequency' command is executed.
+13:05:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+13:05:32 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit"
+13:05:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:05:32 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:32 INFO  : System reset is completed.
+13:05:35 INFO  : 'after 3000' command is executed.
+13:05:35 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:35 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf' is downloaded to processor 'microblaze_0'.
+13:05:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/_ide/bitstream/CountDownTimerFreeRTOS.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab6/CountDownTimerFreeRTOS/Workspace/CountDownTimerRTOSApp/Debug/CountDownTimerRTOSApp.elf
+----------------End of Script----------------
+
+13:05:35 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:35 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:35 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:35 INFO  : 'con' command is executed.
+13:05:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:05:35 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab6\CountDownTimerFreeRTOS\Workspace\.sdk\launch_scripts\single_application_debug\debugger_countdowntimerrtosapp-default.tcl'
+14:12:57 INFO  : Disconnected from the channel tcfchan#20.

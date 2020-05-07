@@ -27,160 +27,352 @@
     1 tab == 4 spaces!
 */
 
+#include <stdio.h>
 /* FreeRTOS includes. */
 #include "FreeRTOS.h"
 #include "task.h"
-#include "queue.h"
 #include "timers.h"
 /* Xilinx includes. */
 #include "xil_printf.h"
 #include "xparameters.h"
+#include "xgpio_l.h"
 
-#define TIMER_ID	1
-#define DELAY_10_SECONDS	10000UL
-#define DELAY_1_SECOND		1000UL
-#define TIMER_CHECK_THRESHOLD	9
-/*-----------------------------------------------------------*/
+/************************** Constant Definitions *****************************/
 
-/* The Tx and Rx tasks as described at the top of this file. */
-static void prvTxTask( void *pvParameters );
-static void prvRxTask( void *pvParameters );
-static void vTimerCallback( TimerHandle_t pxTimer );
-/*-----------------------------------------------------------*/
+#define SW_TIMER_ID			1
 
-/* The queue used by the Tx and Rx tasks, as described at the top of this
-file. */
-static TaskHandle_t xTxTask;
-static TaskHandle_t xRxTask;
-static QueueHandle_t xQueue = NULL;
-static TimerHandle_t xTimer = NULL;
-char HWstring[15] = "Hello World";
-long RxtaskCntr = 0;
+// Complete these constants
+#define SW_TIMER_MILISECS_VAL
+// Requires configTICK_RATE_HZ to be set at least to ??? (??? ms FreeRTOS tick),
+// in the file "mb_design_wrapper\microblaze_0\freertos10_xilinx_domain\bsp\
+//				microblaze_0\libsrc\freertos10_xilinx_v1_4\src\FreeRTOSConfig.h"
+
+// Display Port Register Offsets
+#define DISPLAY_PORT_ENABLE_OFFSET
+#define DISPLAY_PORT_DATA_OFFSET
+#define DISPLAY_PORT_CONFIG_OFFSET
+
+// Display refresh rate constants
+#define DISPLAY_REFRESH_RATE_NUM_BITS
+#define DISPLAY_REFRESH_RATE_MAX_VAL
+#define DISPLAY_REFRESH_RATE_MASK
+
+// Display brightness level constants
+#define DISPLAY_BRIGHTNESS_LEVEL_NUM_BITS
+#define DISPLAY_BRIGHTNESS_LEVEL_MAX_VAL
+#define DISPLAY_BRIGHTNESS_LEVEL_MASK
+
+/******************************** Data types *********************************/
+
+// Boolean data type (not defined in standard C)
+typedef int bool;
+
+// State machine data type
+typedef enum {Stopped, Started, SetLSSec, SetMSSec, SetLSMin, SetMSMin} TFSMState;
+
+// Buttons GPIO masks
+#define BUTTON_UP_MASK		0x01
+#define BUTTON_LEFT_MASK	0x02
+#define BUTTON_DOWN_MASK	0x04
+#define BUTTON_RIGHT_MASK	0x08
+#define BUTTON_CENTER_MASK	0x10
+
+// Data structure to store buttons status
+typedef struct SButtonStatus
+{
+	bool upPressed;
+	bool downPressed;
+	bool setPressed;
+	bool startPressed;
+	bool brightPressed;
+
+	bool setPrevious;
+	bool startPrevious;
+} TButtonStatus;
+
+// Data structure to store countdown timer value
+typedef struct STimerValue
+{
+	unsigned int minMSValue;
+	unsigned int minLSValue;
+	unsigned int secMSValue;
+	unsigned int secLSValue;
+} TTimerValue;
+
+/********************** Global variables (module scope) **********************/
+
+static TTimerValue		timerValue	= {5, 9, 5, 9};
+static bool				zeroFlag	= FALSE;
+
+/***************************** Helper functions ******************************/
+
+// 7 segment decoder
+unsigned char Bin2Hex(int value)
+{
+	static const char bin2HexLUT[] = {0x40, 0x79, 0x24, 0x30, 0x19, 0x12, 0x02, 0x78,
+									  0x00, 0x10, 0x08, 0x03, 0x46, 0x21, 0x06, 0x0E};
+	return bin2HexLUT[value];
+}
+
+// Rising edge detection and clear
+bool DetectAndClearRisingEdge(bool* pOldValue, bool newValue)
+{
+	bool retValue;
+
+	retValue = (!(*pOldValue)) && newValue;
+	*pOldValue = newValue;
+	return retValue;
+}
+
+// Modular increment
+bool ModularInc(unsigned int* pValue, unsigned int modulo)
+{
+	if (*pValue < modulo - 1)
+	{
+		(*pValue)++;
+		return FALSE;
+	}
+	else
+	{
+		*pValue = 0;
+		return TRUE;
+	}
+}
+
+// Modular decrement
+bool ModularDec(unsigned int* pValue, unsigned int modulo)
+{
+	if (*pValue > 0)
+	{
+		(*pValue)--;
+		return FALSE;
+	}
+	else
+	{
+		*pValue = modulo - 1;
+		return TRUE;
+	}
+}
+
+// Tests if all timer digits are zero
+bool IsTimerValueZero(const TTimerValue* pTimerValue)
+{
+	return ((pTimerValue->secLSValue == 0) && (pTimerValue->secMSValue == 0) &&
+			(pTimerValue->minLSValue == 0) && (pTimerValue->minMSValue == 0));
+}
+
+// Conversion of the countdown timer values stored in a structure to an array of digits
+void TimerValue2DigitValues(const TTimerValue* pTimerValue, unsigned int digitValues[8])
+{
+	digitValues[0] = 0;
+	digitValues[1] = 0;
+	digitValues[2] = pTimerValue->secLSValue;
+	digitValues[3] = pTimerValue->secMSValue;
+	digitValues[4] = pTimerValue->minLSValue;
+	digitValues[5] = pTimerValue->minMSValue;
+	digitValues[6] = 0;
+	digitValues[7] = 0;
+}
+
+/******************* Countdown timer operations functions ********************/
+
+void ConfigDisplayRefreshRate(unsigned char refreshRate)
+{
+	unsigned int displayCtrlReg = XGpio_ReadReg(XPAR_NEXYS4DISPLAYPORT_0_S00_AXI_BASEADDR,
+												DISPLAY_PORT_CONFIG_OFFSET);
+
+	displayCtrlReg &= ~(DISPLAY_REFRESH_RATE_MASK);
+	displayCtrlReg |= (refreshRate & DISPLAY_REFRESH_RATE_MAX_VAL);
+	XGpio_WriteReg(XPAR_NEXYS4DISPLAYPORT_0_S00_AXI_BASEADDR,
+				   DISPLAY_PORT_CONFIG_OFFSET,
+				   displayCtrlReg);
+}
+
+void ConfigDisplayBrightness(unsigned char brightnessLevel)
+{
+	// Insert your code here...
+
+}
+
+void RefreshDisplays(unsigned char digitEnables, const unsigned int digitValues[8],
+					 unsigned char decPtEnables)
+{
+	unsigned int digitValsPacked = 0x00000000;
+
+	for (int i = 7; i >= 0; i--)
+	{
+		digitValsPacked = (digitValsPacked << 4) | (digitValues[i] & 0xF);
+	}
+
+	XGpio_WriteReg(XPAR_NEXYS4DISPLAYPORT_0_S00_AXI_BASEADDR,
+				   DISPLAY_PORT_ENABLE_OFFSET,
+				   (decPtEnables << 8) | digitEnables);
+	XGpio_WriteReg(XPAR_NEXYS4DISPLAYPORT_0_S00_AXI_BASEADDR,
+				   DISPLAY_PORT_DATA_OFFSET,
+				   digitValsPacked);
+}
+
+void ReadButtons(TButtonStatus* pButtonStatus)
+{
+	unsigned int buttonsPattern;
+
+	buttonsPattern = XGpio_ReadReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR, XGPIO_DATA_OFFSET);
+
+	pButtonStatus->upPressed     = buttonsPattern & BUTTON_UP_MASK;
+	pButtonStatus->downPressed   = buttonsPattern & BUTTON_DOWN_MASK;
+	pButtonStatus->setPressed    = buttonsPattern & BUTTON_CENTER_MASK;
+	pButtonStatus->startPressed  = buttonsPattern & BUTTON_RIGHT_MASK;
+	pButtonStatus->brightPressed = buttonsPattern & BUTTON_LEFT_MASK;
+}
+
+void UpdateStateMachine(TFSMState* pFSMState, TButtonStatus* pButtonStatus,
+						bool zeroFlag, unsigned char* pSetFlags)
+{
+	// Insert your code here...
+
+}
+
+void SetCountDownTimer(TFSMState fsmState, const TButtonStatus* pButtonStatus,
+					   TTimerValue* pTimerValue)
+{
+	// Insert your code here...
+
+}
+
+void DecCountDownTimer(TFSMState fsmState, TTimerValue* pTimerValue)
+{
+	// Insert your code here...
+
+}
+
+static void SwTimerCallback(TimerHandle_t phTimer)
+{
+	// Timer event software counter
+	static unsigned swTmrEventCount = 0;
+	swTmrEventCount++;
+
+    // Countdown timer status variables (static variables)
+    static TFSMState     fsmState       = Stopped;
+    static unsigned char setFlags       = 0x0;
+    static TButtonStatus buttonStatus   = {FALSE, FALSE, FALSE, FALSE, FALSE, FALSE};
+    static unsigned char digitEnables   = 0x3C;
+    static unsigned int  digitValues[8] = {0, 0, 9, 5, 9, 5, 0, 0};
+    static unsigned char decPtEnables   = 0x00;
+    static unsigned char dispBrightness = DISPLAY_BRIGHTNESS_LEVEL_MAX_VAL / 2;
+
+    static bool          blink1HzStat   = FALSE;
+    static bool          blink2HzStat   = FALSE;
+
+	if (swTmrEventCount % (125 / SW_TIMER_MILISECS_VAL)  == 0) // 8Hz = 1/125 msecs
+	{
+		// Put here operations that must be performed at 8Hz rate
+		// Read push buttons
+
+
+		// Update state machine
+
+	}
+
+	if (swTmrEventCount % (250 / SW_TIMER_MILISECS_VAL) == 0) // 4Hz = 1/250 msecs
+	{
+		// Put here operations that must be performed at 4Hz rate
+		// Switch digit set 2Hz blink status
+
+	}
+
+	if (swTmrEventCount % (500 / SW_TIMER_MILISECS_VAL) == 0) // 2Hz = 1/500 msecs
+	{
+		// Put here operations that must be performed at 2Hz rate
+		// Switch point 1Hz blink status
+
+
+		// Adjust display brightness
+
+
+		// Digit set increment/decrement
+
+	}
+
+	if (swTmrEventCount == (1000 / SW_TIMER_MILISECS_VAL)) // 1Hz = 1/1000 msecs
+	{
+		// Put here operations that must be performed at 1Hz rate
+		// Count down timer normal operation
+
+
+		// Reset hwTmrEventCount every second
+		swTmrEventCount = 1;
+	}
+
+	zeroFlag = IsTimerValueZero(&timerValue);
+	TimerValue2DigitValues(&timerValue, digitValues);
+
+	// Refresh displays
+	RefreshDisplays(digitEnables, digitValues, decPtEnables);
+}
+
+static void IdleTask(void *pTaskParams)
+{
+	while(1)
+	{
+		// Put here operations that are performed whenever possible
+		xil_printf("\r%d%d:%d%d", timerValue.minMSValue, timerValue.minLSValue,
+								  timerValue.secMSValue, timerValue.secLSValue);
+		XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR, XGPIO_DATA_OFFSET,
+					   zeroFlag ? 0x0001 : 0x0000);
+	}
+}
+
+/******************************* Main function *******************************/
 
 int main( void )
 {
-	const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
+	TaskHandle_t  hIdleTask;
+	TimerHandle_t hTimer;
 
-	xil_printf( "Hello from Freertos example main\r\n" );
+	xil_printf("\n\n\rCount down timer - FreeRTOS based version.\n\rConfiguring...");
 
-	/* Create the two tasks.  The Tx task is given a lower priority than the
-	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
-	task as soon as the Tx task places an item in the queue. */
-	xTaskCreate( 	prvTxTask, 					/* The function that implements the task. */
-					( const char * ) "Tx", 		/* Text name for the task, provided to assist debugging only. */
-					configMINIMAL_STACK_SIZE, 	/* The stack allocated to the task. */
-					NULL, 						/* The task parameter is not used, so set to NULL. */
-					tskIDLE_PRIORITY,			/* The task runs at the idle priority. */
-					&xTxTask );
+	timerValue.minMSValue = 5;
+	timerValue.minLSValue = 9;
+	timerValue.secMSValue = 5;
+	timerValue.secLSValue = 9;
 
-	xTaskCreate( prvRxTask,
-				 ( const char * ) "GB",
-				 configMINIMAL_STACK_SIZE,
-				 NULL,
-				 tskIDLE_PRIORITY + 1,
-				 &xRxTask );
+	zeroFlag = FALSE;
 
-	/* Create the queue used by the tasks.  The Rx task has a higher priority
-	than the Tx task, so will preempt the Tx task and remove values from the
-	queue as soon as the Tx task writes to the queue - therefore the queue can
-	never have more than one item in it. */
-	xQueue = xQueueCreate( 	1,						/* There is only one space in the queue. */
-							sizeof( HWstring ) );	/* Each space in the queue is large enough to hold a uint32_t. */
+	//	GPIO tri-state configuration
+	//	Inputs
+	XGpio_WriteReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR, XGPIO_TRI_OFFSET, 0xFFFFFFFF);
+	XGpio_WriteReg(XPAR_AXI_GPIO_BUTTONS_BASEADDR,  XGPIO_TRI_OFFSET, 0xFFFFFFFF);
 
-	/* Check the queue was created. */
-	configASSERT( xQueue );
+	//	Outputs
+	XGpio_WriteReg(XPAR_AXI_GPIO_LEDS_BASEADDR,     XGPIO_TRI_OFFSET, 0xFFFF0000);
 
-	/* Create a timer with a timer expiry of 10 seconds. The timer would expire
-	 after 10 seconds and the timer call back would get called. In the timer call back
-	 checks are done to ensure that the tasks have been running properly till then.
-	 The tasks are deleted in the timer call back and a message is printed to convey that
-	 the example has run successfully.
-	 The timer expiry is set to 10 seconds and the timer set to not auto reload. */
-	xTimer = xTimerCreate( (const char *) "Timer",
-							x10seconds,
-							pdFALSE,
-							(void *) TIMER_ID,
-							vTimerCallback);
-	/* Check the timer was created. */
-	configASSERT( xTimer );
+	xil_printf("\n\rIOs configured.");
 
-	/* start the timer with a block time of 0 ticks. This means as soon
-	   as the schedule starts the timer will start running and will expire after
-	   10 seconds */
-	xTimerStart( xTimer, 0 );
+	xTaskCreate(// Insert your code here...);
+	configASSERT(hIdleTask);
 
-	/* Start the tasks and timer running. */
+	xil_printf("\n\rIdle task created.");
+
+	const TickType_t timerTicks = pdMS_TO_TICKS(SW_TIMER_MILISECS_VAL);
+	hTimer = xTimerCreate(// Insert your code here...);
+	configASSERT(hTimer);
+	xTimerStart(// Insert your code here...);
+
+	xil_printf("\n\rTimer created.");
+
+	// Configure display refresh rate
+	ConfigDisplayRefreshRate(XGpio_ReadReg(XPAR_AXI_GPIO_SWITCHES_BASEADDR,
+										   XGPIO_DATA_OFFSET));
+
+	// Configure display brightness level
+	ConfigDisplayBrightness(DISPLAY_BRIGHTNESS_LEVEL_MAX_VAL / 2);
+
+	xil_printf("\n\rSystem running.\n\r");
+
+	// Start the task scheduler (tasks and timer callback running)
 	vTaskStartScheduler();
 
-	/* If all is well, the scheduler will now be running, and the following line
-	will never be reached.  If the following line does execute, then there was
-	insufficient FreeRTOS heap memory available for the idle and/or timer tasks
-	to be created.  See the memory management section on the FreeRTOS web site
-	for more details. */
-	for( ;; );
-}
-
-
-/*-----------------------------------------------------------*/
-static void prvTxTask( void *pvParameters )
-{
-const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
-
-	for( ;; )
+	while (1)
 	{
-		/* Delay for 1 second. */
-		vTaskDelay( x1second );
-
-		/* Send the next value on the queue.  The queue should always be
-		empty at this point so a block time of 0 is used. */
-		xQueueSend( xQueue,			/* The queue being written to. */
-					HWstring, /* The address of the data being sent. */
-					0UL );			/* The block time. */
 	}
 }
-
-/*-----------------------------------------------------------*/
-static void prvRxTask( void *pvParameters )
-{
-char Recdstring[15] = "";
-
-	for( ;; )
-	{
-		/* Block to wait for data arriving on the queue. */
-		xQueueReceive( 	xQueue,				/* The queue being read. */
-						Recdstring,	/* Data is read into this address. */
-						portMAX_DELAY );	/* Wait without a timeout for data. */
-
-		/* Print the received data. */
-		xil_printf( "Rx task received string from Tx task: %s\r\n", Recdstring );
-		RxtaskCntr++;
-	}
-}
-
-/*-----------------------------------------------------------*/
-static void vTimerCallback( TimerHandle_t pxTimer )
-{
-	long lTimerId;
-	configASSERT( pxTimer );
-
-	lTimerId = ( long ) pvTimerGetTimerID( pxTimer );
-
-	if (lTimerId != TIMER_ID) {
-		xil_printf("FreeRTOS Hello World Example FAILED");
-	}
-
-	/* If the RxtaskCntr is updated every time the Rx task is called. The
-	 Rx task is called every time the Tx task sends a message. The Tx task
-	 sends a message every 1 second.
-	 The timer expires after 10 seconds. We expect the RxtaskCntr to at least
-	 have a value of 9 (TIMER_CHECK_THRESHOLD) when the timer expires. */
-	if (RxtaskCntr >= TIMER_CHECK_THRESHOLD) {
-		xil_printf("FreeRTOS Hello World Example PASSED");
-	} else {
-		xil_printf("FreeRTOS Hello World Example FAILED");
-	}
-
-	vTaskDelete( xRxTask );
-	vTaskDelete( xTxTask );
-}
-

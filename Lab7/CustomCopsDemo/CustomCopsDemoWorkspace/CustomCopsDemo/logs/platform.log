@@ -1,0 +1,1006 @@
+TRACE::2020-05-13.12:29:48::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:48::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:48::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:51::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-13.12:29:51::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:51::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-05-13.12:29:51::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo"
+		}]
+}
+TRACE::2020-05-13.12:29:51::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-05-13.12:29:51::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-05-13.12:29:51::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo"
+		}]
+}
+TRACE::2020-05-13.12:29:51::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo"
+		}]
+}
+TRACE::2020-05-13.12:29:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-13.12:29:52::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::mss does not exists at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::Creating sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::Writing mss at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-13.12:29:52::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-13.12:29:52::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-13.12:29:52::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-13.12:29:52::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-13.12:29:52::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:52::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-13.12:29:52::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:52::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-13.12:29:52::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-05-13.12:29:55::SCWPlatform::Started generating the artifacts platform CustomCopsDemo
+TRACE::2020-05-13.12:29:55::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-13.12:29:55::SCWPlatform::Started generating the artifacts for system configuration CustomCopsDemo
+LOG::2020-05-13.12:29:55::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-13.12:29:55::SCWSystem::Not a boot domain 
+LOG::2020-05-13.12:29:55::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-13.12:29:55::SCWDomain::Generating domain artifcats
+TRACE::2020-05-13.12:29:55::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-13.12:29:55::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2020-05-13.12:29:55::SCWMssOS::Could not open the swdb for C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-05-13.12:29:55::SCWMssOS::Could not open the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-05-13.12:29:55::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-05-13.12:29:55::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-13.12:29:55::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-13.12:29:55::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-13.12:29:55::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-13.12:29:55::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-05-13.12:29:55::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-13.12:29:55::SCWMssOS::Copying to export directory.
+TRACE::2020-05-13.12:29:55::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-13.12:29:55::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-13.12:29:55::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-13.12:29:55::SCWSystem::Completed Processing the sysconfig CustomCopsDemo
+LOG::2020-05-13.12:29:55::SCWPlatform::Completed generating the artifacts for system configuration CustomCopsDemo
+TRACE::2020-05-13.12:29:55::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-13.12:29:55::SCWSystem::Writing the bif file for system config CustomCopsDemo
+TRACE::2020-05-13.12:29:55::SCWSystem::dir created 
+TRACE::2020-05-13.12:29:55::SCWSystem::Writing the bif 
+TRACE::2020-05-13.12:29:55::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-13.12:29:55::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-13.12:29:55::SCWPlatform::Completed generating the platform
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"7113f232e3cc3394a86b30dc9cc0d771",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-13.12:29:55::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:55::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:55::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:55::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"7113f232e3cc3394a86b30dc9cc0d771",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"7113f232e3cc3394a86b30dc9cc0d771",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-13.12:29:56::SCWPlatform::Started generating the artifacts platform CustomCopsDemo
+TRACE::2020-05-13.12:29:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-13.12:29:56::SCWPlatform::Started generating the artifacts for system configuration CustomCopsDemo
+LOG::2020-05-13.12:29:56::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-13.12:29:56::SCWDomain::Generating domain artifcats
+TRACE::2020-05-13.12:29:56::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-13.12:29:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-13.12:29:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-13.12:29:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-13.12:29:56::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-05-13.12:29:56::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-13.12:29:56::SCWMssOS::Copying to export directory.
+TRACE::2020-05-13.12:29:56::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-13.12:29:56::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-13.12:29:56::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-13.12:29:56::SCWSystem::Completed Processing the sysconfig CustomCopsDemo
+LOG::2020-05-13.12:29:56::SCWPlatform::Completed generating the artifacts for system configuration CustomCopsDemo
+TRACE::2020-05-13.12:29:56::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-13.12:29:56::SCWSystem::Writing the bif file for system config CustomCopsDemo
+TRACE::2020-05-13.12:29:56::SCWSystem::dir created 
+TRACE::2020-05-13.12:29:56::SCWSystem::Writing the bif 
+TRACE::2020-05-13.12:29:56::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-13.12:29:56::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-13.12:29:56::SCWPlatform::Completed generating the platform
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:57::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:57::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:57::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:57::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:57::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:29:57::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:29:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:29:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:29:57::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:29:57::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:29:57::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"7113f232e3cc3394a86b30dc9cc0d771",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-13.12:29:57::SCWPlatform::updated the xpfm file.
+LOG::2020-05-13.12:30:33::SCWPlatform::Started generating the artifacts platform CustomCopsDemo
+TRACE::2020-05-13.12:30:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-13.12:30:33::SCWPlatform::Started generating the artifacts for system configuration CustomCopsDemo
+LOG::2020-05-13.12:30:33::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-13.12:30:33::SCWSystem::Not a boot domain 
+LOG::2020-05-13.12:30:33::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-13.12:30:33::SCWDomain::Generating domain artifcats
+TRACE::2020-05-13.12:30:33::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-13.12:30:33::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-13.12:30:33::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:33::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:33::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:33::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:30:33::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:33::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:30:33::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:30:33::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:30:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:30:33::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:30:33::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:33::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-13.12:30:33::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:33::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-13.12:30:33::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-13.12:30:33::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-05-13.12:30:33::SCWMssOS::doing bsp build ... 
+TRACE::2020-05-13.12:30:33::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-05-13.12:30:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-13.12:30:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-05-13.12:30:34::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-13.12:30:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-05-13.12:30:34::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-13.12:30:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
+TRACE::2020-05-13.12:30:34::SCWMssOS::nction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-13.12:30:34::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+TRACE::2020-05-13.12:30:34::SCWMssOS::unction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-05-13.12:30:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-05-13.12:30:34::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-
+TRACE::2020-05-13.12:30:34::SCWMssOS::g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-05-13.12:30:35::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -f
+TRACE::2020-05-13.12:30:35::SCWMssOS::function-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-05-13.12:30:35::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g 
+TRACE::2020-05-13.12:30:35::SCWMssOS::-ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-13.12:30:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-13.12:30:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-05-13.12:30:35::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:36::SCWMssOS::"Compiling bram"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-13.12:30:37::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-05-13.12:30:37::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-13.12:30:37::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
+TRACE::2020-05-13.12:30:37::SCWMssOS::ion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:37::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-05-13.12:30:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-13.12:30:38::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-05-13.12:30:38::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunc
+TRACE::2020-05-13.12:30:38::SCWMssOS::tion-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:38::SCWMssOS::"Compiling intc"
+
+TRACE::2020-05-13.12:30:39::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-05-13.12:30:39::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-05-13.12:30:39::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -
+TRACE::2020-05-13.12:30:39::SCWMssOS::ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:39::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-05-13.12:30:43::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-13.12:30:43::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-05-13.12:30:43::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffun
+TRACE::2020-05-13.12:30:43::SCWMssOS::ction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:43::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-05-13.12:30:44::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-13.12:30:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-13.12:30:44::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
+TRACE::2020-05-13.12:30:44::SCWMssOS::unction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-13.12:30:44::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-05-13.12:30:45::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-05-13.12:30:45::SCWMssOS::Copying to export directory.
+TRACE::2020-05-13.12:30:45::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-13.12:30:45::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-13.12:30:45::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-13.12:30:45::SCWSystem::Completed Processing the sysconfig CustomCopsDemo
+LOG::2020-05-13.12:30:45::SCWPlatform::Completed generating the artifacts for system configuration CustomCopsDemo
+TRACE::2020-05-13.12:30:45::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-13.12:30:45::SCWSystem::Writing the bif file for system config CustomCopsDemo
+TRACE::2020-05-13.12:30:45::SCWSystem::dir created 
+TRACE::2020-05-13.12:30:45::SCWSystem::Writing the bif 
+TRACE::2020-05-13.12:30:45::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-13.12:30:45::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-13.12:30:45::SCWPlatform::Completed generating the platform
+TRACE::2020-05-13.12:30:45::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:45::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:45::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:45::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:30:45::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:30:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:30:46::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:30:46::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:30:46::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:30:46::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:30:46::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:30:46::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWWriter::formatted JSON is {
+	"platformName":	"CustomCopsDemo",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomCopsDemo",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemo.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomCopsDemo.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomCopsDemo",
+	"systems":	[{
+			"systemName":	"CustomCopsDemo",
+			"systemDesc":	"CustomCopsDemo",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomCopsDemo",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"7113f232e3cc3394a86b30dc9cc0d771",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-13.12:30:46::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/hw/CustomCopsDemo.xsa
+TRACE::2020-05-13.12:30:46::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-13.12:30:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-13.12:30:46::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-13.12:30:46::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-13.12:30:46::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/microblaze_0/standalone_domain/bsp/system.mss

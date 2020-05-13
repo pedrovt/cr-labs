@@ -1,0 +1,26 @@
+12:30:46 **** Build of configuration Debug for project CustomCopsDemoApp ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/export/CustomCopsDemo/sw/CustomCopsDemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/export/CustomCopsDemo/sw/CustomCopsDemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CustomCopsDemoApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemo/export/CustomCopsDemo/sw/CustomCopsDemo/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "CustomCopsDemoApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CustomCopsDemoApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size CustomCopsDemoApp.elf  |tee "CustomCopsDemoApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17068	   1752	  34916	  53736	   d1e8	CustomCopsDemoApp.elf
+Finished building: CustomCopsDemoApp.elf.size
+ 
+
+12:30:47 Build Finished (took 1s.322ms)
+

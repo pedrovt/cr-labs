@@ -58,7 +58,10 @@ architecture arch_imp of ReverseEndianessCop_v1_0 is
 		S_AXIS_TDATA	: in std_logic_vector(C_S_AXIS_TDATA_WIDTH-1 downto 0);
 		S_AXIS_TSTRB	: in std_logic_vector((C_S_AXIS_TDATA_WIDTH/8)-1 downto 0);
 		S_AXIS_TLAST	: in std_logic;
-		S_AXIS_TVALID	: in std_logic
+		S_AXIS_TVALID	: in std_logic;
+		validData       : out std_logic;
+        reversedData    : out std_logic_vector(C_S_AXIS_TDATA_WIDTH-1 downto 0);
+        readEnabled     : in  std_logic		
 		);
 	end component ReverseEndianessCop_v1_0_S00_AXIS;
 
@@ -74,10 +77,17 @@ architecture arch_imp of ReverseEndianessCop_v1_0 is
 		M_AXIS_TDATA	: out std_logic_vector(C_M_AXIS_TDATA_WIDTH-1 downto 0);
 		M_AXIS_TSTRB	: out std_logic_vector((C_M_AXIS_TDATA_WIDTH/8)-1 downto 0);
 		M_AXIS_TLAST	: out std_logic;
-		M_AXIS_TREADY	: in std_logic
+		M_AXIS_TREADY	: in std_logic;
+		validData       : in  std_logic;
+        reversedData    : in  std_logic_vector(C_M_AXIS_TDATA_WIDTH-1 downto 0);
+        readEnabled     : out std_logic
 		);
 	end component ReverseEndianessCop_v1_0_M00_AXIS;
 
+    signal s_validData    : std_logic;
+    signal s_reversedData : std_logic_vector(C_M00_AXIS_TDATA_WIDTH-1 downto 0); 
+    signal s_readEnabled  : std_logic;
+    
 begin
 
 -- Instantiation of Axi Bus Interface S00_AXIS
@@ -92,7 +102,10 @@ ReverseEndianessCop_v1_0_S00_AXIS_inst : ReverseEndianessCop_v1_0_S00_AXIS
 		S_AXIS_TDATA	=> s00_axis_tdata,
 		S_AXIS_TSTRB	=> s00_axis_tstrb,
 		S_AXIS_TLAST	=> s00_axis_tlast,
-		S_AXIS_TVALID	=> s00_axis_tvalid
+		S_AXIS_TVALID	=> s00_axis_tvalid,
+		validData       => s_validData,
+        reversedData    => s_reversedData,
+        readEnabled     => s_readEnabled
 	);
 
 -- Instantiation of Axi Bus Interface M00_AXIS
@@ -108,7 +121,10 @@ ReverseEndianessCop_v1_0_M00_AXIS_inst : ReverseEndianessCop_v1_0_M00_AXIS
 		M_AXIS_TDATA	=> m00_axis_tdata,
 		M_AXIS_TSTRB	=> m00_axis_tstrb,
 		M_AXIS_TLAST	=> m00_axis_tlast,
-		M_AXIS_TREADY	=> m00_axis_tready
+		M_AXIS_TREADY	=> m00_axis_tready,
+		validData       => s_validData,
+        reversedData    => s_reversedData,
+        readEnabled     => s_readEnabled
 	);
 
 	-- Add user logic here

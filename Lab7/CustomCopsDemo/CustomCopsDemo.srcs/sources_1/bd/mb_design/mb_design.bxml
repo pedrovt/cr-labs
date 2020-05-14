@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="mb_design" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1589365136"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1589365136"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1589365136"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1589365136"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1589452061"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1589452061"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1589452061"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1589452061"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\mb_design_microblaze_0_0\mb_design_microblaze_0_0.xci" Type="IP">
         <Instance HierarchyPath="microblaze_0"/>
@@ -169,6 +169,14 @@
       </File>
       <File Name="ip\mb_design_ReverseEndianessCop_0_1\mb_design_ReverseEndianessCop_0_1.xci" Type="IP">
         <Instance HierarchyPath="ReverseEndianessCop_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\mb_design_PopulationCounter_0_0\mb_design_PopulationCounter_0_0.xci" Type="IP">
+        <Instance HierarchyPath="PopulationCounter_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>

@@ -264,6 +264,9 @@ proc create_root_design { parentCell } {
    CONFIG.PHASE {0.000} \
  ] $sys_clock
 
+  # Create instance: PopulationCounter_0, and set properties
+  set PopulationCounter_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:PopulationCounter:1.0 PopulationCounter_0 ]
+
   # Create instance: ReverseEndianessCop_0, and set properties
   set ReverseEndianessCop_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:ReverseEndianessCop:1.0 ReverseEndianessCop_0 ]
 
@@ -336,7 +339,7 @@ proc create_root_design { parentCell } {
    CONFIG.C_DEBUG_ENABLED {2} \
    CONFIG.C_D_AXI {1} \
    CONFIG.C_D_LMB {1} \
-   CONFIG.C_FSL_LINKS {1} \
+   CONFIG.C_FSL_LINKS {2} \
    CONFIG.C_I_LMB {1} \
    CONFIG.C_USE_BARREL {1} \
    CONFIG.C_USE_DIV {1} \
@@ -373,6 +376,7 @@ proc create_root_design { parentCell } {
  ] $rst_clk_wiz_1_100M
 
   # Create interface connections
+  connect_bd_intf_net -intf_net PopulationCounter_0_M00_AXIS [get_bd_intf_pins PopulationCounter_0/M00_AXIS] [get_bd_intf_pins microblaze_0/S1_AXIS]
   connect_bd_intf_net -intf_net ReverseEndianessCop_0_M00_AXIS [get_bd_intf_pins ReverseEndianessCop_0/M00_AXIS] [get_bd_intf_pins microblaze_0/S0_AXIS]
   connect_bd_intf_net -intf_net axi_gpio_buttons_GPIO [get_bd_intf_ports push_buttons_5bits] [get_bd_intf_pins axi_gpio_buttons/GPIO]
   connect_bd_intf_net -intf_net axi_gpio_display_GPIO [get_bd_intf_ports seven_seg_led_an] [get_bd_intf_pins axi_gpio_display/GPIO]
@@ -381,6 +385,7 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net axi_gpio_switches_GPIO [get_bd_intf_ports dip_switches_16bits] [get_bd_intf_pins axi_gpio_switches/GPIO]
   connect_bd_intf_net -intf_net axi_uartlite_0_UART [get_bd_intf_ports usb_uart] [get_bd_intf_pins axi_uartlite_0/UART]
   connect_bd_intf_net -intf_net microblaze_0_M0_AXIS [get_bd_intf_pins ReverseEndianessCop_0/S00_AXIS] [get_bd_intf_pins microblaze_0/M0_AXIS]
+  connect_bd_intf_net -intf_net microblaze_0_M1_AXIS [get_bd_intf_pins PopulationCounter_0/S00_AXIS] [get_bd_intf_pins microblaze_0/M1_AXIS]
   connect_bd_intf_net -intf_net microblaze_0_axi_dp [get_bd_intf_pins microblaze_0/M_AXI_DP] [get_bd_intf_pins microblaze_0_axi_periph/S00_AXI]
   connect_bd_intf_net -intf_net microblaze_0_axi_periph_M01_AXI [get_bd_intf_pins axi_gpio_buttons/S_AXI] [get_bd_intf_pins microblaze_0_axi_periph/M01_AXI]
   connect_bd_intf_net -intf_net microblaze_0_axi_periph_M02_AXI [get_bd_intf_pins axi_gpio_display/S_AXI] [get_bd_intf_pins microblaze_0_axi_periph/M02_AXI]
@@ -402,12 +407,12 @@ proc create_root_design { parentCell } {
   connect_bd_net -net clk_wiz_1_locked [get_bd_pins clk_wiz_1/locked] [get_bd_pins rst_clk_wiz_1_100M/dcm_locked]
   connect_bd_net -net fit_timer_0_Interrupt [get_bd_pins fit_timer_0/Interrupt] [get_bd_pins microblaze_0_xlconcat/In0]
   connect_bd_net -net mdm_1_debug_sys_rst [get_bd_pins mdm_1/Debug_SYS_Rst] [get_bd_pins rst_clk_wiz_1_100M/mb_debug_sys_rst]
-  connect_bd_net -net microblaze_0_Clk [get_bd_pins ReverseEndianessCop_0/m00_axis_aclk] [get_bd_pins ReverseEndianessCop_0/s00_axis_aclk] [get_bd_pins axi_gpio_buttons/s_axi_aclk] [get_bd_pins axi_gpio_display/s_axi_aclk] [get_bd_pins axi_gpio_leds/s_axi_aclk] [get_bd_pins axi_gpio_switches/s_axi_aclk] [get_bd_pins axi_timer_0/s_axi_aclk] [get_bd_pins axi_uartlite_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins fit_timer_0/Clk] [get_bd_pins microblaze_0/Clk] [get_bd_pins microblaze_0_axi_intc/processor_clk] [get_bd_pins microblaze_0_axi_intc/s_axi_aclk] [get_bd_pins microblaze_0_axi_periph/ACLK] [get_bd_pins microblaze_0_axi_periph/M00_ACLK] [get_bd_pins microblaze_0_axi_periph/M01_ACLK] [get_bd_pins microblaze_0_axi_periph/M02_ACLK] [get_bd_pins microblaze_0_axi_periph/M03_ACLK] [get_bd_pins microblaze_0_axi_periph/M04_ACLK] [get_bd_pins microblaze_0_axi_periph/M05_ACLK] [get_bd_pins microblaze_0_axi_periph/M06_ACLK] [get_bd_pins microblaze_0_axi_periph/S00_ACLK] [get_bd_pins microblaze_0_local_memory/LMB_Clk] [get_bd_pins rst_clk_wiz_1_100M/slowest_sync_clk]
+  connect_bd_net -net microblaze_0_Clk [get_bd_pins PopulationCounter_0/m00_axis_aclk] [get_bd_pins PopulationCounter_0/s00_axis_aclk] [get_bd_pins ReverseEndianessCop_0/m00_axis_aclk] [get_bd_pins ReverseEndianessCop_0/s00_axis_aclk] [get_bd_pins axi_gpio_buttons/s_axi_aclk] [get_bd_pins axi_gpio_display/s_axi_aclk] [get_bd_pins axi_gpio_leds/s_axi_aclk] [get_bd_pins axi_gpio_switches/s_axi_aclk] [get_bd_pins axi_timer_0/s_axi_aclk] [get_bd_pins axi_uartlite_0/s_axi_aclk] [get_bd_pins clk_wiz_1/clk_out1] [get_bd_pins fit_timer_0/Clk] [get_bd_pins microblaze_0/Clk] [get_bd_pins microblaze_0_axi_intc/processor_clk] [get_bd_pins microblaze_0_axi_intc/s_axi_aclk] [get_bd_pins microblaze_0_axi_periph/ACLK] [get_bd_pins microblaze_0_axi_periph/M00_ACLK] [get_bd_pins microblaze_0_axi_periph/M01_ACLK] [get_bd_pins microblaze_0_axi_periph/M02_ACLK] [get_bd_pins microblaze_0_axi_periph/M03_ACLK] [get_bd_pins microblaze_0_axi_periph/M04_ACLK] [get_bd_pins microblaze_0_axi_periph/M05_ACLK] [get_bd_pins microblaze_0_axi_periph/M06_ACLK] [get_bd_pins microblaze_0_axi_periph/S00_ACLK] [get_bd_pins microblaze_0_local_memory/LMB_Clk] [get_bd_pins rst_clk_wiz_1_100M/slowest_sync_clk]
   connect_bd_net -net microblaze_0_intr [get_bd_pins microblaze_0_axi_intc/intr] [get_bd_pins microblaze_0_xlconcat/dout]
   connect_bd_net -net reset_1 [get_bd_ports reset] [get_bd_pins clk_wiz_1/resetn] [get_bd_pins rst_clk_wiz_1_100M/ext_reset_in]
   connect_bd_net -net rst_clk_wiz_1_100M_bus_struct_reset [get_bd_pins microblaze_0_local_memory/SYS_Rst] [get_bd_pins rst_clk_wiz_1_100M/bus_struct_reset]
   connect_bd_net -net rst_clk_wiz_1_100M_mb_reset [get_bd_pins microblaze_0/Reset] [get_bd_pins microblaze_0_axi_intc/processor_rst] [get_bd_pins rst_clk_wiz_1_100M/mb_reset]
-  connect_bd_net -net rst_clk_wiz_1_100M_peripheral_aresetn [get_bd_pins ReverseEndianessCop_0/m00_axis_aresetn] [get_bd_pins ReverseEndianessCop_0/s00_axis_aresetn] [get_bd_pins axi_gpio_buttons/s_axi_aresetn] [get_bd_pins axi_gpio_display/s_axi_aresetn] [get_bd_pins axi_gpio_leds/s_axi_aresetn] [get_bd_pins axi_gpio_switches/s_axi_aresetn] [get_bd_pins axi_timer_0/s_axi_aresetn] [get_bd_pins axi_uartlite_0/s_axi_aresetn] [get_bd_pins microblaze_0_axi_intc/s_axi_aresetn] [get_bd_pins microblaze_0_axi_periph/ARESETN] [get_bd_pins microblaze_0_axi_periph/M00_ARESETN] [get_bd_pins microblaze_0_axi_periph/M01_ARESETN] [get_bd_pins microblaze_0_axi_periph/M02_ARESETN] [get_bd_pins microblaze_0_axi_periph/M03_ARESETN] [get_bd_pins microblaze_0_axi_periph/M04_ARESETN] [get_bd_pins microblaze_0_axi_periph/M05_ARESETN] [get_bd_pins microblaze_0_axi_periph/M06_ARESETN] [get_bd_pins microblaze_0_axi_periph/S00_ARESETN] [get_bd_pins rst_clk_wiz_1_100M/peripheral_aresetn]
+  connect_bd_net -net rst_clk_wiz_1_100M_peripheral_aresetn [get_bd_pins PopulationCounter_0/m00_axis_aresetn] [get_bd_pins PopulationCounter_0/s00_axis_aresetn] [get_bd_pins ReverseEndianessCop_0/m00_axis_aresetn] [get_bd_pins ReverseEndianessCop_0/s00_axis_aresetn] [get_bd_pins axi_gpio_buttons/s_axi_aresetn] [get_bd_pins axi_gpio_display/s_axi_aresetn] [get_bd_pins axi_gpio_leds/s_axi_aresetn] [get_bd_pins axi_gpio_switches/s_axi_aresetn] [get_bd_pins axi_timer_0/s_axi_aresetn] [get_bd_pins axi_uartlite_0/s_axi_aresetn] [get_bd_pins microblaze_0_axi_intc/s_axi_aresetn] [get_bd_pins microblaze_0_axi_periph/ARESETN] [get_bd_pins microblaze_0_axi_periph/M00_ARESETN] [get_bd_pins microblaze_0_axi_periph/M01_ARESETN] [get_bd_pins microblaze_0_axi_periph/M02_ARESETN] [get_bd_pins microblaze_0_axi_periph/M03_ARESETN] [get_bd_pins microblaze_0_axi_periph/M04_ARESETN] [get_bd_pins microblaze_0_axi_periph/M05_ARESETN] [get_bd_pins microblaze_0_axi_periph/M06_ARESETN] [get_bd_pins microblaze_0_axi_periph/S00_ARESETN] [get_bd_pins rst_clk_wiz_1_100M/peripheral_aresetn]
   connect_bd_net -net rst_clk_wiz_1_100M_peripheral_reset [get_bd_pins fit_timer_0/Rst] [get_bd_pins rst_clk_wiz_1_100M/peripheral_reset]
   connect_bd_net -net sys_clock_1 [get_bd_ports sys_clock] [get_bd_pins clk_wiz_1/clk_in1]
 

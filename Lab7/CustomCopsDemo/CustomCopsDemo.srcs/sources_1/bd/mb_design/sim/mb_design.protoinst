@@ -3,6 +3,30 @@
 	"modules": {
 		"mb_design": {
 			"proto_instances": {
+				"/PopulationCounter_0/M00_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "m00_axis_aclk"},
+						"ARESETN": { "actual": "m00_axis_aresetn"},
+						"TDATA": { "actual": "m00_axis_tdata"},
+						"TLAST": { "actual": "m00_axis_tlast"},
+						"TREADY": { "actual": "m00_axis_tready"},
+						"TSTRB": { "actual": "m00_axis_tstrb"},
+						"TVALID": { "actual": "m00_axis_tvalid"}
+					}
+				},
+				"/PopulationCounter_0/S00_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "s00_axis_aclk"},
+						"ARESETN": { "actual": "s00_axis_aresetn"},
+						"TDATA": { "actual": "s00_axis_tdata"},
+						"TLAST": { "actual": "s00_axis_tlast"},
+						"TREADY": { "actual": "s00_axis_tready"},
+						"TSTRB": { "actual": "s00_axis_tstrb"},
+						"TVALID": { "actual": "s00_axis_tvalid"}
+					}
+				},
 				"/ReverseEndianessCop_0/M00_AXIS": {
 					"interface": "xilinx.com:interface:axis:1.0",
 					"ports": {
@@ -182,6 +206,17 @@
 						"TVALID": { "actual": "M0_AXIS_TVALID"}
 					}
 				},
+				"/microblaze_0/M1_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "Clk"},
+						"ARESET": { "actual": "Reset"},
+						"TDATA": { "actual": "M1_AXIS_TDATA"},
+						"TLAST": { "actual": "M1_AXIS_TLAST"},
+						"TREADY": { "actual": "M1_AXIS_TREADY"},
+						"TVALID": { "actual": "M1_AXIS_TVALID"}
+					}
+				},
 				"/microblaze_0/M_AXI_DP": {
 					"interface": "xilinx.com:interface:aximm:1.0",
 					"ports": {
@@ -217,6 +252,17 @@
 						"TLAST": { "actual": "S0_AXIS_TLAST"},
 						"TREADY": { "actual": "S0_AXIS_TREADY"},
 						"TVALID": { "actual": "S0_AXIS_TVALID"}
+					}
+				},
+				"/microblaze_0/S1_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "Clk"},
+						"ARESET": { "actual": "Reset"},
+						"TDATA": { "actual": "S1_AXIS_TDATA"},
+						"TLAST": { "actual": "S1_AXIS_TLAST"},
+						"TREADY": { "actual": "S1_AXIS_TREADY"},
+						"TVALID": { "actual": "S1_AXIS_TVALID"}
 					}
 				},
 				"/microblaze_0_axi_intc/s_axi": {

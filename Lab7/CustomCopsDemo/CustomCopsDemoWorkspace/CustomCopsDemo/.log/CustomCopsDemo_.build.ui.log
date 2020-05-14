@@ -1,111 +1,2 @@
-2020-05-13T12:30:31.07935700255-12:30:31 **** Build of project CustomCopsDemo ****
-000-buildplatform.bat 57047 CustomCopsDemo  
-000-XSDB Server Channel: tcfchan#1
-000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
-000-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
-000-
-000-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
-000-nction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
-000-
-000-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
-000-nction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
-000-
-000-make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
-000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffu
-000-nction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
-000-
-000-make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
-000-unction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
-000-
-000-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
-000-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-
-000-g -ffunction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
-000-
-000-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
-000-LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -f
-000-function-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
-000-
-000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
-000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g 
-000--ffunction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
-000-
-000-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
-000-ion-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling bram"
-000-
-000-mb-ar: creating ../../../lib/libxil.a
-000-"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
-000-
-000-make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
-000-ion-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling cpu"
-000-
-000-"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
-000-
-000-make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
-000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunct
-000-ion-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling gpio"
-000-
-000-"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
-000-
-000-make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
-000-FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffunc
-000-tion-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling intc"
-000-
-000-"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
-000-
-000-make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
-000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -
-000-ffunction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling standalone";
-000-
-000/CustomCopsDemo/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/standalone_v7_1/src/microblaze_sleep.c75-1-1#pragma message: For the sleep routines, assembly instructions are used0-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
-000- #pragma message ("For the sleep routines, assembly instructions are used")
-000-         ^~~~~~~
-000-"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
-000-
-000-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
-000-_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ffun
-000-ction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling tmrctr"
-000-
-000-"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
-000-
-000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
-000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g -ff
-000-unction-sections -fdata-sections -Wall -Wextra"
-000-
-000-"Compiling uartlite"
-000-
-000-'Finished building libraries'
-000-
-00255-
-12:30:46 Build Finished (took 15s.300ms)
+2020-05-14T11:56:34.4198239000-Nothing to build in platform 'CustomCopsDemo'
 

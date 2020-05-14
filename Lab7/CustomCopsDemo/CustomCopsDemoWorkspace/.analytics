@@ -2,3 +2,6 @@ timestamp=[2020-05-13 12:28:08], mode=WORKBENCH_START, duration=0:00:10.836, dur
 timestamp=[2020-05-13 12:28:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.561, duration_ms=1561, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
 timestamp=[2020-05-13 12:30:00], mode=APP_CREATION, duration=0:00:12.363, duration_ms=12363, data={name=CustomCopsDemoApp, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=CustomCopsDemo, application_type=application}
 timestamp=[2020-05-13 12:30:46], mode=PLATFORM_GENERATION, duration=0:00:15.375, duration_ms=15375, data={name=CustomCopsDemo}
+timestamp=[2020-05-13 13:39:09], mode=WORKBENCH_START, duration=0:00:19.214, duration_ms=19214, data={}
+timestamp=[2020-05-13 13:39:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.509, duration_ms=1509, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CustomCopsDemo,CustomCopsDemoApp,CustomCopsDemoApp_system,RemoteSystemsTempFiles}
+timestamp=[2020-05-14 11:40:08], mode=PLATFORM_GENERATION, duration=0:00:26.738, duration_ms=26738, data={name=CustomCopsDemo}

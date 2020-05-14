@@ -6,3 +6,333 @@
 12:28:17 INFO  : Successfully done setting workspace for the tool. 
 12:28:19 INFO  : Registering command handlers for Vitis TCF services
 12:30:46 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+13:39:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\temp_xsdb_launch_script.tcl
+13:39:12 INFO  : XSCT server has started successfully.
+13:39:12 INFO  : plnx-install-location is set to ''
+13:39:12 INFO  : Successfully done setting XSCT server connection channel  
+13:39:12 INFO  : Successfully done setting workspace for the tool. 
+13:39:12 INFO  : Registering command handlers for Vitis TCF services
+13:39:18 INFO  : Successfully done query RDI_DATADIR 
+14:38:23 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+14:42:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:37 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+14:42:37 INFO  : 'jtag frequency' command is executed.
+14:42:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+14:42:39 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+14:42:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:42:39 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:39 INFO  : System reset is completed.
+14:42:42 INFO  : 'after 3000' command is executed.
+14:42:42 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:42 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+14:42:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+14:42:42 INFO  : Memory regions updated for context MicroBlaze #0
+14:42:42 INFO  : Memory regions updated for context MicroBlaze #0
+14:42:42 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:42 INFO  : 'con' command is executed.
+14:42:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:42:42 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+14:43:03 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+14:43:08 INFO  : Disconnected from the channel tcfchan#1.
+14:43:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:09 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+14:43:09 INFO  : 'jtag frequency' command is executed.
+14:43:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+14:43:11 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+14:43:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:43:11 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:11 INFO  : System reset is completed.
+14:43:14 INFO  : 'after 3000' command is executed.
+14:43:14 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:14 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+14:43:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+14:43:14 INFO  : Memory regions updated for context MicroBlaze #0
+14:43:14 INFO  : Memory regions updated for context MicroBlaze #0
+14:43:15 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:15 INFO  : 'con' command is executed.
+14:43:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:43:15 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+10:12:05 INFO  : Disconnected from the channel tcfchan#2.
+10:12:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:07 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:12:07 INFO  : 'jtag frequency' command is executed.
+10:12:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:12:09 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+10:12:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:12:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:12:09 INFO  : System reset is completed.
+10:12:12 INFO  : 'after 3000' command is executed.
+10:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:12:12 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+10:12:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+10:12:12 INFO  : Memory regions updated for context MicroBlaze #0
+10:12:12 INFO  : Memory regions updated for context MicroBlaze #0
+10:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:12:12 INFO  : 'con' command is executed.
+10:12:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:12:12 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:39:37 INFO  : Hardware specification for platform project 'CustomCopsDemo' is updated.
+11:40:21 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:40:22 INFO  : Updating application flags with new BSP settings...
+11:40:23 INFO  : Successfully updated application flags for project CustomCopsDemoApp.
+11:40:31 INFO  : Disconnected from the channel tcfchan#3.
+11:40:32 INFO  : The hardware specfication used by project 'CustomCopsDemoApp' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+11:40:32 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\CustomCopsDemoApp\_ide\bitstream\CustomCopsDemo.bit' stored in project is removed.
+11:40:32 INFO  : The file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\CustomCopsDemoApp\_ide\bitstream\CustomCopsDemo.mmi' stored in project is removed.
+11:40:32 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\CustomCopsDemoApp\_ide\bitstream' in project 'CustomCopsDemoApp'.
+11:40:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:33 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:40:33 INFO  : 'jtag frequency' command is executed.
+11:40:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:40:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:40:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:40:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:36 INFO  : System reset is completed.
+11:40:39 INFO  : 'after 3000' command is executed.
+11:40:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:39 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:40:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:40:39 INFO  : Memory regions updated for context MicroBlaze #0
+11:40:39 INFO  : Memory regions updated for context MicroBlaze #0
+11:40:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:39 INFO  : 'con' command is executed.
+11:40:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:40:39 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:41:14 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:41:19 INFO  : Disconnected from the channel tcfchan#5.
+11:41:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:20 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:41:20 INFO  : 'jtag frequency' command is executed.
+11:41:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:41:23 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:41:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:41:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:23 INFO  : System reset is completed.
+11:41:26 INFO  : 'after 3000' command is executed.
+11:41:26 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:26 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:41:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:41:26 INFO  : Memory regions updated for context MicroBlaze #0
+11:41:26 INFO  : Memory regions updated for context MicroBlaze #0
+11:41:26 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:26 INFO  : 'con' command is executed.
+11:41:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:41:26 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:53:37 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:54:02 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:54:06 INFO  : Disconnected from the channel tcfchan#6.
+11:54:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:08 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:54:08 INFO  : 'jtag frequency' command is executed.
+11:54:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:54:10 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:54:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:54:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:10 INFO  : System reset is completed.
+11:54:13 INFO  : 'after 3000' command is executed.
+11:54:13 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:13 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:54:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:54:14 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:14 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:14 INFO  : 'con' command is executed.
+11:54:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:54:14 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:54:43 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:54:47 INFO  : Disconnected from the channel tcfchan#7.
+11:54:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:48 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:54:48 INFO  : 'jtag frequency' command is executed.
+11:54:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:54:50 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:54:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:54:50 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:50 INFO  : System reset is completed.
+11:54:53 INFO  : 'after 3000' command is executed.
+11:54:53 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:54 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:54:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:54:54 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:54 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:54 INFO  : 'con' command is executed.
+11:54:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:54:54 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:55:04 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:55:11 INFO  : Disconnected from the channel tcfchan#8.
+11:55:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:55:12 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:55:12 INFO  : 'jtag frequency' command is executed.
+11:55:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:55:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:55:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:55:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:55:15 INFO  : System reset is completed.
+11:55:18 INFO  : 'after 3000' command is executed.
+11:55:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:55:18 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:55:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:55:18 INFO  : Memory regions updated for context MicroBlaze #0
+11:55:18 INFO  : Memory regions updated for context MicroBlaze #0
+11:55:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:55:18 INFO  : 'con' command is executed.
+11:55:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:55:18 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+11:56:29 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:56:34 INFO  : Checking for BSP changes to sync application flags for project 'CustomCopsDemoApp'...
+11:56:39 INFO  : Disconnected from the channel tcfchan#9.
+11:56:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:41 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+11:56:41 INFO  : 'jtag frequency' command is executed.
+11:56:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+11:56:43 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit"
+11:56:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:56:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:43 INFO  : System reset is completed.
+11:56:46 INFO  : 'after 3000' command is executed.
+11:56:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:46 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf' is downloaded to processor 'microblaze_0'.
+11:56:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/_ide/bitstream/CustomCopsDemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab7/CustomCopsDemo/CustomCopsDemoWorkspace/CustomCopsDemoApp/Debug/CustomCopsDemoApp.elf
+----------------End of Script----------------
+
+11:56:46 INFO  : Memory regions updated for context MicroBlaze #0
+11:56:46 INFO  : Memory regions updated for context MicroBlaze #0
+11:56:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:56:47 INFO  : 'con' command is executed.
+11:56:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:56:47 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab7\CustomCopsDemo\CustomCopsDemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_customcopsdemoapp-default.tcl'
+12:26:51 INFO  : Disconnected from the channel tcfchan#10.

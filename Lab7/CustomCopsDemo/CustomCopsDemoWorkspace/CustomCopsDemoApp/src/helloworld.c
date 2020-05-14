@@ -97,6 +97,44 @@ bool CheckReversedEndianess(int* pData1, int* pData2, unsigned int size)
 	return TRUE;
 }
 
+// ####################################################################################
+void PopCounterSw(int* pDst, int* pSrc, unsigned int size)
+{
+	int* p;
+
+	for (p = pSrc; p < pSrc + size; p++, pDst++)
+	{
+		*pDst =  __builtin_popcount(*p);
+	}
+}
+
+void PopCounterHw(int* pDst, int* pSrc, unsigned int size)
+{
+	int* p;
+
+	for (p = pSrc; p < pSrc + size; p++, pDst++)
+	{
+		putfslx(*p, 1, FSL_DEFAULT);
+		getfslx(*pDst, 1, FSL_DEFAULT);
+	}
+}
+
+bool CheckPopCounter(int* pData1, int* pData2, unsigned int size)
+{
+	int* p;
+
+	for (p = pData1; p < pData1 + size; p++, pData2++)
+	{
+		if (*pData2 != __builtin_popcount(*p))
+		{
+			return FALSE;
+		}
+	}
+
+	return TRUE;
+}
+// ####################################################################################
+
 void PrintDataArray(int* pData, unsigned int size)
 {
 	int* p;
@@ -173,6 +211,32 @@ int main()
     PrintDataArray(dstData, min(8, N));
     xil_printf("\n\rChecking result: %s\n\r",
     		   CheckReversedEndianess(srcData, dstData, N) ? "OK" : "Error");
+
+    // --------------------------------------------------------------------------------------------------
+    xil_printf("\n\r-----------------------------------------------------------\n\r");
+    xil_printf("\n\rSoftware Only vs. Hardware Population Counter Demonstration\n\r");
+
+	// Software only
+	RestartPerformanceTimer();
+	PopCounterSw(dstData, srcData, N);
+	timeElapsed = StopAndGetPerformanceTimer();
+	xil_printf("\n\rSoftware only population counter time: %d microseconds",
+		   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
+	PrintDataArray(srcData, min(8, N));
+	PrintDataArray(dstData, min(8, N));
+	xil_printf("\n\rChecking result: %s\n\r",
+			   CheckPopCounter(srcData, dstData, N) ? "OK" : "Error");
+
+	// Hardware assisted
+	RestartPerformanceTimer();
+	PopCounterHw(dstData, srcData, N);
+	timeElapsed = StopAndGetPerformanceTimer();
+	xil_printf("\n\rHardware assisted population counter time: %d microseconds",
+		   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
+	PrintDataArray(srcData, min(8, N));
+	PrintDataArray(dstData, min(8, N));
+	xil_printf("\n\rChecking result: %s\n\r",
+				CheckPopCounter(srcData, dstData, N) ? "OK" : "Error");
 
     cleanup_platform();
     return 0;

@@ -1,0 +1,78 @@
+15:12:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMADemo\DMADemoWorkspace\temp_xsdb_launch_script.tcl
+15:12:12 INFO  : XSCT server has started successfully.
+15:12:12 INFO  : plnx-install-location is set to ''
+15:12:12 INFO  : Successfully done setting XSCT server connection channel  
+15:12:13 INFO  : Successfully done setting workspace for the tool. 
+15:12:13 INFO  : Successfully done query RDI_DATADIR 
+15:12:14 INFO  : Registering command handlers for Vitis TCF services
+15:25:44 INFO  : Successfully done sdx_reload_mss "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/DMADemo/microblaze_0/standalone_domain/bsp/system.mss"
+15:26:07 INFO  : Example project xaxidma_example_simple_poll_1 has been created successfully.
+15:30:07 INFO  : Checking for BSP changes to sync application flags for project 'xaxidma_example_simple_poll_1'...
+15:30:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:30:30 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+15:30:30 INFO  : 'jtag frequency' command is executed.
+15:30:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+15:30:32 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/_ide/bitstream/DMADemo.bit"
+15:30:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:30:33 INFO  : Context for processor 'microblaze_0' is selected.
+15:30:33 INFO  : System reset is completed.
+15:30:36 INFO  : 'after 3000' command is executed.
+15:30:36 INFO  : Context for processor 'microblaze_0' is selected.
+15:30:36 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/Debug/xaxidma_example_simple_poll_1.elf' is downloaded to processor 'microblaze_0'.
+15:30:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/_ide/bitstream/DMADemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/Debug/xaxidma_example_simple_poll_1.elf
+----------------End of Script----------------
+
+15:30:36 INFO  : Memory regions updated for context MicroBlaze #0
+15:30:36 INFO  : Memory regions updated for context MicroBlaze #0
+15:30:36 INFO  : Context for processor 'microblaze_0' is selected.
+15:30:36 INFO  : 'con' command is executed.
+15:30:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:30:36 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMADemo\DMADemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_xaxidma_example_simple_poll_1-default.tcl'
+15:38:30 INFO  : Disconnected from the channel tcfchan#2.
+15:38:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:38:32 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+15:38:32 INFO  : 'jtag frequency' command is executed.
+15:38:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+15:38:34 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/_ide/bitstream/DMADemo.bit"
+15:38:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:38:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:38:34 INFO  : System reset is completed.
+15:38:37 INFO  : 'after 3000' command is executed.
+15:38:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:38:37 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/Debug/xaxidma_example_simple_poll_1.elf' is downloaded to processor 'microblaze_0'.
+15:38:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/_ide/bitstream/DMADemo.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/xaxidma_example_simple_poll_1/Debug/xaxidma_example_simple_poll_1.elf
+----------------End of Script----------------
+
+15:38:37 INFO  : Memory regions updated for context MicroBlaze #0
+15:38:37 INFO  : Memory regions updated for context MicroBlaze #0
+15:38:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:38:37 INFO  : 'con' command is executed.
+15:38:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:38:37 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMADemo\DMADemoWorkspace\.sdk\launch_scripts\single_application_debug\debugger_xaxidma_example_simple_poll_1-default.tcl'
+16:13:04 INFO  : Disconnected from the channel tcfchan#3.

@@ -1,0 +1,125 @@
+2020-05-26T15:29:50.091927400255-15:29:50 **** Build of project DMADemo ****
+000-buildplatform.bat 60946 DMADemo  
+000-XSDB Server Channel: tcfchan#1
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+000-"Running Make include in microblaze_0/libsrc/axidma_v9_10/src"
+000-
+000-make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+000-A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+000-
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+000-
+000-make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+000-COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+000-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "E
+000-XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+000-
+000-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+000-LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+000-_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXT
+000-RA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make libs in microblaze_0/libsrc/axidma_v9_10/src"
+000-
+000-make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+000-OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling axidma"
+000-
+000-mb-ar: creating ../../../lib/libxil.a
+000-"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+000-
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+000-ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling bram"
+000-
+000-"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+000-ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling cpu"
+000-
+000-"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+000-LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+000-ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling gpio"
+000-
+000-"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+000-
+000-make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+000-FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+000-PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling intc"
+000-
+000-"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+000-ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+000-A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling standalone";
+000-
+000/DMADemo/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/standalone_v7_1/src/microblaze_sleep.c75-1-1#pragma message: For the sleep routines, assembly instructions are used0-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
+000- #pragma message ("For the sleep routines, assembly instructions are used")
+000-         ^~~~~~~
+000-"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+000-
+000-make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+000-_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling tmrctr"
+000-
+000-"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+000-COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Compiling uartlite"
+000-
+000-'Finished building libraries'
+000-
+00255-
+15:30:07 Build Finished (took 17s.97ms)
+

@@ -1,0 +1,24 @@
+15:30:07 **** Build of configuration Debug for project xaxidma_example_simple_poll_1 ****
+make all 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/DMADemo/export/DMADemo/sw/DMADemo/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:106:1: warning: multi-line comment [-Wcomment]
+ //#warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+ ^
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building target: xaxidma_example_simple_poll_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMADemo/DMADemoWorkspace/DMADemo/export/DMADemo/sw/DMADemo/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "xaxidma_example_simple_poll_1.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: xaxidma_example_simple_poll_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size xaxidma_example_simple_poll_1.elf  |tee "xaxidma_example_simple_poll_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13692	   1904	   5044	  20640	   50a0	xaxidma_example_simple_poll_1.elf
+Finished building: xaxidma_example_simple_poll_1.elf.size
+ 
+
+15:30:08 Build Finished (took 1s.242ms)
+

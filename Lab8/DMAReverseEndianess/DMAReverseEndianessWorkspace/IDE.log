@@ -1,0 +1,180 @@
+09:43:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\temp_xsdb_launch_script.tcl
+09:43:34 INFO  : XSCT server has started successfully.
+09:43:37 INFO  : Registering command handlers for Vitis TCF services
+09:43:40 INFO  : Successfully done setting XSCT server connection channel  
+09:43:40 INFO  : plnx-install-location is set to ''
+09:43:40 INFO  : Successfully done query RDI_DATADIR 
+09:43:40 INFO  : Successfully done setting workspace for the tool. 
+10:08:13 INFO  : Checking for BSP changes to sync application flags for project 'DMAReverseEndianessApp'...
+10:08:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:08:36 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:08:36 INFO  : 'jtag frequency' command is executed.
+10:08:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:08:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit"
+10:08:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:08:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:38 INFO  : System reset is completed.
+10:08:41 INFO  : 'after 3000' command is executed.
+10:08:41 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:42 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf' is downloaded to processor 'microblaze_0'.
+10:08:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf
+----------------End of Script----------------
+
+10:08:42 INFO  : Memory regions updated for context MicroBlaze #0
+10:08:42 INFO  : Memory regions updated for context MicroBlaze #0
+10:08:42 INFO  : Context for processor 'microblaze_0' is selected.
+10:08:42 INFO  : 'con' command is executed.
+10:08:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:08:42 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\.sdk\launch_scripts\single_application_debug\debugger_dmareverseendianessapp-default.tcl'
+10:14:25 INFO  : Checking for BSP changes to sync application flags for project 'DMAReverseEndianessApp'...
+10:14:31 INFO  : Disconnected from the channel tcfchan#2.
+10:14:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:14:33 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:14:33 INFO  : 'jtag frequency' command is executed.
+10:14:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:14:35 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit"
+10:14:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:14:35 INFO  : Context for processor 'microblaze_0' is selected.
+10:14:35 INFO  : System reset is completed.
+10:14:38 INFO  : 'after 3000' command is executed.
+10:14:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:14:38 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf' is downloaded to processor 'microblaze_0'.
+10:14:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf
+----------------End of Script----------------
+
+10:14:38 INFO  : Memory regions updated for context MicroBlaze #0
+10:14:38 INFO  : Memory regions updated for context MicroBlaze #0
+10:14:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:14:38 INFO  : 'con' command is executed.
+10:14:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:14:38 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\.sdk\launch_scripts\single_application_debug\debugger_dmareverseendianessapp-default.tcl'
+10:20:18 INFO  : Checking for BSP changes to sync application flags for project 'DMAReverseEndianessApp'...
+10:20:34 INFO  : Disconnected from the channel tcfchan#3.
+10:20:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:35 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:20:35 INFO  : 'jtag frequency' command is executed.
+10:20:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:20:38 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit"
+10:20:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:20:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:20:38 INFO  : System reset is completed.
+10:20:41 INFO  : 'after 3000' command is executed.
+10:20:41 INFO  : Context for processor 'microblaze_0' is selected.
+10:20:41 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf' is downloaded to processor 'microblaze_0'.
+10:20:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf
+----------------End of Script----------------
+
+10:20:41 INFO  : Memory regions updated for context MicroBlaze #0
+10:20:41 INFO  : Memory regions updated for context MicroBlaze #0
+10:20:41 INFO  : Context for processor 'microblaze_0' is selected.
+10:20:41 INFO  : 'con' command is executed.
+10:20:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:20:41 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\.sdk\launch_scripts\single_application_debug\debugger_dmareverseendianessapp-default.tcl'
+10:20:53 INFO  : Disconnected from the channel tcfchan#4.
+10:20:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:54 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:20:54 INFO  : 'jtag frequency' command is executed.
+10:20:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:20:56 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit"
+10:20:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:20:56 INFO  : Context for processor 'microblaze_0' is selected.
+10:20:56 INFO  : System reset is completed.
+10:20:59 INFO  : 'after 3000' command is executed.
+10:21:00 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:00 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf' is downloaded to processor 'microblaze_0'.
+10:21:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf
+----------------End of Script----------------
+
+10:21:00 INFO  : Memory regions updated for context MicroBlaze #0
+10:21:00 INFO  : Memory regions updated for context MicroBlaze #0
+10:21:00 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:00 INFO  : 'con' command is executed.
+10:21:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:21:00 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\.sdk\launch_scripts\single_application_debug\debugger_dmareverseendianessapp-default.tcl'
+10:21:32 INFO  : Disconnected from the channel tcfchan#5.
+10:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:21:33 INFO  : Jtag cable 'Digilent Nexys4 210274664038A' is selected.
+10:21:33 INFO  : 'jtag frequency' command is executed.
+10:21:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0' command is executed.
+10:21:36 INFO  : FPGA configured successfully with bitstream "C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit"
+10:21:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:21:36 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:36 INFO  : System reset is completed.
+10:21:39 INFO  : 'after 3000' command is executed.
+10:21:39 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:39 INFO  : The application 'C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf' is downloaded to processor 'microblaze_0'.
+10:21:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274664038A" && level==0} -index 0
+fpga -file C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/_ide/bitstream/DMAReverseEndianess.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianessApp/Debug/DMAReverseEndianessApp.elf
+----------------End of Script----------------
+
+10:21:39 INFO  : Memory regions updated for context MicroBlaze #0
+10:21:39 INFO  : Memory regions updated for context MicroBlaze #0
+10:21:39 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:39 INFO  : 'con' command is executed.
+10:21:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:21:39 INFO  : Launch script is exported to file 'C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab8\DMAReverseEndianess\DMAReverseEndianessWorkspace\.sdk\launch_scripts\single_application_debug\debugger_dmareverseendianessapp-default.tcl'
+10:24:50 INFO  : Disconnected from the channel tcfchan#6.

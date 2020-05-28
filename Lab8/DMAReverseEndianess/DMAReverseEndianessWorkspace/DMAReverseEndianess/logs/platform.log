@@ -1,0 +1,1020 @@
+TRACE::2020-05-28.09:58:38::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:38::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:38::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:41::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:41::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:41::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:41::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-28.09:58:41::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:41::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-05-28.09:58:41::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess"
+		}]
+}
+TRACE::2020-05-28.09:58:41::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-05-28.09:58:41::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2020-05-28.09:58:41::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess"
+		}]
+}
+TRACE::2020-05-28.09:58:41::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess"
+		}]
+}
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-28.09:58:42::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::mss does not exists at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::Creating sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::Adding the swdes entry, created swdb C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::Writing mss at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-28.09:58:42::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-28.09:58:42::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-28.09:58:42::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-28.09:58:42::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-28.09:58:42::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:42::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:42::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2020-05-28.09:58:42::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:42::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-28.09:58:42::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-05-28.09:58:49::SCWPlatform::Started generating the artifacts platform DMAReverseEndianess
+TRACE::2020-05-28.09:58:49::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-28.09:58:49::SCWPlatform::Started generating the artifacts for system configuration DMAReverseEndianess
+LOG::2020-05-28.09:58:49::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-28.09:58:49::SCWSystem::Not a boot domain 
+LOG::2020-05-28.09:58:49::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-28.09:58:49::SCWDomain::Generating domain artifcats
+TRACE::2020-05-28.09:58:49::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-28.09:58:49::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:49::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2020-05-28.09:58:49::SCWMssOS::Could not open the swdb for C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-05-28.09:58:49::SCWMssOS::Could not open the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-05-28.09:58:49::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-05-28.09:58:49::SCWMssOS::No sw design opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::mss exists loading the mss file  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::Opened the sw design from mss  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::Adding the swdes entry C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2020-05-28.09:58:49::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-28.09:58:49::SCWMssOS::Opened the sw design.  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-28.09:58:49::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-28.09:58:49::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-28.09:58:49::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-05-28.09:58:49::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-28.09:58:49::SCWMssOS::Copying to export directory.
+TRACE::2020-05-28.09:58:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-28.09:58:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-28.09:58:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-28.09:58:49::SCWSystem::Completed Processing the sysconfig DMAReverseEndianess
+LOG::2020-05-28.09:58:49::SCWPlatform::Completed generating the artifacts for system configuration DMAReverseEndianess
+TRACE::2020-05-28.09:58:49::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-28.09:58:49::SCWSystem::Writing the bif file for system config DMAReverseEndianess
+TRACE::2020-05-28.09:58:49::SCWSystem::dir created 
+TRACE::2020-05-28.09:58:49::SCWSystem::Writing the bif 
+TRACE::2020-05-28.09:58:49::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-28.09:58:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-28.09:58:49::SCWPlatform::Completed generating the platform
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:49::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:49::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:49::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:49::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:49::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:49::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:49::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f17e3db68fbe08d61a3da00541af2aa1",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-28.09:58:49::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:49::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f17e3db68fbe08d61a3da00541af2aa1",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:50::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:50::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:50::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:50::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f17e3db68fbe08d61a3da00541af2aa1",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-28.09:58:51::SCWPlatform::Started generating the artifacts platform DMAReverseEndianess
+TRACE::2020-05-28.09:58:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-28.09:58:51::SCWPlatform::Started generating the artifacts for system configuration DMAReverseEndianess
+LOG::2020-05-28.09:58:51::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-28.09:58:51::SCWDomain::Generating domain artifcats
+TRACE::2020-05-28.09:58:51::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-28.09:58:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:51::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:51::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-28.09:58:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-28.09:58:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-28.09:58:51::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-05-28.09:58:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-28.09:58:51::SCWMssOS::Copying to export directory.
+TRACE::2020-05-28.09:58:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-28.09:58:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-28.09:58:51::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-28.09:58:51::SCWSystem::Completed Processing the sysconfig DMAReverseEndianess
+LOG::2020-05-28.09:58:51::SCWPlatform::Completed generating the artifacts for system configuration DMAReverseEndianess
+TRACE::2020-05-28.09:58:51::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-28.09:58:51::SCWSystem::Writing the bif file for system config DMAReverseEndianess
+TRACE::2020-05-28.09:58:51::SCWSystem::dir created 
+TRACE::2020-05-28.09:58:51::SCWSystem::Writing the bif 
+TRACE::2020-05-28.09:58:51::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-28.09:58:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-28.09:58:51::SCWPlatform::Completed generating the platform
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:51::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:51::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:51::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:51::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.09:58:51::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.09:58:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.09:58:51::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.09:58:51::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.09:58:51::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f17e3db68fbe08d61a3da00541af2aa1",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-28.09:58:51::SCWPlatform::updated the xpfm file.
+LOG::2020-05-28.10:07:56::SCWPlatform::Started generating the artifacts platform DMAReverseEndianess
+TRACE::2020-05-28.10:07:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-28.10:07:56::SCWPlatform::Started generating the artifacts for system configuration DMAReverseEndianess
+LOG::2020-05-28.10:07:56::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-28.10:07:56::SCWSystem::Not a boot domain 
+LOG::2020-05-28.10:07:56::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-28.10:07:56::SCWDomain::Generating domain artifcats
+TRACE::2020-05-28.10:07:56::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-28.10:07:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-28.10:07:56::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:07:56::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:07:56::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:07:56::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.10:07:56::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:07:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.10:07:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.10:07:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.10:07:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.10:07:56::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:07:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.10:07:56::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:07:56::SCWMssOS::Completed writing the mss file at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp
+TRACE::2020-05-28.10:07:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:07:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-28.10:07:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-28.10:07:56::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-05-28.10:07:56::SCWMssOS::doing bsp build ... 
+TRACE::2020-05-28.10:07:56::SCWMssOS::System Command Ran  C: & cd  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-05-28.10:07:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_10/src"
+
+TRACE::2020-05-28.10:07:57::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-05-28.10:07:57::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2020-05-28.10:07:57::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-28.10:07:57::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-28.10:07:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-28.10:07:57::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-28.10:07:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-28.10:07:58::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-28.10:07:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-28.10:07:58::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-28.10:07:58::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-28.10:07:58::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-05-28.10:07:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-05-28.10:07:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "E
+TRACE::2020-05-28.10:07:58::SCWMssOS::XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-28.10:07:59::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-05-28.10:07:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2020-05-28.10:07:59::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:07:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-28.10:07:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-05-28.10:07:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXT
+TRACE::2020-05-28.10:07:59::SCWMssOS::RA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_10/src"
+
+TRACE::2020-05-28.10:08:00::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-05-28.10:08:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2020-05-28.10:08:00::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:00::SCWMssOS::"Compiling axidma"
+
+TRACE::2020-05-28.10:08:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-05-28.10:08:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-28.10:08:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-28.10:08:01::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:01::SCWMssOS::"Compiling bram"
+
+TRACE::2020-05-28.10:08:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-05-28.10:08:02::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-28.10:08:02::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-28.10:08:02::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:03::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-05-28.10:08:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-05-28.10:08:03::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-05-28.10:08:03::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2020-05-28.10:08:03::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:03::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-05-28.10:08:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-05-28.10:08:04::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-05-28.10:08:04::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
+TRACE::2020-05-28.10:08:04::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:04::SCWMssOS::"Compiling intc"
+
+TRACE::2020-05-28.10:08:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-05-28.10:08:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-05-28.10:08:05::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2020-05-28.10:08:05::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:05::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-05-28.10:08:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-05-28.10:08:09::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-05-28.10:08:09::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2020-05-28.10:08:09::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:10::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-05-28.10:08:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-05-28.10:08:11::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-05-28.10:08:11::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
+TRACE::2020-05-28.10:08:11::SCWMssOS::COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2020-05-28.10:08:11::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-05-28.10:08:12::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-05-28.10:08:12::SCWMssOS::Copying to export directory.
+TRACE::2020-05-28.10:08:12::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-28.10:08:12::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-28.10:08:12::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-28.10:08:12::SCWSystem::Completed Processing the sysconfig DMAReverseEndianess
+LOG::2020-05-28.10:08:12::SCWPlatform::Completed generating the artifacts for system configuration DMAReverseEndianess
+TRACE::2020-05-28.10:08:12::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-28.10:08:12::SCWSystem::Writing the bif file for system config DMAReverseEndianess
+TRACE::2020-05-28.10:08:12::SCWSystem::dir created 
+TRACE::2020-05-28.10:08:12::SCWSystem::Writing the bif 
+TRACE::2020-05-28.10:08:12::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-28.10:08:12::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-28.10:08:12::SCWPlatform::Completed generating the platform
+TRACE::2020-05-28.10:08:12::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:12::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:12::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:12::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.10:08:12::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:12::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.10:08:12::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.10:08:12::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.10:08:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.10:08:12::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.10:08:12::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.10:08:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.10:08:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.10:08:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.10:08:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWWriter::formatted JSON is {
+	"platformName":	"DMAReverseEndianess",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"DMAReverseEndianess",
+	"platHandOff":	"C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianess.xsa",
+	"platIntHandOff":	"<platformDir>/hw/DMAReverseEndianess.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"DMAReverseEndianess",
+	"systems":	[{
+			"systemName":	"DMAReverseEndianess",
+			"systemDesc":	"DMAReverseEndianess",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"DMAReverseEndianess",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"f17e3db68fbe08d61a3da00541af2aa1",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-28.10:08:13::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to open the hw design at C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA given C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA absoulate path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform::DSA directory C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Platform Path C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/hw/DMAReverseEndianess.xsa
+TRACE::2020-05-28.10:08:13::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2020-05-28.10:08:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-28.10:08:13::SCWMssOS::Checking the sw design at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-28.10:08:13::SCWMssOS::DEBUG:  swdes dump  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2020-05-28.10:08:13::SCWMssOS::Sw design exists and opened at  C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/microblaze_0/standalone_domain/bsp/system.mss

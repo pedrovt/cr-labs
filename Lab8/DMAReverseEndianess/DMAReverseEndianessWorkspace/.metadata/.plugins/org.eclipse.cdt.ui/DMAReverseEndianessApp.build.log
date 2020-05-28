@@ -1,0 +1,21 @@
+10:20:18 **** Incremental Build of configuration Debug for project DMAReverseEndianessApp ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/export/DMAReverseEndianess/sw/DMAReverseEndianess/standalone_domain/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: DMAReverseEndianessApp.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Pedro/Dropbox/UA/CR/Labs/Lab8/DMAReverseEndianess/DMAReverseEndianessWorkspace/DMAReverseEndianess/export/DMAReverseEndianess/sw/DMAReverseEndianess/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "DMAReverseEndianessApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: DMAReverseEndianessApp.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size DMAReverseEndianessApp.elf  |tee "DMAReverseEndianessApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16300	   1908	12583016	12601224	 c04788	DMAReverseEndianessApp.elf
+Finished building: DMAReverseEndianessApp.elf.size
+ 
+
+10:20:20 Build Finished (took 2s.409ms)
+

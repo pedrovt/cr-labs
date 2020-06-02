@@ -16,3 +16,4 @@ pedrovt 2020
 - Lab 6 : Software implementation to be performed on an RTOS + specialized hardware of a countdown timer with countdown (mm.ss)
 - Lab 7 : Implementation of specialized hardware coprocessors with AXI stream interfaces (master and slave) to accelerate "reverse endianess" and "population count" operations
 - Lab 8 : Use of DMA transfers between memory and a coprocessor / peripheral with AXI4 stream interface
+- Lab 9 : Systems with multiple clock domains

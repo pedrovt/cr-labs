@@ -14,14 +14,14 @@ end MultiClkDomainCore;
 architecture Structural of MultiClkDomainCore is
 
     component FIFO16x7
-        port(srst   : in  std_logic;
-             clk    : in  std_logic;
-             --rst    : in  std_logic;
-             --wr_clk : in  std_logic;
+        port(--srst   : in  std_logic;
+             --clk    : in  std_logic;
+             rst    : in  std_logic;
+             wr_clk : in  std_logic;
              full   : out std_logic;
              wr_en  : in  std_logic;
              din    : in  std_logic_vector(6 downto 0);
-             --rd_clk : in  std_logic;
+             rd_clk : in  std_logic;
              empty  : out std_logic;
              rd_en  : in  std_logic;
              dout   : out std_logic_vector(6 downto 0));
@@ -45,14 +45,14 @@ begin
                  value    => s_cntUpVal);
                  
     fifo : FIFO16x7
-        port map(srst   => reset,
-                 clk    => clkSlow,
-                 --rst    => reset,
-                 --wr_clk => clkFast,
+        port map(--srst   => reset,
+                 --clk    => clkSlow,
+                 rst    => reset,
+                 wr_clk => clkFast,
                  full   => s_fifoFull,
                  wr_en  => '1',
                  din    => s_cntUpVal,
-                 --rd_clk => clkSlow,
+                 rd_clk => clkSlow,
                  empty  => s_fifoEmpty,
                  rd_en  => '1',
                  dout   => s_fifoOut);

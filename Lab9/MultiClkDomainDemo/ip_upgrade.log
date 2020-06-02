@@ -1,0 +1,37 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Jun  2 14:30:07 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FIFO16x7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FIFO16x7 (xilinx.com:ip:fifo_generator:13.2) from (Rev. 1) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Jun  2 14:30:06 2020
+| Host         : ASUS-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ClkGenerator'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ClkGenerator from xilinx.com:ip:clk_wiz:5.4 (Rev. 3) to xilinx.com:ip:clk_wiz:6.0 (Rev. 4)
+

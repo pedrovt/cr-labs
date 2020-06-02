@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun  2 14:43:38 2020
+# Process ID: 12124
+# Current directory: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4296 C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab9\MultiClkDomainDemo\MultiClkDomainDemo.xpr
+# Log file: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/vivado.log
+# Journal file: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/MultiClkDomainDemo.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Pedro/Downloads/MultiClkDomainDemo' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 785.973 ; gain = 123.813
+update_compile_order -fileset sources_1

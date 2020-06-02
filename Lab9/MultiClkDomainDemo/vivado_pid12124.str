@@ -1,0 +1,197 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 12124
+License: Customer
+
+Current time: 	Tue Jun 02 14:43:53 BST 2020
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 51 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Pedro
+User home directory: C:/Users/Pedro
+User working directory: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Pedro/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Pedro/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Pedro/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/vivado.log
+Vivado journal file location: 	C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/vivado.jou
+Engine tmp dir: 	C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/.Xil/Vivado-12124-ASUS-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_SDK: C:/Xilinx/Vitis/2019.2
+XILINX_VITIS: C:/Xilinx/Vitis/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 689 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Pedro\Dropbox\UA\CR\Labs\Lab9\MultiClkDomainDemo\MultiClkDomainDemo.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/MultiClkDomainDemo.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+70659kb) [00:00:13]
+// [Engine Memory]: 725 MB (+608287kb) [00:00:13]
+// [GUI Memory]: 97 MB (+25150kb) [00:00:14]
+// [GUI Memory]: 118 MB (+16428kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  4439 ms.
+// Tcl Message: open_project C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo/MultiClkDomainDemo.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Pedro/Downloads/MultiClkDomainDemo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 761 MB. GUI used memory: 57 MB. Current time: 6/2/20, 2:44:00 PM BST
+// [Engine Memory]: 761 MB (+565kb) [00:00:17]
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 785.973 ; gain = 123.813 
+// Project name: MultiClkDomainDemo; location: C:/Users/Pedro/Dropbox/UA/CR/Labs/Lab9/MultiClkDomainDemo; part: xc7a100tcsg324-1
+// [Engine Memory]: 830 MB (+32371kb) [00:00:19]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd)]", 1); // B (F, cr)
+// PAPropertyPanels.initPanels (MultiClkDomainDemo.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 46 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cr):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 962 MB. GUI used memory: 58 MB. Current time: 6/2/20, 2:45:06 PM BST
+// r (cr): Re-customize IP: addNotify
+// [Engine Memory]: 962 MB (+94734kb) [00:01:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  2066 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cU (E, r)
+// Elapsed time: 46 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 2); // cU (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 3); // cU (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // cU (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 0); // cU (E, r)
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cr)
+selectCodeEditor("MultiClkDomainDemo.vhd", 23, 382); // ch (w, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci)]", 2); // B (F, cr)
+// A (cr): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci), ClkGenerator (ClkGenerator.v)]", 3, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci), ClkGenerator (ClkGenerator.v)]", 3, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci), ClkGenerator (ClkGenerator.v), inst : ClkGenerator_clk_wiz (ClkGenerator_clk_wiz.v)]", 4, false); // B (F, cr)
+// [GUI Memory]: 127 MB (+2986kb) [00:03:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), clk_generator : ClkGenerator (ClkGenerator.xci), ClkGenerator (ClkGenerator.v), inst : ClkGenerator_clk_wiz (ClkGenerator_clk_wiz.v)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ClkGenerator_clk_wiz.v", 3); // i (h, cr)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ClkGenerator.v", 2); // i (h, cr)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 145 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+// Elapsed time: 227 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), system_core : MultiClkDomainCore(Structural) (MultiClkDomainCore.vhd)]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), system_core : MultiClkDomainCore(Structural) (MultiClkDomainCore.vhd)]", 5, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 47 seconds
+selectCodeEditor("MultiClkDomainCore.vhd", 600, 304); // ch (w, cr)
+selectCodeEditor("MultiClkDomainCore.vhd", 602, 303); // ch (w, cr)
+selectCodeEditor("MultiClkDomainCore.vhd", 604, 303); // ch (w, cr)
+selectCodeEditor("MultiClkDomainCore.vhd", 604, 301); // ch (w, cr)
+// Elapsed time: 55 seconds
+selectCodeEditor("MultiClkDomainCore.vhd", 221, 435); // ch (w, cr)
+selectCodeEditor("MultiClkDomainCore.vhd", 221, 435, false, false, false, false, true); // ch (w, cr) - Double Click
+// Elapsed time: 108 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // af (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+// Elapsed time: 134 seconds
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // af (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // aa (q, cr)
+// Elapsed time: 327 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), system_core : MultiClkDomainCore(Structural) (MultiClkDomainCore.vhd), fifo : FIFO16x7 (FIFO16x7.xci)]", 7, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MultiClkDomainDemo(Wrapper) (MultiClkDomainDemo.vhd), system_core : MultiClkDomainCore(Structural) (MultiClkDomainCore.vhd), fifo : FIFO16x7 (FIFO16x7.xci)]", 7, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cr):  Re-customize IP : addNotify
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1586 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+// Elapsed time: 39 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Native Ports", 1); // bh (E, r)
